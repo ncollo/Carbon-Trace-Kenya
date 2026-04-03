@@ -26,6 +26,12 @@ services:
     depends_on:
       - postgres
       - redis
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:8000/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
 
   worker:
     build: .
@@ -34,6 +40,11 @@ services:
       - ./:/app
     depends_on:
       - redis
+    healthcheck:
+      test: ["CMD-SHELL", "pgrep -f 'rq.worker' || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
 
 volumes:
   pgdata:

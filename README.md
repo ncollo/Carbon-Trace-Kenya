@@ -67,6 +67,28 @@ python worker.py
 uvicorn api.main:app --reload
 ```
 
+Docker Compose (recommended for local integration)
+
+The repository includes a `docker-compose.yml` that starts Postgres, Redis, the FastAPI web service and an RQ worker. The web service exposes a `/health` endpoint and the compose file includes healthchecks.
+
+Start services:
+
+```bash
+docker-compose up -d --build
+```
+
+View service health:
+
+```bash
+docker-compose ps
+```
+
+Stop services:
+
+```bash
+docker-compose down
+```
+
 Running background ingestion
 
 Prerequisites:
