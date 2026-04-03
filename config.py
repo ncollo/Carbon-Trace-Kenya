@@ -16,6 +16,9 @@ class Settings(BaseSettings):
     # JWT settings
     jwt_secret: str = "changeme"
     jwt_algorithm: str = "HS256"
+    # Supabase credentials (store secrets in env or .env)
+    supabase_url: str = ""
+    supabase_key: str = ""
     # S3 / object storage
     use_s3: bool = False
     s3_endpoint: str = ""  # optional custom endpoint

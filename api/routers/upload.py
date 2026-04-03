@@ -34,8 +34,14 @@ async def upload_file(file: UploadFile = File(...), background_tasks: Background
         uploaded = ingest_storage.upload_file_to_s3(str(dest), s3_key)
         if uploaded is None:
             raise HTTPException(status_code=500, detail="Failed to upload to S3")
-        # enqueue remote S3 key
-        job_id = enqueue("ingestion.ingest_job.process_upload", s3_key, True)
+        # enqueue remote S3 key with success/failure handlers
+        job_id = enqueue(
+            "ingestion.ingest_job.process_upload",
+            s3_key,
+            True,
+            on_success="background.handlers.job_success",
+            on_failure="background.handlers.job_failure",
+        )
         # persist job record
         job = JobRecord(rq_job_id=job_id, company_id=company_id, task_name="ingest:upload", status="queued")
         db.add(job)
@@ -44,7 +50,13 @@ async def upload_file(file: UploadFile = File(...), background_tasks: Background
         return {"status": "received", "filename": s3_key, "job_id": job_id}
     else:
         # Enqueue local path processing
-        job_id = enqueue("ingestion.ingest_job.process_upload", str(dest), False)
+        job_id = enqueue(
+            "ingestion.ingest_job.process_upload",
+            str(dest),
+            False,
+            on_success="background.handlers.job_success",
+            on_failure="background.handlers.job_failure",
+        )
         job = JobRecord(rq_job_id=job_id, company_id=company_id, task_name="ingest:upload", status="queued")
         db.add(job)
         db.commit()
