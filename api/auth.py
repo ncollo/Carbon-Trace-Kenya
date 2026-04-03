@@ -1,14 +1,19 @@
 from fastapi import Depends, HTTPException, Header
 from typing import Optional
+import jwt
+from config import settings
 
 
 def decode_jwt(token: str) -> dict:
-    # Placeholder: validate and decode JWT token
-    # Replace with PyJWT or other library integration
     if not token:
         raise HTTPException(status_code=401, detail="Missing token")
-    # For now return a dummy user
-    return {"sub": "user@example.com", "scopes": ["user"]}
+    try:
+        payload = jwt.decode(token, settings.jwt_secret, algorithms=[settings.jwt_algorithm])
+        return payload
+    except jwt.ExpiredSignatureError:
+        raise HTTPException(status_code=401, detail="Token expired")
+    except jwt.InvalidTokenError:
+        raise HTTPException(status_code=401, detail="Invalid token")
 
 
 def get_current_user(authorization: Optional[str] = Header(None)):

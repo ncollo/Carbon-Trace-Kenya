@@ -18,9 +18,16 @@ def get_queue(name: str = "default") -> rq.Queue:
     return rq.Queue(name, connection=get_redis_conn())
 
 
-def enqueue(func, *args, **kwargs):
+def enqueue(func, *args, job_timeout=None, retry=None, **kwargs):
+    """Enqueue a job and return the job id.
+
+    `func` can be a callable or an import string (e.g. "module.sub:fn" or "module.fn").
+    `retry` can be an rq.Retry object or None.
+    Returns: job id string.
+    """
     q = get_queue()
-    return q.enqueue(func, *args, **kwargs)
+    job = q.enqueue(func, *args, job_timeout=job_timeout, retry=retry, **kwargs)
+    return job.id
 from redis import Redis
 from rq import Queue
 from config import settings

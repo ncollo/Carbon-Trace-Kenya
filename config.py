@@ -13,6 +13,9 @@ class Settings(BaseSettings):
 
     # Redis URL for RQ / background queue
     redis_url: str = "redis://localhost:6379/0"
+    # JWT settings
+    jwt_secret: str = "changeme"
+    jwt_algorithm: str = "HS256"
     # S3 / object storage
     use_s3: bool = False
     s3_endpoint: str = ""  # optional custom endpoint
