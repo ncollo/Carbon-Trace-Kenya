@@ -15,7 +15,7 @@ UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
 
 @router.post("/upload", response_model=UploadResponse)
-async def upload_file(file: UploadFile = File(...), background_tasks: BackgroundTasks = None, db: Session = Depends(get_db)):
+async def upload_file(file: UploadFile = File(...), background_tasks: BackgroundTasks = None, db: Session = Depends(get_db), company_id: int = None):
     filename = Path(file.filename).name
     dest = UPLOAD_DIR / filename
     try:
@@ -37,7 +37,7 @@ async def upload_file(file: UploadFile = File(...), background_tasks: Background
         # enqueue remote S3 key
         job_id = enqueue("ingestion.ingest_job.process_upload", s3_key, True)
         # persist job record
-        job = JobRecord(rq_job_id=job_id, company_id=None, task_name="ingest:upload", status="queued")
+        job = JobRecord(rq_job_id=job_id, company_id=company_id, task_name="ingest:upload", status="queued")
         db.add(job)
         db.commit()
         db.refresh(job)
@@ -45,7 +45,7 @@ async def upload_file(file: UploadFile = File(...), background_tasks: Background
     else:
         # Enqueue local path processing
         job_id = enqueue("ingestion.ingest_job.process_upload", str(dest), False)
-        job = JobRecord(rq_job_id=job_id, company_id=None, task_name="ingest:upload", status="queued")
+        job = JobRecord(rq_job_id=job_id, company_id=company_id, task_name="ingest:upload", status="queued")
         db.add(job)
         db.commit()
         db.refresh(job)
