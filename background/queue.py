@@ -2,6 +2,8 @@ import rq
 from redis import Redis
 from typing import Optional
 from config import settings
+from background.metrics import JOBS_ENQUEUED
+import rq as rq_module
 
 
 _conn: Optional[Redis] = None
@@ -25,8 +27,16 @@ def enqueue(func, *args, job_timeout=None, retry=None, on_success=None, on_failu
     `on_success` and `on_failure` as import strings or callables.
     Returns job id string.
     """
+    if retry is None:
+        # sensible default: 3 retries with backoff intervals
+        retry = rq_module.Retry(max=3, interval=[10, 30, 60])
+
     q = get_queue()
     job = q.enqueue(func, *args, job_timeout=job_timeout, retry=retry, on_success=on_success, on_failure=on_failure, **kwargs)
+    try:
+        JOBS_ENQUEUED.inc()
+    except Exception:
+        pass
     return job.id
 from redis import Redis
 from rq import Queue

@@ -20,3 +20,4 @@ boto3>=1.26
 redis>=4.5
 rq>=1.14
 PyJWT>=2.8
+prometheus_client>=0.16

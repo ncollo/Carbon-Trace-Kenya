@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Response
 
 from api.routers import calculate as calculate_router
 from api.routers import upload as upload_router
@@ -41,3 +41,11 @@ app = create_app()
 @app.get("/health")
 async def health():
     return {"status": "ok"}
+
+
+@app.get("/metrics")
+async def metrics():
+    from prometheus_client import generate_latest, CONTENT_TYPE_LATEST
+
+    data = generate_latest()
+    return Response(content=data, media_type=CONTENT_TYPE_LATEST)

@@ -28,6 +28,7 @@ def process_upload(source: str, from_s3: bool = False):
     """
     job = get_current_job()
     rq_id = job.id if job else None
+    start = time.time()
     try:
         if rq_id:
             _update_job_record(rq_id, status="started")
@@ -49,14 +50,27 @@ def process_upload(source: str, from_s3: bool = False):
         # TODO: call ingestion pipeline components (pdf_parser, layoutlm_extractor, normaliser)
         result = {"status": "processed", "path": str(path)}
 
+
         if rq_id:
             _update_job_record(rq_id, status="finished", result=result)
+            try:
+                from background.metrics import JOB_DURATION_SECONDS
+
+                JOB_DURATION_SECONDS.observe(time.time() - start)
+            except Exception:
+                pass
 
         return result
     except Exception as exc:
         tb = traceback.format_exc()
         if rq_id:
             _update_job_record(rq_id, status="failed", result={"error": str(exc), "trace": tb})
+            try:
+                from background.metrics import JOB_DURATION_SECONDS
+
+                JOB_DURATION_SECONDS.observe(time.time() - start)
+            except Exception:
+                pass
         raise
 import os
 import logging
