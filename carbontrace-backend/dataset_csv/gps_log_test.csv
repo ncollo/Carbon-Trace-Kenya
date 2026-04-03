@@ -1,0 +1,604 @@
+gps_record_id,fuel_record_id,company_name,nse_code,vehicle_id,vehicle_class,transaction_date,gps_km_logged,fuel_declared_l,expected_fuel_l,delta_fuel_l,cross_validation,match_confidence,anomaly_flag,anomaly_type
+GPS-000134,FC-000134,Chambers Inc,NAF,NAF-TRK-019,diesel_truck,2024-11-16,327.6,105.48,108.24,-2.76,pass,0.9381,0,clean
+GPS-001141,FC-001141,Coates Chadwick and Williams,XPM,XPM-SUV-018,petrol_suv,2024-09-28,154.7,22.95,22.82,0.13,pass,0.9473,0,clean
+GPS-000934,FC-000934,Bishop Hamilton and Watkins,ZNZ,ZNZ-CAR-014,petrol_saloon,2024-09-28,275.7,27.69,26.68,1.01,pass,0.9377,0,clean
+GPS-000929,FC-000929,Bishop Hamilton and Watkins,ZNZ,ZNZ-TRK-011,diesel_truck,2024-09-12,76.5,25.59,25.28,0.31,pass,0.9515,0,clean
+GPS-000824,FC-000824,Akhtar Inc,MTW,MTW-CAR-001,petrol_saloon,2024-07-29,346.4,34.08,33.52,0.56,pass,0.9649,0,clean
+GPS-001532,FC-001532,Harvey Ltd,BGR,BGR-TRK-001,diesel_truck,2024-10-30,392.5,129.59,129.68,-0.09,pass,0.97,0,clean
+GPS-001215,FC-001215,Schofield Harris and Poole,WVH,WVH-CAR-013,petrol_saloon,2024-12-10,197.8,19.14,19.14,0.0,pass,0.9851,0,clean
+GPS-000505,FC-000505,Ross Haynes and Bennett,QNG,QNG-MTR-002,petrol_bike,2024-07-10,45.3,2.06,2.14,-0.08,pass,0.9307,0,clean
+GPS-002980,FC-002980,Boyle Inc,FGC,FGC-CAR-007,petrol_saloon,2024-09-03,299.0,30.05,28.93,1.12,pass,0.9334,0,clean
+GPS-002396,FC-002396,Coates-Andrews,AQO,AQO-SUV-003,petrol_suv,2024-02-07,238.0,35.87,35.1,0.77,pass,0.9429,0,clean
+GPS-001997,FC-001997,Walker LLC,KYZ,KYZ-4WD-001,petrol_4wd,2024-11-14,285.6,46.97,47.18,-0.21,pass,0.9846,0,clean
+GPS-001959,FC-001959,Adams Shepherd and Wilson,EAK,EAK-MTR-013,petrol_bike,2024-07-27,163.2,8.02,7.7,0.32,pass,0.9525,0,clean
+GPS-001385,FC-001385,Cook Ltd,TRS,TRS-CAR-016,petrol_saloon,2024-07-25,87.9,8.66,8.51,0.15,pass,0.9521,0,clean
+GPS-000895,FC-000895,Ahmed and Sons,UKB,UKB-4WD-002,petrol_4wd,2024-03-18,73.1,12.46,12.08,0.38,pass,0.9582,0,clean
+GPS-000829,FC-000829,Akhtar Inc,MTW,MTW-MTR-010,petrol_bike,2024-11-27,122.9,5.95,5.8,0.15,pass,0.9419,0,clean
+GPS-002935,FC-002935,Powell-Hill,BJY,BJY-TRK-020,diesel_truck,2024-08-31,268.8,90.27,88.81,1.46,pass,0.953,0,clean
+GPS-001684,FC-001684,Welch Long and Lawson,JKW,JKW-SUV-018,petrol_suv,2024-08-13,329.6,49.03,48.62,0.41,pass,0.9308,0,clean
+GPS-002588,FC-002588,Jones Group,HRY,HRY-SUV-002,petrol_suv,2024-09-13,264.0,39.19,38.94,0.25,pass,0.9387,0,clean
+GPS-002572,FC-002572,Jones Group,HRY,HRY-SUV-008,petrol_suv,2024-06-01,66.7,9.5,9.84,-0.34,pass,0.9564,0,clean
+GPS-002526,FC-002526,Clark-Webster,PZR,PZR-TRK-005,diesel_truck,2024-05-31,295.2,95.4,97.53,-2.13,pass,0.9799,0,clean
+GPS-000653,FC-000653,Jones Fletcher and Sutton,KBX,KBX-CAR-012,petrol_saloon,2024-02-01,328.6,31.44,31.8,-0.36,pass,0.9691,0,clean
+GPS-000173,FC-000173,Hussain Wilson and Brown,FPV,FPV-CAR-008,petrol_saloon,2024-07-13,93.8,8.87,9.08,-0.21,pass,0.9785,0,clean
+GPS-000039,FC-000039,Brown Jones and Hughes,AHF,AHF-CAR-002,petrol_saloon,2024-10-22,126.2,12.38,12.21,0.17,pass,0.9622,0,clean
+GPS-002875,FC-002875,Thompson Ltd,CYR,CYR-CAR-003,petrol_saloon,2024-08-27,247.5,23.37,23.95,-0.58,pass,0.9437,0,clean
+GPS-000714,FC-000714,Butler Carter and Norton,FMX,FMX-BUS-005,diesel_bus,2024-10-15,34.2,7.29,7.26,0.03,pass,0.9696,0,clean
+GPS-000091,FC-000091,Chambers Inc,NAF,NAF-CAR-013,petrol_saloon,2024-04-13,344.5,32.09,33.33,-1.24,pass,0.9733,0,clean
+GPS-002970,FC-002970,Powell-Hill,BJY,BJY-TRK-017,diesel_truck,2024-12-29,55.7,18.32,18.4,-0.08,pass,0.9321,0,clean
+GPS-001206,FC-001206,Schofield Harris and Poole,WVH,WVH-CAR-023,petrol_saloon,2024-07-03,107.8,10.48,10.43,0.05,pass,0.9731,0,clean
+GPS-002769,FC-002769,Greenwood Thompson and Richards,VBI,VBI-BUS-020,diesel_bus,2024-08-30,359.1,74.28,76.27,-1.99,pass,0.9331,0,clean
+GPS-001828,FC-001828,Cartwright-Jones,MWB,MWB-CAR-004,petrol_saloon,2024-03-05,168.8,16.38,16.33,0.05,pass,0.9596,0,clean
+GPS-001156,FC-001156,Coates Chadwick and Williams,XPM,XPM-TRK-012,diesel_truck,2024-01-20,125.4,40.99,41.43,-0.44,pass,0.9461,0,clean
+GPS-001325,FC-001325,Holmes Group,ENP,ENP-CAR-003,petrol_saloon,2024-06-22,391.6,36.96,37.89,-0.93,pass,0.9404,0,clean
+GPS-000217,FC-000217,Patel LLC,SIE,SIE-SUV-010,petrol_suv,2024-04-02,253.9,37.53,37.45,0.08,pass,0.965,0,clean
+GPS-000511,FC-000511,Ross Haynes and Bennett,QNG,QNG-TRK-004,diesel_truck,2024-04-24,204.7,67.51,67.63,-0.12,pass,0.9889,0,clean
+GPS-001681,FC-001681,Welch Long and Lawson,JKW,JKW-SUV-020,petrol_suv,2024-10-25,130.2,18.93,19.2,-0.27,pass,0.9487,0,clean
+GPS-000500,FC-000500,Ross Haynes and Bennett,QNG,QNG-MTR-016,petrol_bike,2024-08-16,174.5,8.08,8.24,-0.16,pass,0.9733,0,clean
+GPS-002624,FC-002624,Bradley-Smith,DCO,DCO-TRK-001,diesel_truck,2024-02-02,135.8,43.48,44.87,-1.39,pass,0.9872,0,clean
+GPS-001857,FC-001857,Pearce Group,BZV,BZV-4WD-005,petrol_4wd,2024-11-19,275.1,44.01,45.45,-1.44,pass,0.9604,0,clean
+GPS-001389,FC-001389,Cook Ltd,TRS,TRS-TRK-019,diesel_truck,2024-02-10,49.9,16.76,16.49,0.27,pass,0.933,0,clean
+GPS-001520,FC-001520,Lawrence-Bibi,BQF,BQF-SUV-008,petrol_suv,2024-03-14,175.8,26.11,25.93,0.18,pass,0.9559,0,clean
+GPS-002387,FC-002387,Coates-Andrews,AQO,AQO-MTR-011,petrol_bike,2024-01-17,135.9,6.45,6.41,0.04,pass,0.9313,0,clean
+GPS-002736,FC-002736,Sharpe Smith and Palmer,MXV,MXV-CAR-003,petrol_saloon,2024-09-18,267.9,25.03,25.92,-0.89,pass,0.986,0,clean
+GPS-002077,FC-002077,Richardson LLC,BIB,BIB-MTR-007,petrol_bike,2024-06-12,289.5,13.94,13.66,0.28,pass,0.9546,0,clean
+GPS-001541,FC-001541,Harvey Ltd,BGR,BGR-TRK-022,diesel_truck,2024-08-05,304.3,99.65,100.54,-0.89,pass,0.9514,0,clean
+GPS-001218,FC-001218,Evans PLC,WYC,WYC-MTR-001,petrol_bike,2024-11-17,278.7,12.79,13.15,-0.36,pass,0.944,0,clean
+GPS-001417,FC-001417,Stanley Inc,LND,LND-SUV-024,petrol_suv,2024-12-01,105.6,15.09,15.58,-0.49,pass,0.9401,0,clean
+GPS-002218,FC-002218,Williams Gibson and Ford,DXG,DXG-BUS-015,diesel_bus,2024-03-01,98.0,21.68,20.82,0.86,pass,0.9626,0,clean
+GPS-002532,FC-002532,Clark-Webster,PZR,PZR-SUV-002,petrol_suv,2024-10-08,388.8,56.59,57.35,-0.76,pass,0.9517,0,clean
+GPS-001677,FC-001677,Welch Long and Lawson,JKW,JKW-MTR-017,petrol_bike,2024-01-27,76.3,3.5,3.6,-0.1,pass,0.9679,0,clean
+GPS-001198,FC-001198,Schofield Harris and Poole,WVH,WVH-MTR-001,petrol_bike,2024-07-07,104.2,4.89,4.92,-0.03,pass,0.9874,0,clean
+GPS-001543,FC-001543,Harvey Ltd,BGR,BGR-CAR-011,petrol_saloon,2024-02-13,237.1,22.41,22.94,-0.53,pass,0.9873,0,clean
+GPS-000954,FC-000954,Robinson Horton and Smith,RNG,RNG-MTR-008,petrol_bike,2024-05-27,210.3,9.78,9.93,-0.15,pass,0.9366,0,clean
+GPS-000751,FC-000751,Hughes-Baker,GGO,GGO-SUV-018,petrol_suv,2024-12-14,105.3,15.66,15.53,0.13,pass,0.9746,0,clean
+GPS-000235,FC-000235,Carr-Matthews,CCW,CCW-SUV-008,petrol_suv,2024-11-29,107.3,15.51,15.83,-0.32,pass,0.9732,0,clean
+GPS-000733,FC-000733,Hughes-Baker,GGO,GGO-SUV-007,petrol_suv,2024-06-23,409.7,59.74,60.43,-0.69,pass,0.9797,0,clean
+GPS-003008,FC-003008,Boyle Inc,FGC,FGC-CAR-008,petrol_saloon,2024-12-14,178.9,17.63,17.31,0.32,pass,0.983,0,clean
+GPS-001157,FC-001157,Coates Chadwick and Williams,XPM,XPM-CAR-010,petrol_saloon,2024-07-29,166.0,15.88,16.06,-0.18,pass,0.9871,0,clean
+GPS-002587,FC-002587,Jones Group,HRY,HRY-4WD-006,petrol_4wd,2024-10-22,359.2,59.13,59.34,-0.21,pass,0.9656,0,clean
+GPS-002446,FC-002446,Farrell Smith and Foster,NND,NND-MTR-007,petrol_bike,2024-03-25,135.2,6.19,6.38,-0.19,pass,0.9307,0,clean
+GPS-001210,FC-001210,Schofield Harris and Poole,WVH,WVH-SUV-017,petrol_suv,2024-12-15,230.6,32.72,34.01,-1.29,pass,0.9409,0,clean
+GPS-001066,FC-001066,Richards Sykes and Peters,TNC,TNC-MTR-014,petrol_bike,2024-06-08,299.2,14.08,14.12,-0.04,pass,0.9402,0,clean
+GPS-002157,FC-002157,Dodd-Carroll,XNB,XNB-MTR-007,petrol_bike,2024-01-24,128.4,5.83,6.06,-0.23,pass,0.9581,0,clean
+GPS-001063,FC-001063,Richards Sykes and Peters,TNC,TNC-4WD-023,petrol_4wd,2024-10-24,132.2,22.32,21.84,0.48,pass,0.9493,0,clean
+GPS-001168,FC-001168,Coates Chadwick and Williams,XPM,XPM-TRK-012,diesel_truck,2024-08-25,46.0,15.83,15.2,0.63,pass,0.9841,0,clean
+GPS-001493,FC-001493,Lawrence-Bibi,BQF,BQF-CAR-001,petrol_saloon,2024-07-18,338.9,34.07,32.79,1.28,pass,0.9735,0,clean
+GPS-002487,FC-002487,Smith-Brown,WJE,WJE-CAR-021,petrol_saloon,2024-12-08,360.7,34.41,34.9,-0.49,pass,0.9645,0,clean
+GPS-000885,FC-000885,Ahmed and Sons,UKB,UKB-CAR-005,petrol_saloon,2024-01-24,403.5,39.68,39.04,0.64,pass,0.9825,0,clean
+GPS-000144,FC-000144,Hussain Wilson and Brown,FPV,FPV-4WD-020,petrol_4wd,2024-10-19,32.7,5.24,5.4,-0.16,pass,0.9718,0,clean
+GPS-002957,FC-002957,Powell-Hill,BJY,BJY-4WD-013,petrol_4wd,2024-06-22,75.5,12.12,12.47,-0.35,pass,0.9443,0,clean
+GPS-000851,FC-000851,Akhtar Inc,MTW,MTW-MTR-004,petrol_bike,2024-06-22,190.2,9.2,8.98,0.22,pass,0.9786,0,clean
+GPS-000718,FC-000718,Butler Carter and Norton,FMX,FMX-SUV-001,petrol_suv,2024-06-09,78.0,11.97,11.51,0.46,pass,0.9821,0,clean
+GPS-002857,FC-002857,Thompson Ltd,CYR,CYR-CAR-005,petrol_saloon,2024-08-08,343.9,32.94,33.28,-0.34,pass,0.9561,0,clean
+GPS-000265,FC-000265,Carr-Matthews,CCW,CCW-4WD-017,petrol_4wd,2024-12-01,357.8,60.12,59.11,1.01,pass,0.9819,0,clean
+GPS-000076,FC-000076,Martin Allen and Brown,CKA,CKA-CAR-001,petrol_saloon,2024-02-18,368.8,35.62,35.69,-0.07,pass,0.9834,0,clean
+GPS-000396,FC-000396,Harrison-Taylor,EBR,EBR-SUV-003,petrol_suv,2024-10-12,85.0,12.61,12.54,0.07,pass,0.9567,0,clean
+GPS-002985,FC-002985,Boyle Inc,FGC,FGC-CAR-005,petrol_saloon,2024-10-17,242.0,22.75,23.42,-0.67,pass,0.9892,0,clean
+GPS-002225,FC-002225,Williams Gibson and Ford,DXG,DXG-VAN-022,diesel_van,2024-11-25,410.8,50.85,50.9,-0.05,pass,0.9857,0,clean
+GPS-002814,FC-002814,Thomas Long and Mills,ELS,ELS-VAN-001,diesel_van,2024-03-17,246.3,30.87,30.52,0.35,pass,0.9749,0,clean
+GPS-000397,FC-000397,Harrison-Taylor,EBR,EBR-TRK-005,diesel_truck,2024-04-05,299.0,95.77,98.79,-3.02,pass,0.9743,0,clean
+GPS-001366,FC-001366,Cook Ltd,TRS,TRS-SUV-009,petrol_suv,2024-04-07,382.2,55.9,56.37,-0.47,pass,0.9859,0,clean
+GPS-002514,FC-002514,Smith-Brown,WJE,WJE-CAR-020,petrol_saloon,2024-05-30,202.4,20.03,19.58,0.45,pass,0.941,0,clean
+GPS-001904,FC-001904,Nicholson and Sons,EMF,EMF-SUV-005,petrol_suv,2024-08-01,80.5,12.04,11.87,0.17,pass,0.9859,0,clean
+GPS-000596,FC-000596,Lynch-Patel,VUF,VUF-CAR-007,petrol_saloon,2024-10-19,305.5,28.91,29.56,-0.65,pass,0.9833,0,clean
+GPS-002110,FC-002110,Richardson LLC,BIB,BIB-CAR-006,petrol_saloon,2024-06-19,379.8,37.14,36.75,0.39,pass,0.9699,0,clean
+GPS-001297,FC-001297,Glover Ltd,ZND,ZND-SUV-008,petrol_suv,2024-04-08,110.9,16.01,16.36,-0.35,pass,0.9588,0,clean
+GPS-001822,FC-001822,Cartwright-Jones,MWB,MWB-MTR-003,petrol_bike,2024-01-29,351.1,16.37,16.57,-0.2,pass,0.9792,0,clean
+GPS-000873,FC-000873,Ahmed and Sons,UKB,UKB-TRK-008,diesel_truck,2024-08-09,130.9,41.73,43.25,-1.52,pass,0.9555,0,clean
+GPS-002926,FC-002926,Powell-Hill,BJY,BJY-TRK-020,diesel_truck,2024-07-01,346.4,118.67,114.45,4.22,pass,0.9737,0,clean
+GPS-002327,FC-002327,Hicks Harvey and Lowe,YFS,YFS-SUV-019,petrol_suv,2024-08-27,362.5,54.76,53.47,1.29,pass,0.9821,0,clean
+GPS-001549,FC-001549,Harvey Ltd,BGR,BGR-4WD-006,petrol_4wd,2024-09-14,144.8,24.51,23.92,0.59,pass,0.9771,0,clean
+GPS-000037,FC-000037,Brown Jones and Hughes,AHF,AHF-SUV-003,petrol_suv,2024-09-22,42.8,6.48,6.31,0.17,pass,0.963,0,clean
+GPS-002540,FC-002540,Clark-Webster,PZR,PZR-TRK-017,diesel_truck,2024-08-15,37.7,12.31,12.46,-0.15,pass,0.9862,0,clean
+GPS-002144,FC-002144,Dodd-Carroll,XNB,XNB-BUS-021,diesel_bus,2024-10-31,386.2,80.73,82.03,-1.3,pass,0.981,0,clean
+GPS-002570,FC-002570,Jones Group,HRY,HRY-4WD-001,petrol_4wd,2024-12-20,177.1,30.31,29.26,1.05,pass,0.9758,0,clean
+GPS-000978,FC-000978,Robinson Horton and Smith,RNG,RNG-TRK-016,diesel_truck,2024-04-09,348.7,114.53,115.21,-0.68,pass,0.982,0,clean
+GPS-001572,FC-001572,Harvey Ltd,BGR,BGR-CAR-011,petrol_saloon,2024-03-18,96.9,9.29,9.38,-0.09,pass,0.9345,0,clean
+GPS-001123,FC-001123,Dobson Ltd,PDT,PDT-CAR-003,petrol_saloon,2024-07-19,136.9,13.43,13.25,0.18,pass,0.9488,0,clean
+GPS-002240,FC-002240,Williams Gibson and Ford,DXG,DXG-TRK-019,diesel_truck,2024-01-14,336.1,106.9,111.05,-4.15,pass,0.9835,0,clean
+GPS-002505,FC-002505,Smith-Brown,WJE,WJE-CAR-025,petrol_saloon,2024-12-27,371.8,34.76,35.98,-1.22,pass,0.9651,0,clean
+GPS-001893,FC-001893,Nicholson and Sons,EMF,EMF-TRK-008,diesel_truck,2024-01-14,70.5,24.16,23.29,0.87,pass,0.9745,0,clean
+GPS-000676,FC-000676,Butler Carter and Norton,FMX,FMX-SUV-003,petrol_suv,2024-12-22,205.6,29.84,30.33,-0.49,pass,0.9574,0,clean
+GPS-000729,FC-000729,Hughes-Baker,GGO,GGO-CAR-020,petrol_saloon,2024-08-30,275.2,25.97,26.63,-0.66,pass,0.9828,0,clean
+GPS-000413,FC-000413,Rose-Newton,WWJ,WWJ-CAR-022,petrol_saloon,2024-09-06,251.6,24.46,24.34,0.12,pass,0.9365,0,clean
+GPS-001517,FC-001517,Lawrence-Bibi,BQF,BQF-SUV-008,petrol_suv,2024-11-21,289.5,44.0,42.7,1.3,pass,0.9636,0,clean
+GPS-001650,FC-001650,Alexander Jenkins and Roberts,UUE,UUE-TRK-008,diesel_truck,2024-06-03,360.5,119.74,119.11,0.63,pass,0.938,0,clean
+GPS-000826,FC-000826,Akhtar Inc,MTW,MTW-TRK-003,diesel_truck,2024-09-03,187.9,63.85,62.08,1.77,pass,0.982,0,clean
+GPS-000617,FC-000617,Lynch-Patel,VUF,VUF-SUV-010,petrol_suv,2024-07-11,70.0,10.55,10.32,0.23,pass,0.9837,0,clean
+GPS-000115,FC-000115,Chambers Inc,NAF,NAF-SUV-004,petrol_suv,2024-01-27,89.3,13.71,13.17,0.54,pass,0.9439,0,clean
+GPS-000418,FC-000418,Rose-Newton,WWJ,WWJ-CAR-011,petrol_saloon,2024-04-27,187.9,17.79,18.18,-0.39,pass,0.9388,0,clean
+GPS-001626,FC-001626,Alexander Jenkins and Roberts,UUE,UUE-TRK-017,diesel_truck,2024-01-30,165.8,54.57,54.78,-0.21,pass,0.9332,0,clean
+GPS-002954,FC-002954,Powell-Hill,BJY,BJY-SUV-003,petrol_suv,2024-05-01,330.0,48.27,48.67,-0.4,pass,0.9422,0,clean
+GPS-000090,FC-000090,Martin Allen and Brown,CKA,CKA-4WD-011,petrol_4wd,2024-04-17,314.0,51.48,51.87,-0.39,pass,0.954,0,clean
+GPS-002083,FC-002083,Richardson LLC,BIB,BIB-TRK-008,diesel_truck,2024-03-28,108.2,36.23,35.75,0.48,pass,0.9536,0,clean
+GPS-000754,FC-000754,Hughes-Baker,GGO,GGO-SUV-002,petrol_suv,2024-09-23,282.5,42.56,41.67,0.89,pass,0.9579,0,clean
+GPS-001631,FC-001631,Alexander Jenkins and Roberts,UUE,UUE-SUV-005,petrol_suv,2024-02-17,215.9,30.89,31.85,-0.96,pass,0.9354,0,clean
+GPS-000012,FC-000012,Brown Jones and Hughes,AHF,AHF-VAN-005,diesel_van,2024-10-30,34.6,4.12,4.29,-0.17,pass,0.9328,0,clean
+GPS-002445,FC-002445,Farrell Smith and Foster,NND,NND-TRK-015,diesel_truck,2024-12-07,37.2,12.67,12.29,0.38,pass,0.9474,0,clean
+GPS-000285,FC-000285,Clarke-Smith,USN,USN-TRK-010,diesel_truck,2024-02-07,195.4,63.18,64.56,-1.38,pass,0.9803,0,clean
+GPS-001067,FC-001067,Richards Sykes and Peters,TNC,TNC-BUS-007,diesel_bus,2024-05-28,227.4,47.56,48.3,-0.74,pass,0.9802,0,clean
+GPS-001192,FC-001192,Schofield Harris and Poole,WVH,WVH-MTR-015,petrol_bike,2024-08-03,264.4,12.91,12.48,0.43,pass,0.9457,0,clean
+GPS-001441,FC-001441,Moore-Barnes,IPF,IPF-VAN-018,diesel_van,2024-06-10,208.4,25.17,25.82,-0.65,pass,0.964,0,clean
+GPS-002816,FC-002816,Thomas Long and Mills,ELS,ELS-MTR-013,petrol_bike,2024-12-02,236.3,10.92,11.15,-0.23,pass,0.9641,0,clean
+GPS-002882,FC-002882,Smith Cooke and Crawford,AJO,AJO-CAR-010,petrol_saloon,2024-03-26,334.3,33.05,32.35,0.7,pass,0.9356,0,clean
+GPS-002725,FC-002725,Sharpe Smith and Palmer,MXV,MXV-TRK-008,diesel_truck,2024-08-17,158.2,51.97,52.27,-0.3,pass,0.9554,0,clean
+GPS-001569,FC-001569,Harvey Ltd,BGR,BGR-4WD-021,petrol_4wd,2024-09-15,336.1,53.53,55.52,-1.99,pass,0.9808,0,clean
+GPS-002428,FC-002428,Coates-Andrews,AQO,AQO-SUV-003,petrol_suv,2024-12-08,110.8,15.79,16.34,-0.55,pass,0.9749,0,clean
+GPS-002591,FC-002591,Jones Group,HRY,HRY-TRK-009,diesel_truck,2024-02-15,347.4,110.76,114.78,-4.02,pass,0.9407,0,clean
+GPS-001688,FC-001688,Welch Long and Lawson,JKW,JKW-SUV-011,petrol_suv,2024-10-11,299.1,45.38,44.12,1.26,pass,0.9325,0,clean
+GPS-000852,FC-000852,Akhtar Inc,MTW,MTW-MTR-010,petrol_bike,2024-06-08,279.2,13.45,13.18,0.27,pass,0.9433,0,clean
+GPS-002208,FC-002208,Williams Gibson and Ford,DXG,DXG-4WD-006,petrol_4wd,2024-10-24,80.0,13.12,13.22,-0.1,pass,0.9851,0,clean
+GPS-000896,FC-000896,Ahmed and Sons,UKB,UKB-MTR-007,petrol_bike,2024-07-18,170.1,8.19,8.03,0.16,pass,0.9812,0,clean
+GPS-000497,FC-000497,Ross Haynes and Bennett,QNG,QNG-CAR-017,petrol_saloon,2024-12-08,233.5,21.87,22.59,-0.72,pass,0.9382,0,clean
+GPS-002306,FC-002306,Hicks Harvey and Lowe,YFS,YFS-4WD-024,petrol_4wd,2024-08-24,343.4,55.54,56.73,-1.19,pass,0.9423,0,clean
+GPS-001783,FC-001783,Palmer Carter and Sutton,END,END-CAR-016,petrol_saloon,2024-03-19,94.0,8.95,9.1,-0.15,pass,0.937,0,clean
+GPS-000336,FC-000336,Bibi-Goddard,OVQ,OVQ-CAR-009,petrol_saloon,2024-06-16,272.2,25.72,26.34,-0.62,pass,0.9829,0,clean
+GPS-000516,FC-000516,Ross Haynes and Bennett,QNG,QNG-MTR-002,petrol_bike,2024-12-01,126.1,6.18,5.95,0.23,pass,0.9803,0,clean
+GPS-001349,FC-001349,Holmes Group,ENP,ENP-MTR-013,petrol_bike,2024-03-04,244.5,11.13,11.54,-0.41,pass,0.9434,0,clean
+GPS-001016,FC-001016,Berry-Bell,HEA,HEA-SUV-007,petrol_suv,2024-08-03,286.3,42.14,42.23,-0.09,pass,0.938,0,clean
+GPS-002823,FC-002823,Thomas Long and Mills,ELS,ELS-SUV-015,petrol_suv,2024-11-13,63.8,9.7,9.41,0.29,pass,0.9313,0,clean
+GPS-002818,FC-002818,Thomas Long and Mills,ELS,ELS-CAR-005,petrol_saloon,2024-11-30,120.5,12.11,11.66,0.45,pass,0.9707,0,clean
+GPS-001782,FC-001782,Palmer Carter and Sutton,END,END-CAR-011,petrol_saloon,2024-08-03,336.6,33.77,32.57,1.2,pass,0.9731,0,clean
+GPS-001786,FC-001786,Palmer Carter and Sutton,END,END-VAN-014,diesel_van,2024-07-19,302.9,36.88,37.53,-0.65,pass,0.9512,0,clean
+GPS-002071,FC-002071,Richardson LLC,BIB,BIB-MTR-007,petrol_bike,2024-07-30,144.0,6.68,6.8,-0.12,pass,0.94,0,clean
+GPS-000357,FC-000357,Bibi-Goddard,OVQ,OVQ-CAR-018,petrol_saloon,2024-05-04,127.1,12.32,12.3,0.02,pass,0.9873,0,clean
+GPS-002867,FC-002867,Thompson Ltd,CYR,CYR-CAR-004,petrol_saloon,2024-08-10,233.3,22.74,22.57,0.17,pass,0.9771,0,clean
+GPS-001313,FC-001313,Holmes Group,ENP,ENP-CAR-010,petrol_saloon,2024-03-29,195.4,19.0,18.91,0.09,pass,0.9891,0,clean
+GPS-001636,FC-001636,Alexander Jenkins and Roberts,UUE,UUE-MTR-023,petrol_bike,2024-01-23,387.8,18.05,18.3,-0.25,pass,0.9579,0,clean
+GPS-000551,FC-000551,Scott-Walker,HYR,HYR-SUV-009,petrol_suv,2024-03-11,69.3,10.09,10.22,-0.13,pass,0.9653,0,clean
+GPS-002389,FC-002389,Coates-Andrews,AQO,AQO-SUV-003,petrol_suv,2024-11-13,84.2,12.46,12.42,0.04,pass,0.9857,0,clean
+GPS-002480,FC-002480,Smith-Brown,WJE,WJE-CAR-026,petrol_saloon,2024-08-06,55.2,5.23,5.34,-0.11,pass,0.9547,0,clean
+GPS-002522,FC-002522,Clark-Webster,PZR,PZR-SUV-001,petrol_suv,2024-04-09,50.9,7.64,7.51,0.13,pass,0.9665,0,clean
+GPS-002266,FC-002266,Norris-Morris,QKP,QKP-SUV-005,petrol_suv,2024-04-07,282.0,43.31,41.59,1.72,pass,0.9409,0,clean
+GPS-001228,FC-001228,Evans PLC,WYC,WYC-MTR-009,petrol_bike,2024-11-03,146.3,6.66,6.91,-0.25,pass,0.9837,0,clean
+GPS-002695,FC-002695,White-Kerr,PSF,PSF-BUS-015,diesel_bus,2024-06-12,275.9,60.36,58.6,1.76,pass,0.9628,0,clean
+GPS-000958,FC-000958,Robinson Horton and Smith,RNG,RNG-4WD-014,petrol_4wd,2024-10-26,337.2,56.77,55.71,1.06,pass,0.9642,0,clean
+GPS-001774,FC-001774,Palmer Carter and Sutton,END,END-CAR-012,petrol_saloon,2024-01-21,379.7,37.12,36.74,0.38,pass,0.9442,0,clean
+GPS-002142,FC-002142,Dodd-Carroll,XNB,XNB-BUS-012,diesel_bus,2024-11-08,168.0,37.18,35.68,1.5,pass,0.9528,0,clean
+GPS-001009,FC-001009,Berry-Bell,HEA,HEA-SUV-003,petrol_suv,2024-06-29,287.6,43.46,42.42,1.04,pass,0.9425,0,clean
+GPS-001093,FC-001093,Dobson Ltd,PDT,PDT-TRK-009,diesel_truck,2024-04-10,203.8,70.09,67.34,2.75,pass,0.99,0,clean
+GPS-002689,FC-002689,White-Kerr,PSF,PSF-TRK-028,diesel_truck,2024-12-26,276.6,88.78,91.39,-2.61,pass,0.9373,0,clean
+GPS-000997,FC-000997,Berry-Bell,HEA,HEA-CAR-015,petrol_saloon,2024-07-13,129.1,12.51,12.49,0.02,pass,0.9686,0,clean
+GPS-001680,FC-001680,Welch Long and Lawson,JKW,JKW-CAR-005,petrol_saloon,2024-08-25,392.0,38.95,37.93,1.02,pass,0.9849,0,clean
+GPS-000154,FC-000154,Hussain Wilson and Brown,FPV,FPV-CAR-014,petrol_saloon,2024-06-02,354.7,34.46,34.32,0.14,pass,0.9574,0,clean
+GPS-002864,FC-002864,Thompson Ltd,CYR,CYR-CAR-004,petrol_saloon,2024-04-14,212.0,21.36,20.51,0.85,pass,0.943,0,clean
+GPS-000581,FC-000581,Scott-Walker,HYR,HYR-TRK-005,diesel_truck,2024-06-28,356.3,117.38,117.72,-0.34,pass,0.9636,0,clean
+GPS-001471,FC-001471,Moore-Barnes,IPF,IPF-CAR-009,petrol_saloon,2024-07-31,357.6,34.6,34.6,-0.0,pass,0.9505,0,clean
+GPS-000704,FC-000704,Butler Carter and Norton,FMX,FMX-CAR-004,petrol_saloon,2024-03-09,312.4,29.17,30.23,-1.06,pass,0.9559,0,clean
+GPS-001213,FC-001213,Schofield Harris and Poole,WVH,WVH-CAR-004,petrol_saloon,2024-09-27,225.0,20.94,21.77,-0.83,pass,0.9781,0,clean
+GPS-000897,FC-000897,Ahmed and Sons,UKB,UKB-4WD-002,petrol_4wd,2024-09-10,373.3,61.4,61.67,-0.27,pass,0.9429,0,clean
+GPS-000488,FC-000488,Collins-Dawson,EJR,EJR-CAR-011,petrol_saloon,2024-07-04,124.1,12.28,12.01,0.27,pass,0.9689,0,clean
+GPS-000560,FC-000560,Scott-Walker,HYR,HYR-VAN-001,diesel_van,2024-10-21,264.6,33.23,32.78,0.45,pass,0.9827,0,clean
+GPS-001142,FC-001142,Coates Chadwick and Williams,XPM,XPM-TRK-020,diesel_truck,2024-12-05,365.3,117.64,120.7,-3.06,pass,0.9707,0,clean
+GPS-001120,FC-001120,Dobson Ltd,PDT,PDT-CAR-007,petrol_saloon,2024-12-18,392.2,37.37,37.95,-0.58,pass,0.962,0,clean
+GPS-000513,FC-000513,Ross Haynes and Bennett,QNG,QNG-CAR-018,petrol_saloon,2024-08-13,57.2,5.68,5.53,0.15,pass,0.9757,0,clean
+GPS-000634,FC-000634,Jones Fletcher and Sutton,KBX,KBX-CAR-008,petrol_saloon,2024-06-18,184.8,18.63,17.88,0.75,pass,0.9625,0,clean
+GPS-002598,FC-002598,Jones Group,HRY,HRY-4WD-004,petrol_4wd,2024-01-20,152.3,24.2,25.16,-0.96,pass,0.9408,0,clean
+GPS-001665,FC-001665,Alexander Jenkins and Roberts,UUE,UUE-MTR-023,petrol_bike,2024-03-09,336.8,16.35,15.9,0.45,pass,0.9837,0,clean
+GPS-001013,FC-001013,Berry-Bell,HEA,HEA-CAR-001,petrol_saloon,2024-03-29,302.0,29.11,29.22,-0.11,pass,0.957,0,clean
+GPS-001932,FC-001932,Nicholson and Sons,EMF,EMF-TRK-008,diesel_truck,2024-06-20,318.4,107.5,105.2,2.3,pass,0.9675,0,clean
+GPS-001151,FC-001151,Coates Chadwick and Williams,XPM,XPM-4WD-014,petrol_4wd,2024-06-13,239.9,40.21,39.63,0.58,pass,0.9804,0,clean
+GPS-002820,FC-002820,Thomas Long and Mills,ELS,ELS-TRK-007,diesel_truck,2024-11-15,176.2,57.67,58.22,-0.55,pass,0.9727,0,clean
+GPS-000117,FC-000117,Chambers Inc,NAF,NAF-CAR-010,petrol_saloon,2024-10-28,75.7,7.13,7.32,-0.19,pass,0.9743,0,clean
+GPS-000741,FC-000741,Hughes-Baker,GGO,GGO-CAR-001,petrol_saloon,2024-05-13,221.3,21.34,21.41,-0.07,pass,0.9495,0,clean
+GPS-002801,FC-002801,Thomas Long and Mills,ELS,ELS-SUV-004,petrol_suv,2024-04-09,382.0,56.21,56.34,-0.13,pass,0.9481,0,clean
+GPS-001975,FC-001975,Adams Shepherd and Wilson,EAK,EAK-MTR-002,petrol_bike,2024-09-17,178.9,8.68,8.44,0.24,pass,0.9533,0,clean
+GPS-001082,FC-001082,Dobson Ltd,PDT,PDT-MTR-006,petrol_bike,2024-07-28,172.1,8.12,8.12,-0.0,pass,0.9532,0,clean
+GPS-001811,FC-001811,Cartwright-Jones,MWB,MWB-SUV-011,petrol_suv,2024-07-20,288.3,43.18,42.52,0.66,pass,0.9444,0,clean
+GPS-000831,FC-000831,Akhtar Inc,MTW,MTW-4WD-016,petrol_4wd,2024-03-18,301.2,48.05,49.76,-1.71,pass,0.9592,0,clean
+GPS-000120,FC-000120,Chambers Inc,NAF,NAF-SUV-023,petrol_suv,2024-06-19,93.3,13.75,13.76,-0.01,pass,0.9368,0,clean
+GPS-000657,FC-000657,Jones Fletcher and Sutton,KBX,KBX-SUV-019,petrol_suv,2024-05-02,331.6,49.29,48.91,0.38,pass,0.9319,0,clean
+GPS-002747,FC-002747,Greenwood Thompson and Richards,VBI,VBI-SUV-016,petrol_suv,2024-09-25,311.2,45.13,45.9,-0.77,pass,0.9409,0,clean
+GPS-002707,FC-002707,Sharpe Smith and Palmer,MXV,MXV-CAR-004,petrol_saloon,2024-11-27,151.1,14.46,14.62,-0.16,pass,0.9414,0,clean
+GPS-002947,FC-002947,Powell-Hill,BJY,BJY-VAN-006,diesel_van,2024-07-30,222.4,27.99,27.56,0.43,pass,0.9879,0,clean
+GPS-000636,FC-000636,Jones Fletcher and Sutton,KBX,KBX-SUV-014,petrol_suv,2024-10-31,188.9,26.92,27.86,-0.94,pass,0.9821,0,clean
+GPS-000370,FC-000370,Harrison-Taylor,EBR,EBR-CAR-010,petrol_saloon,2024-08-12,336.3,32.73,32.54,0.19,pass,0.966,0,clean
+GPS-000269,FC-000269,Carr-Matthews,CCW,CCW-VAN-020,diesel_van,2024-04-15,328.5,39.21,40.7,-1.49,pass,0.9451,0,clean
+GPS-000047,FC-000047,Martin Allen and Brown,CKA,CKA-CAR-017,petrol_saloon,2024-12-19,214.9,21.27,20.79,0.48,pass,0.9414,0,clean
+GPS-000992,FC-000992,Berry-Bell,HEA,HEA-VAN-004,diesel_van,2024-12-02,254.0,32.49,31.47,1.02,pass,0.9781,0,clean
+GPS-000877,FC-000877,Ahmed and Sons,UKB,UKB-CAR-005,petrol_saloon,2024-08-18,292.3,27.76,28.28,-0.52,pass,0.9358,0,clean
+GPS-000774,FC-000774,Hall PLC,LPJ,LPJ-4WD-009,petrol_4wd,2024-07-24,111.2,17.71,18.37,-0.66,pass,0.9487,0,clean
+GPS-001220,FC-001220,Evans PLC,WYC,WYC-TRK-008,diesel_truck,2024-04-01,90.1,30.84,29.77,1.07,pass,0.9877,0,clean
+GPS-001127,FC-001127,Coates Chadwick and Williams,XPM,XPM-CAR-010,petrol_saloon,2024-11-03,242.4,23.6,23.45,0.15,pass,0.9881,0,clean
+GPS-000005,FC-000005,Brown Jones and Hughes,AHF,AHF-CAR-004,petrol_saloon,2024-06-10,263.5,25.91,25.5,0.41,pass,0.9852,0,clean
+GPS-001596,FC-001596,Barrett Kent and Lee,DYO,DYO-TRK-012,diesel_truck,2024-04-08,80.5,26.47,26.6,-0.13,pass,0.9559,0,clean
+GPS-002312,FC-002312,Hicks Harvey and Lowe,YFS,YFS-SUV-023,petrol_suv,2024-03-09,74.7,10.68,11.02,-0.34,pass,0.9578,0,clean
+GPS-002492,FC-002492,Smith-Brown,WJE,WJE-CAR-003,petrol_saloon,2024-10-28,308.9,28.75,29.89,-1.14,pass,0.9552,0,clean
+GPS-001078,FC-001078,Richards Sykes and Peters,TNC,TNC-CAR-017,petrol_saloon,2024-02-01,130.6,12.88,12.64,0.24,pass,0.9466,0,clean
+GPS-000838,FC-000838,Akhtar Inc,MTW,MTW-SUV-009,petrol_suv,2024-07-01,61.7,8.84,9.1,-0.26,pass,0.941,0,clean
+GPS-000682,FC-000682,Butler Carter and Norton,FMX,FMX-TRK-011,diesel_truck,2024-09-24,315.9,100.54,104.37,-3.83,pass,0.9622,0,clean
+GPS-001716,FC-001716,Stevens and Sons,BSU,BSU-SUV-011,petrol_suv,2024-01-01,61.5,9.41,9.07,0.34,pass,0.9637,0,clean
+GPS-002353,FC-002353,Ali and Sons,KRH,KRH-CAR-010,petrol_saloon,2024-05-16,106.2,10.08,10.28,-0.2,pass,0.9665,0,clean
+GPS-002618,FC-002618,Bradley-Smith,DCO,DCO-SUV-003,petrol_suv,2024-09-15,221.7,32.12,32.7,-0.58,pass,0.9341,0,clean
+GPS-002362,FC-002362,Ali and Sons,KRH,KRH-SUV-003,petrol_suv,2024-04-30,323.3,47.94,47.69,0.25,pass,0.9513,0,clean
+GPS-002198,FC-002198,Andrews-Brown,WBB,WBB-TRK-006,diesel_truck,2024-07-31,342.2,116.95,113.06,3.89,pass,0.9683,0,clean
+GPS-001149,FC-001149,Coates Chadwick and Williams,XPM,XPM-4WD-017,petrol_4wd,2024-12-20,264.6,44.85,43.71,1.14,pass,0.9331,0,clean
+GPS-000575,FC-000575,Scott-Walker,HYR,HYR-SUV-009,petrol_suv,2024-06-11,331.6,47.41,48.91,-1.5,pass,0.9415,0,clean
+GPS-000051,FC-000051,Martin Allen and Brown,CKA,CKA-CAR-003,petrol_saloon,2024-07-01,233.6,22.96,22.6,0.36,pass,0.9357,0,clean
+GPS-000854,FC-000854,Akhtar Inc,MTW,MTW-TRK-003,diesel_truck,2024-07-07,137.8,44.33,45.53,-1.2,pass,0.9683,0,clean
+GPS-001983,FC-001983,Walker LLC,KYZ,KYZ-CAR-002,petrol_saloon,2024-01-07,55.8,5.46,5.4,0.06,pass,0.945,0,clean
+GPS-001824,FC-001824,Cartwright-Jones,MWB,MWB-MTR-015,petrol_bike,2024-03-15,79.4,3.86,3.75,0.11,pass,0.9515,0,clean
+GPS-000834,FC-000834,Akhtar Inc,MTW,MTW-4WD-015,petrol_4wd,2024-01-05,90.9,15.49,15.02,0.47,pass,0.9316,0,clean
+GPS-001116,FC-001116,Dobson Ltd,PDT,PDT-CAR-016,petrol_saloon,2024-02-10,331.3,32.48,32.06,0.42,pass,0.9861,0,clean
+GPS-001167,FC-001167,Coates Chadwick and Williams,XPM,XPM-4WD-006,petrol_4wd,2024-12-27,250.2,39.88,41.33,-1.45,pass,0.9489,0,clean
+GPS-002519,FC-002519,Smith-Brown,WJE,WJE-SUV-017,petrol_suv,2024-10-13,342.9,49.35,50.58,-1.23,pass,0.965,0,clean
+GPS-001907,FC-001907,Nicholson and Sons,EMF,EMF-4WD-006,petrol_4wd,2024-01-29,178.6,30.12,29.5,0.62,pass,0.9695,0,clean
+GPS-000972,FC-000972,Robinson Horton and Smith,RNG,RNG-BUS-006,diesel_bus,2024-09-21,146.5,31.0,31.12,-0.12,pass,0.9782,0,clean
+GPS-000400,FC-000400,Harrison-Taylor,EBR,EBR-TRK-005,diesel_truck,2024-06-11,259.4,84.25,85.71,-1.46,pass,0.9376,0,clean
+GPS-002560,FC-002560,Clark-Webster,PZR,PZR-SUV-015,petrol_suv,2024-08-21,281.1,42.63,41.46,1.17,pass,0.9863,0,clean
+GPS-002369,FC-002369,Ali and Sons,KRH,KRH-TRK-001,diesel_truck,2024-02-05,353.4,114.97,116.76,-1.79,pass,0.9785,0,clean
+GPS-000020,FC-000020,Brown Jones and Hughes,AHF,AHF-MTR-006,petrol_bike,2024-10-08,191.2,9.29,9.02,0.27,pass,0.9378,0,clean
+GPS-000685,FC-000685,Butler Carter and Norton,FMX,FMX-SUV-001,petrol_suv,2024-12-05,205.7,29.26,30.34,-1.08,pass,0.9745,0,clean
+GPS-000036,FC-000036,Brown Jones and Hughes,AHF,AHF-VAN-005,diesel_van,2024-09-23,317.4,38.04,39.33,-1.29,pass,0.9425,0,clean
+GPS-002844,FC-002844,Thompson Ltd,CYR,CYR-4WD-008,petrol_4wd,2024-04-11,344.7,57.05,56.94,0.11,pass,0.9465,0,clean
+GPS-000525,FC-000525,Ross Haynes and Bennett,QNG,QNG-CAR-010,petrol_saloon,2024-02-10,282.9,27.04,27.37,-0.33,pass,0.9659,0,clean
+GPS-002456,FC-002456,Farrell Smith and Foster,NND,NND-4WD-023,petrol_4wd,2024-06-03,60.8,10.04,10.04,-0.0,pass,0.9892,0,clean
+GPS-000921,FC-000921,Bishop Hamilton and Watkins,ZNZ,ZNZ-MTR-009,petrol_bike,2024-01-12,236.3,10.77,11.15,-0.38,pass,0.972,0,clean
+GPS-001842,FC-001842,Cartwright-Jones,MWB,MWB-TRK-013,diesel_truck,2024-10-31,277.4,95.41,91.65,3.76,pass,0.984,0,clean
+GPS-001891,FC-001891,Nicholson and Sons,EMF,EMF-4WD-006,petrol_4wd,2024-10-26,291.1,48.14,48.09,0.05,pass,0.9858,0,clean
+GPS-000538,FC-000538,Ross Haynes and Bennett,QNG,QNG-TRK-011,diesel_truck,2024-01-25,65.3,22.3,21.58,0.72,pass,0.9646,0,clean
+GPS-001706,FC-001706,Welch Long and Lawson,JKW,JKW-BUS-014,diesel_bus,2024-09-02,173.3,37.83,36.81,1.02,pass,0.9884,0,clean
+GPS-002960,FC-002960,Powell-Hill,BJY,BJY-CAR-009,petrol_saloon,2024-02-27,300.4,29.22,29.07,0.15,pass,0.9417,0,clean
+GPS-000246,FC-000246,Carr-Matthews,CCW,CCW-TRK-007,diesel_truck,2024-05-02,72.7,23.89,24.02,-0.13,pass,0.986,0,clean
+GPS-000785,FC-000785,Hall PLC,LPJ,LPJ-SUV-013,petrol_suv,2024-09-17,87.3,12.7,12.88,-0.18,pass,0.954,0,clean
+GPS-001410,FC-001410,Stanley Inc,LND,LND-4WD-012,petrol_4wd,2024-10-05,368.0,62.61,60.79,1.82,pass,0.9892,0,clean
+GPS-002538,FC-002538,Clark-Webster,PZR,PZR-SUV-015,petrol_suv,2024-06-29,304.9,46.76,44.97,1.79,pass,0.9676,0,clean
+GPS-000155,FC-000155,Hussain Wilson and Brown,FPV,FPV-SUV-022,petrol_suv,2024-04-21,303.1,45.19,44.71,0.48,pass,0.9705,0,clean
+GPS-001687,FC-001687,Welch Long and Lawson,JKW,JKW-CAR-021,petrol_saloon,2024-09-08,51.7,5.18,5.0,0.18,pass,0.9888,0,clean
+GPS-000626,FC-000626,Lynch-Patel,VUF,VUF-CAR-002,petrol_saloon,2024-07-22,140.7,13.35,13.61,-0.26,pass,0.9711,0,clean
+GPS-002891,FC-002891,Smith Cooke and Crawford,AJO,AJO-SUV-012,petrol_suv,2024-02-16,69.4,9.96,10.24,-0.28,pass,0.9551,0,clean
+GPS-001347,FC-001347,Holmes Group,ENP,ENP-MTR-009,petrol_bike,2024-06-03,100.8,4.7,4.76,-0.06,pass,0.9558,0,clean
+GPS-000570,FC-000570,Scott-Walker,HYR,HYR-VAN-001,diesel_van,2024-09-22,286.8,34.74,35.53,-0.79,pass,0.967,0,clean
+GPS-002948,FC-002948,Powell-Hill,BJY,BJY-BUS-004,diesel_bus,2024-10-07,124.5,26.45,26.44,0.01,pass,0.9336,0,clean
+GPS-001759,FC-001759,Palmer Carter and Sutton,END,END-CAR-011,petrol_saloon,2024-01-27,52.8,5.3,5.11,0.19,pass,0.9878,0,clean
+GPS-001817,FC-001817,Cartwright-Jones,MWB,MWB-CAR-008,petrol_saloon,2024-08-15,388.6,36.88,37.6,-0.72,pass,0.961,0,clean
+GPS-002066,FC-002066,Cunningham and Sons,EHZ,EHZ-SUV-009,petrol_suv,2024-07-23,342.8,52.32,50.56,1.76,pass,0.9767,0,clean
+GPS-000128,FC-000128,Chambers Inc,NAF,NAF-MTR-005,petrol_bike,2024-07-12,347.2,16.3,16.39,-0.09,pass,0.9848,0,clean
+GPS-002993,FC-002993,Boyle Inc,FGC,FGC-SUV-001,petrol_suv,2024-05-26,66.6,9.75,9.82,-0.07,pass,0.9381,0,clean
+GPS-002007,FC-002007,Walker LLC,KYZ,KYZ-CAR-002,petrol_saloon,2024-01-24,63.9,6.13,6.18,-0.05,pass,0.951,0,clean
+GPS-000981,FC-000981,Robinson Horton and Smith,RNG,RNG-TRK-016,diesel_truck,2024-08-22,260.9,83.53,86.2,-2.67,pass,0.9667,0,clean
+GPS-002990,FC-002990,Boyle Inc,FGC,FGC-TRK-010,diesel_truck,2024-11-11,343.8,115.5,113.59,1.91,pass,0.943,0,clean
+GPS-000191,FC-000191,Patel LLC,SIE,SIE-BUS-011,diesel_bus,2024-11-29,167.2,36.19,35.51,0.68,pass,0.9784,0,clean
+GPS-001140,FC-001140,Coates Chadwick and Williams,XPM,XPM-SUV-013,petrol_suv,2024-11-15,352.1,50.78,51.93,-1.15,pass,0.9319,0,clean
+GPS-000993,FC-000993,Berry-Bell,HEA,HEA-TRK-011,diesel_truck,2024-04-11,227.0,74.28,75.0,-0.72,pass,0.9361,0,clean
+GPS-000700,FC-000700,Butler Carter and Norton,FMX,FMX-4WD-007,petrol_4wd,2024-03-08,100.7,16.17,16.64,-0.47,pass,0.9509,0,clean
+GPS-000607,FC-000607,Lynch-Patel,VUF,VUF-TRK-012,diesel_truck,2024-07-20,188.7,64.88,62.35,2.53,pass,0.9358,0,clean
+GPS-000181,FC-000181,Patel LLC,SIE,SIE-CAR-008,petrol_saloon,2024-12-28,235.1,23.3,22.75,0.55,pass,0.9826,0,clean
+GPS-000302,FC-000302,Clarke-Smith,USN,USN-SUV-012,petrol_suv,2024-06-07,93.1,13.48,13.73,-0.25,pass,0.9829,0,clean
+GPS-002545,FC-002545,Clark-Webster,PZR,PZR-CAR-004,petrol_saloon,2024-01-15,340.5,34.19,32.95,1.24,pass,0.9468,0,clean
+GPS-002790,FC-002790,Greenwood Thompson and Richards,VBI,VBI-4WD-006,petrol_4wd,2024-12-23,251.4,42.48,41.53,0.95,pass,0.9656,0,clean
+GPS-001061,FC-001061,Richards Sykes and Peters,TNC,TNC-TRK-001,diesel_truck,2024-12-02,243.7,83.76,80.52,3.24,pass,0.9816,0,clean
+GPS-002834,FC-002834,Thomas Long and Mills,ELS,ELS-MTR-013,petrol_bike,2024-07-09,302.1,14.33,14.26,0.07,pass,0.9648,0,clean
+GPS-002893,FC-002893,Smith Cooke and Crawford,AJO,AJO-VAN-015,diesel_van,2024-02-09,271.7,32.63,33.66,-1.03,pass,0.9696,0,clean
+GPS-002566,FC-002566,Jones Group,HRY,HRY-SUV-010,petrol_suv,2024-12-28,148.1,22.55,21.84,0.71,pass,0.9835,0,clean
+GPS-001070,FC-001070,Richards Sykes and Peters,TNC,TNC-CAR-017,petrol_saloon,2024-07-16,288.9,27.96,27.95,0.01,pass,0.9633,0,clean
+GPS-002525,FC-002525,Clark-Webster,PZR,PZR-TRK-012,diesel_truck,2024-06-16,278.4,94.33,91.98,2.35,pass,0.9701,0,clean
+GPS-002206,FC-002206,Williams Gibson and Ford,DXG,DXG-MTR-001,petrol_bike,2024-03-28,272.1,12.48,12.84,-0.36,pass,0.9574,0,clean
+GPS-001244,FC-001244,Evans PLC,WYC,WYC-SUV-006,petrol_suv,2024-11-28,183.6,28.2,27.08,1.12,pass,0.9688,0,clean
+GPS-000017,FC-000017,Brown Jones and Hughes,AHF,AHF-CAR-004,petrol_saloon,2024-01-12,109.9,10.98,10.63,0.35,pass,0.9751,0,clean
+GPS-002996,FC-002996,Boyle Inc,FGC,FGC-SUV-001,petrol_suv,2024-10-09,320.2,45.41,47.23,-1.82,pass,0.948,0,clean
+GPS-000547,FC-000547,Scott-Walker,HYR,HYR-TRK-004,diesel_truck,2024-07-11,110.9,37.52,36.64,0.88,pass,0.9767,0,clean
+GPS-000659,FC-000659,Jones Fletcher and Sutton,KBX,KBX-SUV-019,petrol_suv,2024-04-03,95.6,14.4,14.1,0.3,pass,0.9791,0,clean
+GPS-002719,FC-002719,Sharpe Smith and Palmer,MXV,MXV-CAR-003,petrol_saloon,2024-01-02,190.0,18.99,18.38,0.61,pass,0.9654,0,clean
+GPS-002750,FC-002750,Greenwood Thompson and Richards,VBI,VBI-SUV-016,petrol_suv,2024-05-16,264.1,39.68,38.95,0.73,pass,0.933,0,clean
+GPS-001505,FC-001505,Lawrence-Bibi,BQF,BQF-CAR-015,petrol_saloon,2024-02-01,205.9,19.37,19.92,-0.55,pass,0.9521,0,clean
+GPS-000960,FC-000960,Robinson Horton and Smith,RNG,RNG-CAR-001,petrol_saloon,2024-08-13,316.7,30.04,30.64,-0.6,pass,0.9353,0,clean
+GPS-002332,FC-002332,Hicks Harvey and Lowe,YFS,YFS-VAN-013,diesel_van,2024-10-12,53.1,6.6,6.58,0.02,pass,0.9569,0,clean
+GPS-000798,FC-000798,Hall PLC,LPJ,LPJ-SUV-006,petrol_suv,2024-04-29,367.0,53.07,54.13,-1.06,pass,0.9863,0,clean
+GPS-000226,FC-000226,Carr-Matthews,CCW,CCW-4WD-005,petrol_4wd,2024-03-05,294.4,47.37,48.63,-1.26,pass,0.9871,0,clean
+GPS-002075,FC-002075,Richardson LLC,BIB,BIB-CAR-001,petrol_saloon,2024-05-06,269.6,26.29,26.09,0.2,pass,0.9577,0,clean
+GPS-001800,FC-001800,Palmer Carter and Sutton,END,END-SUV-006,petrol_suv,2024-04-04,251.0,35.85,37.02,-1.17,pass,0.9832,0,clean
+GPS-002486,FC-002486,Smith-Brown,WJE,WJE-MTR-024,petrol_bike,2024-07-04,315.5,14.76,14.89,-0.13,pass,0.955,0,clean
+GPS-002978,FC-002978,Boyle Inc,FGC,FGC-MTR-004,petrol_bike,2024-06-23,185.4,8.94,8.75,0.19,pass,0.9309,0,clean
+GPS-002278,FC-002278,Norris-Morris,QKP,QKP-CAR-007,petrol_saloon,2024-11-03,155.5,15.29,15.05,0.24,pass,0.9745,0,clean
+GPS-002086,FC-002086,Richardson LLC,BIB,BIB-CAR-006,petrol_saloon,2024-10-03,77.3,7.53,7.48,0.05,pass,0.9691,0,clean
+GPS-001694,FC-001694,Welch Long and Lawson,JKW,JKW-CAR-005,petrol_saloon,2024-07-29,239.4,23.23,23.16,0.07,pass,0.964,0,clean
+GPS-001046,FC-001046,Richards Sykes and Peters,TNC,TNC-CAR-015,petrol_saloon,2024-10-16,98.1,9.75,9.49,0.26,pass,0.9563,0,clean
+GPS-000470,FC-000470,Collins-Dawson,EJR,EJR-CAR-003,petrol_saloon,2024-08-08,44.5,4.21,4.31,-0.1,pass,0.9775,0,clean
+GPS-000955,FC-000955,Robinson Horton and Smith,RNG,RNG-TRK-016,diesel_truck,2024-09-22,75.7,25.36,25.01,0.35,pass,0.9351,0,clean
+GPS-002992,FC-002992,Boyle Inc,FGC,FGC-MTR-004,petrol_bike,2024-12-19,253.5,12.18,11.97,0.21,pass,0.9478,0,clean
+GPS-000640,FC-000640,Jones Fletcher and Sutton,KBX,KBX-TRK-015,diesel_truck,2024-04-22,233.9,75.67,77.28,-1.61,pass,0.9306,0,clean
+GPS-002793,FC-002793,Thomas Long and Mills,ELS,ELS-CAR-014,petrol_saloon,2024-11-14,387.7,36.98,37.51,-0.53,pass,0.9896,0,clean
+GPS-001219,FC-001219,Evans PLC,WYC,WYC-MTR-009,petrol_bike,2024-05-09,376.2,18.04,17.76,0.28,pass,0.9611,0,clean
+GPS-001159,FC-001159,Coates Chadwick and Williams,XPM,XPM-MTR-016,petrol_bike,2024-06-05,185.1,8.94,8.74,0.2,pass,0.9392,0,clean
+GPS-001416,FC-001416,Stanley Inc,LND,LND-CAR-003,petrol_saloon,2024-06-17,94.1,9.31,9.11,0.2,pass,0.9799,0,clean
+GPS-002728,FC-002728,Sharpe Smith and Palmer,MXV,MXV-TRK-008,diesel_truck,2024-12-28,198.6,65.41,65.62,-0.21,pass,0.9646,0,clean
+GPS-001528,FC-001528,Lawrence-Bibi,BQF,BQF-CAR-020,petrol_saloon,2024-12-08,270.5,25.58,26.17,-0.59,pass,0.9544,0,clean
+GPS-002936,FC-002936,Powell-Hill,BJY,BJY-MTR-024,petrol_bike,2024-02-10,153.3,7.08,7.24,-0.16,pass,0.9561,0,clean
+GPS-001301,FC-001301,Glover Ltd,ZND,ZND-TRK-001,diesel_truck,2024-08-07,156.6,51.51,51.74,-0.23,pass,0.9485,0,clean
+GPS-002881,FC-002881,Smith Cooke and Crawford,AJO,AJO-SUV-012,petrol_suv,2024-05-22,106.0,15.08,15.64,-0.56,pass,0.9666,0,clean
+GPS-001604,FC-001604,Barrett Kent and Lee,DYO,DYO-SUV-013,petrol_suv,2024-04-26,98.3,15.05,14.5,0.55,pass,0.9695,0,clean
+GPS-000161,FC-000161,Hussain Wilson and Brown,FPV,FPV-SUV-025,petrol_suv,2024-02-20,376.1,55.45,55.47,-0.02,pass,0.9558,0,clean
+GPS-001705,FC-001705,Welch Long and Lawson,JKW,JKW-SUV-007,petrol_suv,2024-05-02,164.4,24.64,24.25,0.39,pass,0.9335,0,clean
+GPS-000957,FC-000957,Robinson Horton and Smith,RNG,RNG-CAR-009,petrol_saloon,2024-10-12,31.0,3.03,3.0,0.03,pass,0.9398,0,clean
+GPS-002930,FC-002930,Powell-Hill,BJY,BJY-TRK-017,diesel_truck,2024-11-25,325.0,109.13,107.38,1.75,pass,0.9357,0,clean
+GPS-000878,FC-000878,Ahmed and Sons,UKB,UKB-MTR-007,petrol_bike,2024-12-10,368.5,17.53,17.39,0.14,pass,0.9303,0,clean
+GPS-001920,FC-001920,Nicholson and Sons,EMF,EMF-CAR-007,petrol_saloon,2024-08-28,244.6,22.98,23.67,-0.69,pass,0.9333,0,clean
+GPS-001885,FC-001885,Pearce Group,BZV,BZV-CAR-004,petrol_saloon,2024-05-12,36.7,3.62,3.55,0.07,pass,0.9582,0,clean
+GPS-002201,FC-002201,Andrews-Brown,WBB,WBB-MTR-004,petrol_bike,2024-03-15,402.8,18.57,19.01,-0.44,pass,0.9893,0,clean
+GPS-000099,FC-000099,Chambers Inc,NAF,NAF-4WD-008,petrol_4wd,2024-09-28,99.1,16.52,16.37,0.15,pass,0.9404,0,clean
+GPS-002842,FC-002842,Thompson Ltd,CYR,CYR-CAR-006,petrol_saloon,2024-01-13,333.0,32.77,32.22,0.55,pass,0.9443,0,clean
+GPS-002558,FC-002558,Clark-Webster,PZR,PZR-BUS-011,diesel_bus,2024-04-06,216.9,44.66,46.07,-1.41,pass,0.9601,0,clean
+GPS-000254,FC-000254,Carr-Matthews,CCW,CCW-TRK-019,diesel_truck,2024-06-04,336.7,113.79,111.25,2.54,pass,0.9531,0,clean
+GPS-000104,FC-000104,Chambers Inc,NAF,NAF-CAR-022,petrol_saloon,2024-07-15,273.1,26.84,26.43,0.41,pass,0.9665,0,clean
+GPS-001446,FC-001446,Moore-Barnes,IPF,IPF-SUV-019,petrol_suv,2024-05-04,373.2,57.13,55.05,2.08,pass,0.9629,0,clean
+GPS-001444,FC-001444,Moore-Barnes,IPF,IPF-CAR-016,petrol_saloon,2024-10-04,86.5,8.06,8.37,-0.31,pass,0.9602,0,clean
+GPS-001649,FC-001649,Alexander Jenkins and Roberts,UUE,UUE-SUV-005,petrol_suv,2024-10-30,193.3,27.42,28.51,-1.09,pass,0.9861,0,clean
+GPS-000587,FC-000587,Lynch-Patel,VUF,VUF-SUV-010,petrol_suv,2024-04-06,355.3,53.26,52.41,0.85,pass,0.9799,0,clean
+GPS-000628,FC-000628,Lynch-Patel,VUF,VUF-CAR-007,petrol_saloon,2024-12-23,300.1,28.78,29.04,-0.26,pass,0.9669,0,clean
+GPS-001697,FC-001697,Welch Long and Lawson,JKW,JKW-SUV-020,petrol_suv,2024-11-03,222.4,32.33,32.8,-0.47,pass,0.9462,0,clean
+GPS-002102,FC-002102,Richardson LLC,BIB,BIB-CAR-006,petrol_saloon,2024-08-20,310.3,29.46,30.02,-0.56,pass,0.9403,0,clean
+GPS-002200,FC-002200,Andrews-Brown,WBB,WBB-CAR-015,petrol_saloon,2024-06-28,225.5,22.15,21.82,0.33,pass,0.9382,0,clean
+GPS-000404,FC-000404,Harrison-Taylor,EBR,EBR-CAR-002,petrol_saloon,2024-07-16,268.7,25.73,26.0,-0.27,pass,0.9527,0,clean
+GPS-001155,FC-001155,Coates Chadwick and Williams,XPM,XPM-CAR-009,petrol_saloon,2024-12-24,362.4,35.27,35.07,0.2,pass,0.9866,0,clean
+GPS-002256,FC-002256,Norris-Morris,QKP,QKP-SUV-005,petrol_suv,2024-12-18,116.7,16.62,17.21,-0.59,pass,0.9708,0,clean
+GPS-001683,FC-001683,Welch Long and Lawson,JKW,JKW-CAR-021,petrol_saloon,2024-09-27,194.7,18.49,18.84,-0.35,pass,0.9531,0,clean
+GPS-002057,FC-002057,Cunningham and Sons,EHZ,EHZ-TRK-012,diesel_truck,2024-01-07,337.6,111.43,111.54,-0.11,pass,0.9673,0,clean
+GPS-002859,FC-002859,Thompson Ltd,CYR,CYR-CAR-004,petrol_saloon,2024-01-07,255.4,25.41,24.71,0.7,pass,0.9663,0,clean
+GPS-000453,FC-000453,Collins-Dawson,EJR,EJR-CAR-002,petrol_saloon,2024-10-12,139.7,13.33,13.52,-0.19,pass,0.9764,0,clean
+GPS-002302,FC-002302,Hicks Harvey and Lowe,YFS,YFS-VAN-007,diesel_van,2024-07-25,241.9,30.96,29.97,0.99,pass,0.9308,0,clean
+GPS-001328,FC-001328,Holmes Group,ENP,ENP-MTR-002,petrol_bike,2024-10-28,169.6,8.24,8.01,0.23,pass,0.9672,0,clean
+GPS-002050,FC-002050,Cunningham and Sons,EHZ,EHZ-SUV-013,petrol_suv,2024-12-16,169.1,24.98,24.94,0.04,pass,0.9765,0,clean
+GPS-000881,FC-000881,Ahmed and Sons,UKB,UKB-CAR-005,petrol_saloon,2024-08-17,83.5,8.1,8.08,0.02,pass,0.9702,0,clean
+GPS-002933,FC-002933,Powell-Hill,BJY,BJY-TRK-002,diesel_truck,2024-11-13,101.6,32.33,33.57,-1.24,pass,0.9446,0,clean
+GPS-000624,FC-000624,Lynch-Patel,VUF,VUF-CAR-003,petrol_saloon,2024-04-30,355.5,34.56,34.4,0.16,pass,0.9448,0,clean
+GPS-002394,FC-002394,Coates-Andrews,AQO,AQO-SUV-003,petrol_suv,2024-10-24,95.2,14.26,14.04,0.22,pass,0.9783,0,clean
+GPS-002787,FC-002787,Greenwood Thompson and Richards,VBI,VBI-CAR-013,petrol_saloon,2024-05-20,200.7,19.72,19.42,0.3,pass,0.984,0,clean
+GPS-001788,FC-001788,Palmer Carter and Sutton,END,END-CAR-011,petrol_saloon,2024-04-21,232.2,22.72,22.47,0.25,pass,0.9664,0,clean
+GPS-000263,FC-000263,Carr-Matthews,CCW,CCW-SUV-001,petrol_suv,2024-10-04,96.7,13.77,14.26,-0.49,pass,0.9499,0,clean
+GPS-001635,FC-001635,Alexander Jenkins and Roberts,UUE,UUE-4WD-013,petrol_4wd,2024-10-12,235.5,38.46,38.9,-0.44,pass,0.9867,0,clean
+GPS-001439,FC-001439,Stanley Inc,LND,LND-CAR-013,petrol_saloon,2024-01-06,38.7,3.75,3.74,0.01,pass,0.9745,0,clean
+GPS-002199,FC-002199,Andrews-Brown,WBB,WBB-CAR-022,petrol_saloon,2024-08-19,239.4,22.99,23.16,-0.17,pass,0.9815,0,clean
+GPS-001970,FC-001970,Adams Shepherd and Wilson,EAK,EAK-CAR-024,petrol_saloon,2024-03-03,39.9,3.78,3.86,-0.08,pass,0.9868,0,clean
+GPS-002521,FC-002521,Clark-Webster,PZR,PZR-CAR-004,petrol_saloon,2024-08-18,313.2,31.38,30.31,1.07,pass,0.9723,0,clean
+GPS-001803,FC-001803,Cartwright-Jones,MWB,MWB-CAR-004,petrol_saloon,2024-05-10,285.1,26.8,27.59,-0.79,pass,0.9837,0,clean
+GPS-000641,FC-000641,Jones Fletcher and Sutton,KBX,KBX-CAR-018,petrol_saloon,2024-04-30,70.0,6.63,6.77,-0.14,pass,0.9351,0,clean
+GPS-002386,FC-002386,Coates-Andrews,AQO,AQO-MTR-001,petrol_bike,2024-11-24,97.6,4.71,4.61,0.1,pass,0.9879,0,clean
+GPS-002599,FC-002599,Jones Group,HRY,HRY-SUV-005,petrol_suv,2024-01-19,231.3,34.51,34.12,0.39,pass,0.9861,0,clean
+GPS-002845,FC-002845,Thompson Ltd,CYR,CYR-CAR-004,petrol_saloon,2024-06-21,208.6,20.78,20.18,0.6,pass,0.9322,0,clean
+GPS-001960,FC-001960,Adams Shepherd and Wilson,EAK,EAK-VAN-012,diesel_van,2024-07-26,98.0,11.83,12.14,-0.31,pass,0.9578,0,clean
+GPS-000489,FC-000489,Collins-Dawson,EJR,EJR-CAR-011,petrol_saloon,2024-07-05,342.2,34.27,33.11,1.16,pass,0.9362,0,clean
+GPS-001844,FC-001844,Cartwright-Jones,MWB,MWB-CAR-006,petrol_saloon,2024-12-26,241.7,23.06,23.39,-0.33,pass,0.9515,0,clean
+GPS-001735,FC-001735,Stevens and Sons,BSU,BSU-4WD-003,petrol_4wd,2024-12-21,123.8,21.02,20.45,0.57,pass,0.9897,0,clean
+GPS-000147,FC-000147,Hussain Wilson and Brown,FPV,FPV-CAR-008,petrol_saloon,2024-06-12,134.6,13.04,13.02,0.02,pass,0.9402,0,clean
+GPS-001535,FC-001535,Harvey Ltd,BGR,BGR-TRK-004,diesel_truck,2024-05-07,321.9,106.11,106.36,-0.25,pass,0.9873,0,clean
+GPS-001987,FC-001987,Walker LLC,KYZ,KYZ-CAR-006,petrol_saloon,2024-05-15,122.1,11.54,11.81,-0.27,pass,0.9653,0,clean
+GPS-001370,FC-001370,Cook Ltd,TRS,TRS-SUV-001,petrol_suv,2024-07-11,156.4,23.84,23.07,0.77,pass,0.9621,0,clean
+GPS-002451,FC-002451,Farrell Smith and Foster,NND,NND-CAR-020,petrol_saloon,2024-05-14,187.2,17.7,18.11,-0.41,pass,0.9728,0,clean
+GPS-002951,FC-002951,Powell-Hill,BJY,BJY-MTR-024,petrol_bike,2024-08-07,143.0,6.99,6.75,0.24,pass,0.9649,0,clean
+GPS-000660,FC-000660,Jones Fletcher and Sutton,KBX,KBX-SUV-010,petrol_suv,2024-04-05,220.7,32.64,32.55,0.09,pass,0.9584,0,clean
+GPS-001795,FC-001795,Palmer Carter and Sutton,END,END-CAR-004,petrol_saloon,2024-11-14,46.1,4.6,4.46,0.14,pass,0.9687,0,clean
+GPS-002512,FC-002512,Smith-Brown,WJE,WJE-TRK-023,diesel_truck,2024-11-09,348.8,114.46,115.24,-0.78,pass,0.9538,0,clean
+GPS-000187,FC-000187,Patel LLC,SIE,SIE-CAR-004,petrol_saloon,2024-07-25,35.0,3.41,3.39,0.02,pass,0.9402,0,clean
+GPS-001148,FC-001148,Coates Chadwick and Williams,XPM,XPM-CAR-010,petrol_saloon,2024-09-18,48.2,4.55,4.66,-0.11,pass,0.9408,0,clean
+GPS-000609,FC-000609,Lynch-Patel,VUF,VUF-CAR-002,petrol_saloon,2024-03-18,172.1,16.08,16.65,-0.57,pass,0.9613,0,clean
+GPS-002192,FC-002192,Andrews-Brown,WBB,WBB-MTR-004,petrol_bike,2024-05-09,363.1,16.79,17.14,-0.35,pass,0.9689,0,clean
+GPS-001931,FC-001931,Nicholson and Sons,EMF,EMF-4WD-002,petrol_4wd,2024-03-17,42.3,7.13,6.99,0.14,pass,0.9874,0,clean
+GPS-000198,FC-000198,Patel LLC,SIE,SIE-CAR-015,petrol_saloon,2024-04-22,156.6,15.47,15.15,0.32,pass,0.9465,0,clean
+GPS-002328,FC-002328,Hicks Harvey and Lowe,YFS,YFS-VAN-001,diesel_van,2024-06-09,274.5,34.55,34.01,0.54,pass,0.9595,0,clean
+GPS-000294,FC-000294,Clarke-Smith,USN,USN-TRK-001,diesel_truck,2024-06-14,316.2,105.01,104.47,0.54,pass,0.9743,0,clean
+GPS-000767,FC-000767,Hall PLC,LPJ,LPJ-CAR-007,petrol_saloon,2024-04-17,353.5,34.2,34.2,-0.0,pass,0.9637,0,clean
+GPS-000401,FC-000401,Harrison-Taylor,EBR,EBR-SUV-009,petrol_suv,2024-08-10,270.6,40.62,39.91,0.71,pass,0.9839,0,clean
+GPS-000123,FC-000123,Chambers Inc,NAF,NAF-4WD-015,petrol_4wd,2024-05-23,81.5,13.89,13.46,0.43,pass,0.9757,0,clean
+GPS-000203,FC-000203,Patel LLC,SIE,SIE-CAR-019,petrol_saloon,2024-02-10,384.1,36.2,37.17,-0.97,pass,0.9823,0,clean
+GPS-000836,FC-000836,Akhtar Inc,MTW,MTW-BUS-021,diesel_bus,2024-03-22,282.8,58.87,60.07,-1.2,pass,0.934,0,clean
+GPS-002295,FC-002295,Norris-Morris,QKP,QKP-SUV-002,petrol_suv,2024-05-22,340.5,48.93,50.22,-1.29,pass,0.9859,0,clean
+GPS-001440,FC-001440,Stanley Inc,LND,LND-CAR-003,petrol_saloon,2024-08-28,333.5,32.63,32.27,0.36,pass,0.9787,0,clean
+GPS-001734,FC-001734,Stevens and Sons,BSU,BSU-4WD-012,petrol_4wd,2024-05-13,197.6,33.1,32.64,0.46,pass,0.931,0,clean
+GPS-001696,FC-001696,Welch Long and Lawson,JKW,JKW-SUV-020,petrol_suv,2024-04-29,168.1,25.16,24.79,0.37,pass,0.9699,0,clean
+GPS-002943,FC-002943,Powell-Hill,BJY,BJY-SUV-003,petrol_suv,2024-08-26,116.1,16.64,17.12,-0.48,pass,0.9709,0,clean
+GPS-001708,FC-001708,Welch Long and Lawson,JKW,JKW-SUV-007,petrol_suv,2024-04-25,217.4,33.35,32.07,1.28,pass,0.9759,0,clean
+GPS-002928,FC-002928,Powell-Hill,BJY,BJY-BUS-012,diesel_bus,2024-10-29,190.1,39.14,40.38,-1.24,pass,0.9528,0,clean
+GPS-001154,FC-001154,Coates Chadwick and Williams,XPM,XPM-TRK-007,diesel_truck,2024-05-05,90.3,30.65,29.84,0.81,pass,0.9525,0,clean
+GPS-001662,FC-001662,Alexander Jenkins and Roberts,UUE,UUE-4WD-013,petrol_4wd,2024-02-02,374.9,60.78,61.93,-1.15,pass,0.9734,0,clean
+GPS-002433,FC-002433,Farrell Smith and Foster,NND,NND-4WD-005,petrol_4wd,2024-12-10,365.2,60.4,60.33,0.07,pass,0.9461,0,clean
+GPS-001760,FC-001760,Palmer Carter and Sutton,END,END-CAR-017,petrol_saloon,2024-07-22,110.0,10.41,10.64,-0.23,pass,0.9509,0,clean
+GPS-000855,FC-000855,Akhtar Inc,MTW,MTW-CAR-001,petrol_saloon,2024-03-27,172.8,17.01,16.72,0.29,pass,0.9659,0,clean
+GPS-001590,FC-001590,Barrett Kent and Lee,DYO,DYO-TRK-004,diesel_truck,2024-12-06,36.7,12.59,12.13,0.46,pass,0.9667,0,clean
+GPS-002268,FC-002268,Norris-Morris,QKP,QKP-CAR-004,petrol_saloon,2024-08-09,51.5,5.12,4.98,0.14,pass,0.9482,0,clean
+GPS-000642,FC-000642,Jones Fletcher and Sutton,KBX,KBX-4WD-002,petrol_4wd,2024-07-26,255.0,43.49,42.13,1.36,pass,0.9769,0,clean
+GPS-000002,FC-000002,Brown Jones and Hughes,AHF,AHF-BUS-007,diesel_bus,2024-07-11,309.9,67.32,65.82,1.5,pass,0.942,0,clean
+GPS-002161,FC-002161,Andrews-Brown,WBB,WBB-BUS-014,diesel_bus,2024-10-20,337.7,69.35,71.73,-2.38,pass,0.9857,0,clean
+GPS-000699,FC-000699,Butler Carter and Norton,FMX,FMX-TRK-011,diesel_truck,2024-04-18,29.6,10.07,9.78,0.29,pass,0.9482,0,clean
+GPS-001637,FC-001637,Alexander Jenkins and Roberts,UUE,UUE-SUV-016,petrol_suv,2024-01-29,181.1,25.77,26.71,-0.94,pass,0.9713,0,clean
+GPS-001292,FC-001292,Glover Ltd,ZND,ZND-CAR-010,petrol_saloon,2024-06-14,86.4,8.67,8.36,0.31,pass,0.9317,0,clean
+GPS-002871,FC-002871,Thompson Ltd,CYR,CYR-CAR-004,petrol_saloon,2024-10-08,129.9,12.55,12.57,-0.02,pass,0.9537,0,clean
+GPS-002490,FC-002490,Smith-Brown,WJE,WJE-TRK-008,diesel_truck,2024-02-05,294.4,98.57,97.27,1.3,pass,0.9435,0,clean
+GPS-001521,FC-001521,Lawrence-Bibi,BQF,BQF-CAR-013,petrol_saloon,2024-03-06,105.9,10.36,10.25,0.11,pass,0.9597,0,clean
+GPS-001854,FC-001854,Pearce Group,BZV,BZV-CAR-014,petrol_saloon,2024-10-17,99.3,9.27,9.61,-0.34,pass,0.9819,0,clean
+GPS-001137,FC-001137,Coates Chadwick and Williams,XPM,XPM-4WD-005,petrol_4wd,2024-07-31,191.8,31.27,31.69,-0.42,pass,0.9879,0,clean
+GPS-002913,FC-002913,Smith Cooke and Crawford,AJO,AJO-BUS-017,diesel_bus,2024-05-06,102.4,22.47,21.75,0.72,pass,0.978,0,clean
+GPS-001632,FC-001632,Alexander Jenkins and Roberts,UUE,UUE-CAR-003,petrol_saloon,2024-01-07,263.8,26.35,25.53,0.82,pass,0.9824,0,clean
+GPS-001999,FC-001999,Walker LLC,KYZ,KYZ-TRK-003,diesel_truck,2024-01-12,412.8,131.69,136.39,-4.7,pass,0.9385,0,clean
+GPS-000664,FC-000664,Jones Fletcher and Sutton,KBX,KBX-SUV-009,petrol_suv,2024-12-04,148.5,21.38,21.9,-0.52,pass,0.9575,0,clean
+GPS-000684,FC-000684,Butler Carter and Norton,FMX,FMX-4WD-007,petrol_4wd,2024-08-10,275.2,46.01,45.46,0.55,pass,0.9779,0,clean
+GPS-001258,FC-001258,Evans PLC,WYC,WYC-MTR-001,petrol_bike,2024-04-03,346.0,16.45,16.33,0.12,pass,0.9422,0,clean
+GPS-000318,FC-000318,Bibi-Goddard,OVQ,OVQ-4WD-014,petrol_4wd,2024-02-02,248.2,41.19,41.0,0.19,pass,0.9867,0,clean
+GPS-000649,FC-000649,Jones Fletcher and Sutton,KBX,KBX-CAR-007,petrol_saloon,2024-09-15,50.9,5.08,4.93,0.15,pass,0.9324,0,clean
+GPS-001435,FC-001435,Stanley Inc,LND,LND-TRK-026,diesel_truck,2024-10-12,176.6,59.39,58.35,1.04,pass,0.9527,0,clean
+GPS-001480,FC-001480,Moore-Barnes,IPF,IPF-MTR-007,petrol_bike,2024-08-21,185.5,9.11,8.76,0.35,pass,0.9753,0,clean
+GPS-000710,FC-000710,Butler Carter and Norton,FMX,FMX-SUV-003,petrol_suv,2024-08-24,376.0,56.15,55.46,0.69,pass,0.9813,0,clean
+GPS-001283,FC-001283,Glover Ltd,ZND,ZND-4WD-018,petrol_4wd,2024-02-01,117.6,20.12,19.43,0.69,pass,0.9664,0,clean
+GPS-001769,FC-001769,Palmer Carter and Sutton,END,END-SUV-008,petrol_suv,2024-10-24,384.1,58.1,56.65,1.45,pass,0.9655,0,clean
+GPS-000973,FC-000973,Robinson Horton and Smith,RNG,RNG-SUV-011,petrol_suv,2024-07-05,136.1,20.54,20.07,0.47,pass,0.9632,0,clean
+GPS-002676,FC-002676,White-Kerr,PSF,PSF-CAR-025,petrol_saloon,2024-10-16,61.8,6.03,5.98,0.05,pass,0.9855,0,clean
+GPS-002681,FC-002681,White-Kerr,PSF,PSF-CAR-002,petrol_saloon,2024-02-13,113.5,11.29,10.98,0.31,pass,0.9761,0,clean
+GPS-001307,FC-001307,Holmes Group,ENP,ENP-MTR-009,petrol_bike,2024-04-27,320.4,15.75,15.12,0.63,pass,0.9724,0,clean
+GPS-001401,FC-001401,Stanley Inc,LND,LND-CAR-013,petrol_saloon,2024-01-25,286.0,28.18,27.67,0.51,pass,0.979,0,clean
+GPS-001409,FC-001409,Stanley Inc,LND,LND-TRK-020,diesel_truck,2024-02-07,190.4,62.02,62.91,-0.89,pass,0.9562,0,clean
+GPS-002238,FC-002238,Williams Gibson and Ford,DXG,DXG-CAR-012,petrol_saloon,2024-10-29,88.3,8.34,8.54,-0.2,pass,0.9564,0,clean
+GPS-001497,FC-001497,Lawrence-Bibi,BQF,BQF-SUV-008,petrol_suv,2024-02-11,34.9,5.27,5.15,0.12,pass,0.9608,0,clean
+GPS-002039,FC-002039,Cunningham and Sons,EHZ,EHZ-SUV-013,petrol_suv,2024-09-14,85.0,12.45,12.54,-0.09,pass,0.968,0,clean
+GPS-001530,FC-001530,Lawrence-Bibi,BQF,BQF-CAR-011,petrol_saloon,2024-03-17,258.2,25.11,24.98,0.13,pass,0.9353,0,clean
+GPS-001664,FC-001664,Alexander Jenkins and Roberts,UUE,UUE-CAR-002,petrol_saloon,2024-07-27,191.0,18.83,18.48,0.35,pass,0.9387,0,clean
+GPS-001355,FC-001355,Cook Ltd,TRS,TRS-MTR-006,petrol_bike,2024-06-05,254.8,11.6,12.03,-0.43,pass,0.9723,0,clean
+GPS-002939,FC-002939,Powell-Hill,BJY,BJY-MTR-024,petrol_bike,2024-12-07,35.8,1.69,1.69,0.0,pass,0.9447,0,clean
+GPS-002959,FC-002959,Powell-Hill,BJY,BJY-VAN-014,diesel_van,2024-10-04,340.7,43.42,42.21,1.21,pass,0.9887,0,clean
+GPS-001644,FC-001644,Alexander Jenkins and Roberts,UUE,UUE-4WD-014,petrol_4wd,2024-09-22,260.5,41.71,43.03,-1.32,pass,0.9352,0,clean
+GPS-001052,FC-001052,Richards Sykes and Peters,TNC,TNC-TRK-018,diesel_truck,2024-01-19,322.4,103.82,106.52,-2.7,pass,0.9678,0,clean
+GPS-000796,FC-000796,Hall PLC,LPJ,LPJ-CAR-022,petrol_saloon,2024-05-26,209.8,20.58,20.3,0.28,pass,0.9496,0,clean
+GPS-002694,FC-002694,White-Kerr,PSF,PSF-TRK-021,diesel_truck,2024-05-21,221.3,74.04,73.12,0.92,pass,0.9604,0,clean
+GPS-001598,FC-001598,Barrett Kent and Lee,DYO,DYO-SUV-013,petrol_suv,2024-05-16,180.4,26.46,26.61,-0.15,pass,0.9635,0,clean
+GPS-002605,FC-002605,Jones Group,HRY,HRY-SUV-008,petrol_suv,2024-02-27,147.9,21.68,21.82,-0.14,pass,0.9754,0,clean
+GPS-002730,FC-002730,Sharpe Smith and Palmer,MXV,MXV-MTR-011,petrol_bike,2024-11-09,98.1,4.7,4.63,0.07,pass,0.9567,0,clean
+GPS-002626,FC-002626,Bradley-Smith,DCO,DCO-TRK-007,diesel_truck,2024-12-06,226.6,75.09,74.87,0.22,pass,0.9685,0,clean
+GPS-001820,FC-001820,Cartwright-Jones,MWB,MWB-4WD-001,petrol_4wd,2024-09-18,149.2,25.65,24.65,1.0,pass,0.9439,0,clean
+GPS-001723,FC-001723,Stevens and Sons,BSU,BSU-CAR-002,petrol_saloon,2024-08-19,289.1,26.91,27.97,-1.06,pass,0.9357,0,clean
+GPS-001184,FC-001184,Schofield Harris and Poole,WVH,WVH-CAR-005,petrol_saloon,2024-09-19,325.4,32.16,31.49,0.67,pass,0.9332,0,clean
+GPS-002573,FC-002573,Jones Group,HRY,HRY-SUV-010,petrol_suv,2024-12-23,101.2,14.45,14.93,-0.48,pass,0.9545,0,clean
+GPS-001060,FC-001060,Richards Sykes and Peters,TNC,TNC-MTR-016,petrol_bike,2024-06-12,135.1,6.29,6.38,-0.09,pass,0.9816,0,clean
+GPS-000541,FC-000541,Scott-Walker,HYR,HYR-CAR-006,petrol_saloon,2024-08-02,281.1,26.59,27.2,-0.61,pass,0.9861,0,clean
+GPS-001679,FC-001679,Welch Long and Lawson,JKW,JKW-BUS-014,diesel_bus,2024-02-11,371.0,78.97,78.8,0.17,pass,0.9761,0,clean
+GPS-002797,FC-002797,Thomas Long and Mills,ELS,ELS-TRK-008,diesel_truck,2024-11-05,92.6,29.79,30.6,-0.81,pass,0.9864,0,clean
+GPS-002903,FC-002903,Smith Cooke and Crawford,AJO,AJO-CAR-003,petrol_saloon,2024-02-17,221.5,20.85,21.43,-0.58,pass,0.9794,0,clean
+GPS-002533,FC-002533,Clark-Webster,PZR,PZR-CAR-016,petrol_saloon,2024-10-24,72.8,7.04,7.04,-0.0,pass,0.9476,0,clean
+GPS-001758,FC-001758,Palmer Carter and Sutton,END,END-CAR-004,petrol_saloon,2024-10-23,192.1,18.11,18.59,-0.48,pass,0.9552,0,clean
+GPS-001924,FC-001924,Nicholson and Sons,EMF,EMF-SUV-005,petrol_suv,2024-06-21,315.6,47.35,46.55,0.8,pass,0.9641,0,clean
+GPS-000096,FC-000096,Chambers Inc,NAF,NAF-MTR-018,petrol_bike,2024-09-01,390.4,17.91,18.43,-0.52,pass,0.9457,0,clean
+GPS-001021,FC-001021,Berry-Bell,HEA,HEA-TRK-018,diesel_truck,2024-03-07,395.7,131.7,130.74,0.96,pass,0.9507,0,clean
+GPS-000564,FC-000564,Scott-Walker,HYR,HYR-CAR-007,petrol_saloon,2024-04-25,184.0,18.37,17.8,0.57,pass,0.987,0,clean
+GPS-002791,FC-002791,Thomas Long and Mills,ELS,ELS-SUV-015,petrol_suv,2024-01-22,205.1,30.1,30.25,-0.15,pass,0.9422,0,clean
+GPS-000864,FC-000864,Ahmed and Sons,UKB,UKB-CAR-004,petrol_saloon,2024-04-02,362.7,36.26,35.09,1.17,pass,0.9646,0,clean
+GPS-001485,FC-001485,Moore-Barnes,IPF,IPF-MTR-003,petrol_bike,2024-06-13,127.5,6.24,6.02,0.22,pass,0.9683,0,clean
+GPS-001882,FC-001882,Pearce Group,BZV,BZV-CAR-014,petrol_saloon,2024-03-04,357.2,35.66,34.56,1.1,pass,0.9763,0,clean
+GPS-001039,FC-001039,Richards Sykes and Peters,TNC,TNC-CAR-005,petrol_saloon,2024-05-03,380.0,38.25,36.77,1.48,pass,0.9748,0,clean
+GPS-000207,FC-000207,Patel LLC,SIE,SIE-VAN-005,diesel_van,2024-04-02,143.4,17.15,17.77,-0.62,pass,0.9778,0,clean
+GPS-000393,FC-000393,Harrison-Taylor,EBR,EBR-TRK-007,diesel_truck,2024-02-13,341.5,111.58,112.83,-1.25,pass,0.9621,0,clean
+GPS-002843,FC-002843,Thompson Ltd,CYR,CYR-CAR-002,petrol_saloon,2024-09-16,56.1,5.28,5.43,-0.15,pass,0.9714,0,clean
+GPS-000871,FC-000871,Ahmed and Sons,UKB,UKB-4WD-010,petrol_4wd,2024-04-24,241.9,38.49,39.96,-1.47,pass,0.9628,0,clean
+GPS-000398,FC-000398,Harrison-Taylor,EBR,EBR-SUV-008,petrol_suv,2024-03-16,109.0,16.44,16.08,0.36,pass,0.9694,0,clean
+GPS-002815,FC-002815,Thomas Long and Mills,ELS,ELS-TRK-006,diesel_truck,2024-04-19,321.8,109.78,106.32,3.46,pass,0.9729,0,clean
+GPS-002897,FC-002897,Smith Cooke and Crawford,AJO,AJO-4WD-013,petrol_4wd,2024-04-21,31.2,5.17,5.15,0.02,pass,0.9547,0,clean
+GPS-001029,FC-001029,Berry-Bell,HEA,HEA-BUS-016,diesel_bus,2024-04-09,95.6,19.86,20.31,-0.45,pass,0.9708,0,clean
+GPS-002691,FC-002691,White-Kerr,PSF,PSF-TRK-014,diesel_truck,2024-03-05,212.1,69.66,70.08,-0.42,pass,0.9314,0,clean
+GPS-001486,FC-001486,Lawrence-Bibi,BQF,BQF-MTR-019,petrol_bike,2024-07-22,119.5,5.54,5.64,-0.1,pass,0.9722,0,clean
+GPS-002661,FC-002661,White-Kerr,PSF,PSF-4WD-020,petrol_4wd,2024-12-02,151.5,25.89,25.03,0.86,pass,0.9844,0,clean
+GPS-000961,FC-000961,Robinson Horton and Smith,RNG,RNG-TRK-016,diesel_truck,2024-08-24,55.4,18.14,18.3,-0.16,pass,0.9555,0,clean
+GPS-001571,FC-001571,Harvey Ltd,BGR,BGR-CAR-012,petrol_saloon,2024-02-12,109.2,10.44,10.57,-0.13,pass,0.9832,0,clean
+GPS-002774,FC-002774,Greenwood Thompson and Richards,VBI,VBI-4WD-021,petrol_4wd,2024-01-18,32.0,5.13,5.29,-0.16,pass,0.9516,0,clean
+GPS-001896,FC-001896,Nicholson and Sons,EMF,EMF-SUV-005,petrol_suv,2024-09-26,254.4,37.98,37.52,0.46,pass,0.9639,0,clean
+GPS-002732,FC-002732,Sharpe Smith and Palmer,MXV,MXV-CAR-004,petrol_saloon,2024-07-04,186.0,17.31,18.0,-0.69,pass,0.9526,0,clean
+GPS-002147,FC-002147,Dodd-Carroll,XNB,XNB-MTR-007,petrol_bike,2024-04-08,370.7,17.91,17.5,0.41,pass,0.9405,0,clean
+GPS-000805,FC-000805,Hall PLC,LPJ,LPJ-CAR-004,petrol_saloon,2024-03-16,268.1,25.43,25.94,-0.51,pass,0.9751,0,clean
+GPS-001752,FC-001752,Stevens and Sons,BSU,BSU-SUV-004,petrol_suv,2024-11-10,170.4,24.19,25.13,-0.94,pass,0.9342,0,clean
+GPS-002455,FC-002455,Farrell Smith and Foster,NND,NND-4WD-022,petrol_4wd,2024-11-23,77.9,12.4,12.87,-0.47,pass,0.9644,0,clean
+GPS-000503,FC-000503,Ross Haynes and Bennett,QNG,QNG-CAR-009,petrol_saloon,2024-01-12,316.9,29.83,30.66,-0.83,pass,0.9438,0,clean
+GPS-000780,FC-000780,Hall PLC,LPJ,LPJ-VAN-020,diesel_van,2024-12-16,302.7,38.6,37.5,1.1,pass,0.9371,0,clean
+GPS-001864,FC-001864,Pearce Group,BZV,BZV-SUV-013,petrol_suv,2024-07-02,329.4,48.55,48.59,-0.04,pass,0.9336,0,clean
+GPS-000201,FC-000201,Patel LLC,SIE,SIE-CAR-012,petrol_saloon,2024-03-08,217.5,20.7,21.05,-0.35,pass,0.9706,0,clean
+GPS-002183,FC-002183,Andrews-Brown,WBB,WBB-TRK-006,diesel_truck,2024-12-18,110.3,35.7,36.44,-0.74,pass,0.9849,0,clean
+GPS-002089,FC-002089,Richardson LLC,BIB,BIB-SUV-003,petrol_suv,2024-07-23,48.2,7.23,7.11,0.12,pass,0.934,0,clean
+GPS-002279,FC-002279,Norris-Morris,QKP,QKP-CAR-004,petrol_saloon,2024-08-08,201.5,19.16,19.5,-0.34,pass,0.9883,0,clean
+GPS-001797,FC-001797,Palmer Carter and Sutton,END,END-TRK-003,diesel_truck,2024-06-14,297.4,99.8,98.26,1.54,pass,0.9394,0,clean
+GPS-000379,FC-000379,Harrison-Taylor,EBR,EBR-SUV-004,petrol_suv,2024-12-25,66.7,9.49,9.84,-0.35,pass,0.9376,0,clean
+GPS-002337,FC-002337,Hicks Harvey and Lowe,YFS,YFS-CAR-025,petrol_saloon,2024-01-26,390.1,38.1,37.75,0.35,pass,0.9443,0,clean
+GPS-000419,FC-000419,Rose-Newton,WWJ,WWJ-SUV-013,petrol_suv,2024-07-11,103.5,15.03,15.27,-0.24,pass,0.9523,0,clean
+GPS-001699,FC-001699,Welch Long and Lawson,JKW,JKW-MTR-008,petrol_bike,2024-10-11,408.6,18.9,19.29,-0.39,pass,0.9421,0,clean
+GPS-000392,FC-000392,Harrison-Taylor,EBR,EBR-SUV-009,petrol_suv,2024-03-09,56.1,8.56,8.27,0.29,pass,0.9329,0,clean
+GPS-002641,FC-002641,Bradley-Smith,DCO,DCO-SUV-014,petrol_suv,2024-09-17,371.8,54.31,54.84,-0.53,pass,0.9532,0,clean
+GPS-001523,FC-001523,Lawrence-Bibi,BQF,BQF-CAR-017,petrol_saloon,2024-04-13,46.0,4.5,4.45,0.05,pass,0.9723,0,clean
+GPS-001163,FC-001163,Coates Chadwick and Williams,XPM,XPM-SUV-003,petrol_suv,2024-02-09,130.1,18.64,19.19,-0.55,pass,0.9794,0,clean
+GPS-001496,FC-001496,Lawrence-Bibi,BQF,BQF-CAR-013,petrol_saloon,2024-08-06,68.0,6.47,6.58,-0.11,pass,0.9475,0,clean
+GPS-002696,FC-002696,White-Kerr,PSF,PSF-CAR-008,petrol_saloon,2024-07-10,76.8,7.41,7.43,-0.02,pass,0.9662,0,clean
+GPS-002028,FC-002028,Cunningham and Sons,EHZ,EHZ-CAR-006,petrol_saloon,2024-06-07,296.5,28.16,28.69,-0.53,pass,0.9655,0,clean
+GPS-001153,FC-001153,Coates Chadwick and Williams,XPM,XPM-CAR-004,petrol_saloon,2024-04-07,297.1,29.95,28.75,1.2,pass,0.9641,0,clean
+GPS-001368,FC-001368,Cook Ltd,TRS,TRS-MTR-003,petrol_bike,2024-09-25,157.5,7.54,7.43,0.11,pass,0.9367,0,clean
+GPS-002569,FC-002569,Jones Group,HRY,HRY-CAR-011,petrol_saloon,2024-03-01,316.7,30.18,30.64,-0.46,pass,0.9493,0,clean
+GPS-000065,FC-000065,Martin Allen and Brown,CKA,CKA-CAR-001,petrol_saloon,2024-11-22,340.0,31.86,32.9,-1.04,pass,0.9669,0,clean
+GPS-002063,FC-002063,Cunningham and Sons,EHZ,EHZ-TRK-007,diesel_truck,2024-02-08,237.5,77.27,78.47,-1.2,pass,0.9429,0,clean
+GPS-001181,FC-001181,Schofield Harris and Poole,WVH,WVH-SUV-017,petrol_suv,2024-04-29,82.4,12.1,12.15,-0.05,pass,0.9674,0,clean
+GPS-000493,FC-000493,Collins-Dawson,EJR,EJR-CAR-007,petrol_saloon,2024-02-02,158.4,15.57,15.33,0.24,pass,0.9739,0,clean
+GPS-000380,FC-000380,Harrison-Taylor,EBR,EBR-SUV-008,petrol_suv,2024-07-07,175.9,26.04,25.95,0.09,pass,0.9395,0,clean
+GPS-002236,FC-002236,Williams Gibson and Ford,DXG,DXG-SUV-013,petrol_suv,2024-09-19,402.0,57.2,59.29,-2.09,pass,0.9516,0,clean
+GPS-000764,FC-000764,Hughes-Baker,GGO,GGO-TRK-004,diesel_truck,2024-01-18,164.4,55.69,54.32,1.37,pass,0.9405,0,clean
+GPS-002265,FC-002265,Norris-Morris,QKP,QKP-CAR-004,petrol_saloon,2024-05-10,292.4,28.21,28.29,-0.08,pass,0.9637,0,clean
+GPS-000792,FC-000792,Hall PLC,LPJ,LPJ-CAR-002,petrol_saloon,2024-12-21,146.9,14.1,14.21,-0.11,pass,0.9887,0,clean
+GPS-001077,FC-001077,Richards Sykes and Peters,TNC,TNC-SUV-009,petrol_suv,2024-11-11,381.7,56.12,56.3,-0.18,pass,0.9581,0,clean
+GPS-000879,FC-000879,Ahmed and Sons,UKB,UKB-4WD-002,petrol_4wd,2024-07-11,278.8,46.79,46.06,0.73,pass,0.9702,0,clean
+GPS-000338,FC-000338,Bibi-Goddard,OVQ,OVQ-SUV-010,petrol_suv,2024-02-10,235.1,34.09,34.68,-0.59,pass,0.9713,0,clean
+GPS-002768,FC-002768,Greenwood Thompson and Richards,VBI,VBI-BUS-019,diesel_bus,2024-12-18,339.2,70.38,72.05,-1.67,pass,0.982,0,clean
+GPS-002344,FC-002344,Ali and Sons,KRH,KRH-SUV-003,petrol_suv,2024-06-17,225.1,32.36,33.2,-0.84,pass,0.9316,0,clean
+GPS-001017,FC-001017,Berry-Bell,HEA,HEA-TRK-018,diesel_truck,2024-01-28,291.7,93.54,96.38,-2.84,pass,0.9753,0,clean
+GPS-001276,FC-001276,Glover Ltd,ZND,ZND-4WD-007,petrol_4wd,2024-04-16,291.7,49.71,48.19,1.52,pass,0.9527,0,clean
+GPS-000456,FC-000456,Collins-Dawson,EJR,EJR-CAR-005,petrol_saloon,2024-02-07,155.2,14.48,15.02,-0.54,pass,0.9687,0,clean
+GPS-000816,FC-000816,Akhtar Inc,MTW,MTW-4WD-008,petrol_4wd,2024-12-03,133.4,21.37,22.04,-0.67,pass,0.9456,0,clean
+GPS-002318,FC-002318,Hicks Harvey and Lowe,YFS,YFS-CAR-006,petrol_saloon,2024-01-18,103.9,9.9,10.05,-0.15,pass,0.9691,0,clean
+GPS-000996,FC-000996,Berry-Bell,HEA,HEA-VAN-021,diesel_van,2024-10-06,219.8,28.36,27.23,1.13,pass,0.9626,0,clean
+GPS-001982,FC-001982,Walker LLC,KYZ,KYZ-TRK-008,diesel_truck,2024-11-10,198.6,65.02,65.62,-0.6,pass,0.9668,0,clean
+GPS-000202,FC-000202,Patel LLC,SIE,SIE-CAR-008,petrol_saloon,2024-11-18,119.3,11.79,11.54,0.25,pass,0.9324,0,clean
+GPS-000162,FC-000162,Hussain Wilson and Brown,FPV,FPV-SUV-001,petrol_suv,2024-01-14,56.1,7.97,8.27,-0.3,pass,0.97,0,clean
+GPS-001580,FC-001580,Barrett Kent and Lee,DYO,DYO-CAR-015,petrol_saloon,2024-08-25,145.7,13.71,14.1,-0.39,pass,0.9837,0,clean
+GPS-002778,FC-002778,Greenwood Thompson and Richards,VBI,VBI-VAN-007,diesel_van,2024-03-28,275.6,33.1,34.15,-1.05,pass,0.9703,0,clean
+GPS-002450,FC-002450,Farrell Smith and Foster,NND,NND-CAR-014,petrol_saloon,2024-02-17,121.6,11.72,11.77,-0.05,pass,0.9517,0,clean
+GPS-000703,FC-000703,Butler Carter and Norton,FMX,FMX-SUV-001,petrol_suv,2024-01-25,57.3,8.67,8.45,0.22,pass,0.9488,0,clean
+GPS-001501,FC-001501,Lawrence-Bibi,BQF,BQF-CAR-011,petrol_saloon,2024-05-11,324.2,32.04,31.37,0.67,pass,0.9377,0,clean
+GPS-001130,FC-001130,Coates Chadwick and Williams,XPM,XPM-4WD-002,petrol_4wd,2024-04-16,415.1,65.99,68.57,-2.58,pass,0.9524,0,clean
+GPS-002614,FC-002614,Bradley-Smith,DCO,DCO-TRK-001,diesel_truck,2024-01-31,100.2,33.37,33.11,0.26,pass,0.9708,0,clean
+GPS-001022,FC-001022,Berry-Bell,HEA,HEA-VAN-002,diesel_van,2024-12-08,103.7,13.38,12.85,0.53,pass,0.9808,0,clean
+GPS-001586,FC-001586,Barrett Kent and Lee,DYO,DYO-CAR-014,petrol_saloon,2024-05-03,321.7,30.08,31.13,-1.05,pass,0.989,0,clean
+GPS-001956,FC-001956,Adams Shepherd and Wilson,EAK,EAK-MTR-013,petrol_bike,2024-04-24,167.3,8.08,7.9,0.18,pass,0.9654,0,clean
+GPS-002254,FC-002254,Norris-Morris,QKP,QKP-CAR-004,petrol_saloon,2024-01-01,390.5,37.94,37.78,0.16,pass,0.9658,0,clean
+GPS-000035,FC-000035,Brown Jones and Hughes,AHF,AHF-MTR-006,petrol_bike,2024-01-08,72.2,3.35,3.41,-0.06,pass,0.9826,0,clean
+GPS-000776,FC-000776,Hall PLC,LPJ,LPJ-VAN-020,diesel_van,2024-11-08,320.5,38.23,39.71,-1.48,pass,0.9802,0,clean
+GPS-002557,FC-002557,Clark-Webster,PZR,PZR-4WD-010,petrol_4wd,2024-01-28,47.2,7.78,7.8,-0.02,pass,0.9657,0,clean
+GPS-001479,FC-001479,Moore-Barnes,IPF,IPF-CAR-004,petrol_saloon,2024-11-06,103.4,9.98,10.0,-0.02,pass,0.9455,0,clean
+GPS-001391,FC-001391,Cook Ltd,TRS,TRS-4WD-021,petrol_4wd,2024-01-28,111.0,18.59,18.34,0.25,pass,0.9816,0,clean
+GPS-002140,FC-002140,Dodd-Carroll,XNB,XNB-CAR-019,petrol_saloon,2024-06-30,350.2,33.93,33.89,0.04,pass,0.956,0,clean
+GPS-001364,FC-001364,Cook Ltd,TRS,TRS-CAR-005,petrol_saloon,2024-10-25,335.7,32.13,32.48,-0.35,pass,0.9387,0,clean
+GPS-002946,FC-002946,Powell-Hill,BJY,BJY-CAR-008,petrol_saloon,2024-01-02,383.8,36.26,37.14,-0.88,pass,0.948,0,clean
+GPS-002613,FC-002613,Bradley-Smith,DCO,DCO-SUV-011,petrol_suv,2024-12-12,259.4,38.12,38.26,-0.14,pass,0.9653,0,clean
+GPS-002825,FC-002825,Thomas Long and Mills,ELS,ELS-TRK-007,diesel_truck,2024-12-28,338.6,115.49,111.87,3.62,pass,0.9558,0,clean
+GPS-002042,FC-002042,Cunningham and Sons,EHZ,EHZ-TRK-014,diesel_truck,2024-05-08,126.5,40.5,41.8,-1.3,pass,0.9663,0,clean
+GPS-000242,FC-000242,Carr-Matthews,CCW,CCW-CAR-018,petrol_saloon,2024-11-03,205.1,20.05,19.85,0.2,pass,0.9724,0,clean
+GPS-002062,FC-002062,Cunningham and Sons,EHZ,EHZ-VAN-004,diesel_van,2024-01-31,260.5,32.8,32.28,0.52,pass,0.9463,0,clean
+GPS-002364,FC-002364,Ali and Sons,KRH,KRH-CAR-005,petrol_saloon,2024-08-10,299.6,28.86,28.99,-0.13,pass,0.9467,0,clean
+GPS-000601,FC-000601,Lynch-Patel,VUF,VUF-4WD-005,petrol_4wd,2024-04-23,95.1,15.5,15.71,-0.21,pass,0.947,0,clean
+GPS-002436,FC-002436,Farrell Smith and Foster,NND,NND-MTR-007,petrol_bike,2024-11-22,77.4,3.58,3.65,-0.07,pass,0.981,0,clean
+GPS-001298,FC-001298,Glover Ltd,ZND,ZND-CAR-026,petrol_saloon,2024-11-05,38.4,3.7,3.72,-0.02,pass,0.9637,0,clean
+GPS-002215,FC-002215,Williams Gibson and Ford,DXG,DXG-CAR-018,petrol_saloon,2024-08-22,154.0,14.71,14.9,-0.19,pass,0.9463,0,clean
+GPS-002889,FC-002889,Smith Cooke and Crawford,AJO,AJO-4WD-013,petrol_4wd,2024-02-09,160.2,25.55,26.47,-0.92,pass,0.9683,0,clean
+GPS-002069,FC-002069,Cunningham and Sons,EHZ,EHZ-VAN-004,diesel_van,2024-11-15,257.5,31.44,31.9,-0.46,pass,0.958,0,clean
+GPS-000647,FC-000647,Jones Fletcher and Sutton,KBX,KBX-CAR-007,petrol_saloon,2024-09-14,88.4,8.32,8.55,-0.23,pass,0.9549,0,clean
+GPS-001529,FC-001529,Lawrence-Bibi,BQF,BQF-CAR-020,petrol_saloon,2024-10-03,83.2,8.24,8.05,0.19,pass,0.9676,0,clean
+GPS-002880,FC-002880,Thompson Ltd,CYR,CYR-CAR-003,petrol_saloon,2024-08-09,259.4,24.94,25.1,-0.16,pass,0.9809,0,clean
+GPS-001268,FC-001268,Glover Ltd,ZND,ZND-MTR-009,petrol_bike,2024-07-06,395.8,18.37,18.68,-0.31,pass,0.9823,0,clean
+GPS-001900,FC-001900,Nicholson and Sons,EMF,EMF-CAR-001,petrol_saloon,2024-11-30,282.8,28.25,27.36,0.89,pass,0.9808,0,clean
+GPS-000563,FC-000563,Scott-Walker,HYR,HYR-VAN-001,diesel_van,2024-08-21,322.9,39.25,40.01,-0.76,pass,0.9619,0,clean
+GPS-002735,FC-002735,Sharpe Smith and Palmer,MXV,MXV-SUV-005,petrol_suv,2024-07-23,62.3,9.18,9.19,-0.01,pass,0.9597,0,clean
+GPS-000190,FC-000190,Patel LLC,SIE,SIE-4WD-003,petrol_4wd,2024-12-24,111.8,17.89,18.47,-0.58,pass,0.966,0,clean
+GPS-001807,FC-001807,Cartwright-Jones,MWB,MWB-4WD-010,petrol_4wd,2024-05-03,339.3,54.12,56.05,-1.93,pass,0.942,0,clean
+GPS-000976,FC-000976,Robinson Horton and Smith,RNG,RNG-TRK-019,diesel_truck,2024-05-11,320.5,106.95,105.89,1.06,pass,0.966,0,clean
+GPS-002748,FC-002748,Greenwood Thompson and Richards,VBI,VBI-CAR-025,petrol_saloon,2024-10-01,48.8,4.73,4.72,0.01,pass,0.9581,0,clean
+GPS-002048,FC-002048,Cunningham and Sons,EHZ,EHZ-CAR-006,petrol_saloon,2024-01-25,146.4,13.71,14.17,-0.46,pass,0.9511,0,clean
+GPS-002559,FC-002559,Clark-Webster,PZR,PZR-TRK-005,diesel_truck,2024-03-29,323.3,109.81,106.82,2.99,pass,0.9408,0,clean
+GPS-001083,FC-001083,Dobson Ltd,PDT,PDT-MTR-008,petrol_bike,2024-09-05,246.4,11.83,11.63,0.2,pass,0.9304,0,clean
+GPS-000475,FC-000475,Collins-Dawson,EJR,EJR-CAR-002,petrol_saloon,2024-07-03,337.2,33.92,32.63,1.29,pass,0.9476,0,clean
+GPS-002905,FC-002905,Smith Cooke and Crawford,AJO,AJO-TRK-007,diesel_truck,2024-01-22,94.2,30.24,31.12,-0.88,pass,0.9782,0,clean
+GPS-000748,FC-000748,Hughes-Baker,GGO,GGO-CAR-019,petrol_saloon,2024-01-01,45.9,4.29,4.44,-0.15,pass,0.9727,0,clean
+GPS-002301,FC-002301,Hicks Harvey and Lowe,YFS,YFS-CAR-025,petrol_saloon,2024-09-27,122.6,12.05,11.86,0.19,pass,0.9486,0,clean
+GPS-000022,FC-000022,Brown Jones and Hughes,AHF,AHF-CAR-002,petrol_saloon,2024-09-06,155.4,15.47,15.04,0.43,pass,0.9438,0,clean
+GPS-000460,FC-000460,Collins-Dawson,EJR,EJR-CAR-006,petrol_saloon,2024-02-29,137.5,13.18,13.3,-0.12,pass,0.9489,0,clean
+GPS-001185,FC-001185,Schofield Harris and Poole,WVH,WVH-SUV-002,petrol_suv,2024-08-31,356.5,52.09,52.58,-0.49,pass,0.9479,0,clean
+GPS-002325,FC-002325,Hicks Harvey and Lowe,YFS,YFS-CAR-003,petrol_saloon,2024-10-23,254.7,25.07,24.64,0.43,pass,0.9457,0,clean
+GPS-000956,FC-000956,Robinson Horton and Smith,RNG,RNG-TRK-016,diesel_truck,2024-01-05,264.6,86.74,87.42,-0.68,pass,0.9899,0,clean
+GPS-001216,FC-001216,Evans PLC,WYC,WYC-TRK-008,diesel_truck,2024-01-01,162.5,52.31,53.69,-1.38,pass,0.9366,0,clean
+GPS-002434,FC-002434,Farrell Smith and Foster,NND,NND-MTR-007,petrol_bike,2024-09-15,108.0,5.27,5.1,0.17,pass,0.9813,0,clean
+GPS-002854,FC-002854,Thompson Ltd,CYR,CYR-4WD-008,petrol_4wd,2024-04-06,69.6,11.81,11.5,0.31,pass,0.9677,0,clean
+GPS-001516,FC-001516,Lawrence-Bibi,BQF,BQF-CAR-014,petrol_saloon,2024-06-29,85.3,8.49,8.25,0.24,pass,0.9312,0,clean
+GPS-002392,FC-002392,Coates-Andrews,AQO,AQO-CAR-009,petrol_saloon,2024-04-04,79.1,7.59,7.65,-0.06,pass,0.9661,0,clean
+GPS-000770,FC-000770,Hall PLC,LPJ,LPJ-4WD-009,petrol_4wd,2024-10-16,190.6,31.7,31.49,0.21,pass,0.9636,0,clean
+GPS-001686,FC-001686,Welch Long and Lawson,JKW,JKW-CAR-005,petrol_saloon,2024-09-13,228.9,21.35,22.15,-0.8,pass,0.9835,0,clean
+GPS-000131,FC-000131,Chambers Inc,NAF,NAF-MTR-020,petrol_bike,2024-02-08,156.5,7.2,7.39,-0.19,pass,0.9568,0,clean
+GPS-002920,FC-002920,Smith Cooke and Crawford,AJO,AJO-4WD-013,petrol_4wd,2024-01-30,115.1,19.46,19.01,0.45,pass,0.9318,0,clean
+GPS-002136,FC-002136,Dodd-Carroll,XNB,XNB-CAR-009,petrol_saloon,2024-05-11,118.1,11.07,11.43,-0.36,pass,0.9504,0,clean
+GPS-001483,FC-001483,Moore-Barnes,IPF,IPF-MTR-011,petrol_bike,2024-11-20,392.8,18.28,18.54,-0.26,pass,0.9395,0,clean
+GPS-000331,FC-000331,Bibi-Goddard,OVQ,OVQ-CAR-015,petrol_saloon,2024-04-13,53.8,5.16,5.21,-0.05,pass,0.9422,0,clean
+GPS-001239,FC-001239,Evans PLC,WYC,WYC-SUV-007,petrol_suv,2024-06-12,234.5,35.02,34.59,0.43,pass,0.9361,0,clean
+GPS-000467,FC-000467,Collins-Dawson,EJR,EJR-BUS-008,diesel_bus,2024-02-15,372.5,80.52,79.12,1.4,pass,0.9848,0,clean
+GPS-002170,FC-002170,Andrews-Brown,WBB,WBB-TRK-006,diesel_truck,2024-01-19,110.8,35.84,36.61,-0.77,pass,0.9617,0,clean
+GPS-001639,FC-001639,Alexander Jenkins and Roberts,UUE,UUE-CAR-007,petrol_saloon,2024-10-15,118.5,11.88,11.47,0.41,pass,0.9484,0,clean
+GPS-001096,FC-001096,Dobson Ltd,PDT,PDT-MTR-008,petrol_bike,2024-05-25,51.6,2.36,2.44,-0.08,pass,0.9865,0,clean
+GPS-001131,FC-001131,Coates Chadwick and Williams,XPM,XPM-VAN-015,diesel_van,2024-08-09,360.9,43.39,44.72,-1.33,pass,0.9545,0,clean
+GPS-001295,FC-001295,Glover Ltd,ZND,ZND-TRK-013,diesel_truck,2024-08-26,196.2,66.54,64.82,1.72,pass,0.9465,0,clean
+GPS-000861,FC-000861,Ahmed and Sons,UKB,UKB-CAR-005,petrol_saloon,2024-05-10,376.3,36.1,36.41,-0.31,pass,0.9496,0,clean

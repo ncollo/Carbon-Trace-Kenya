@@ -1,0 +1,101 @@
+anomaly_record_id,company_name,nse_code,vehicle_id,vehicle_class,transaction_date,fuel_declared_l,gps_km_logged,expected_fuel_l,delta_fuel_l,anomaly_flag,anomaly_type,anomaly_confidence,impact_tco2e,isolation_score,resolution_status
+ANO-00213,Hamilton Inc,SUD,SUD-SUV-031,petrol_suv,2024-02-21,86.2,188.6,27.82,58.38,1,over_capacity,0.8728,0.134916,-0.6802,pending
+ANO-00296,Powell-McLean,GBY,GBY-BUS-002,diesel_bus,2024-10-08,58.3,101.0,21.45,36.85,1,duplicate_entry,0.9186,0.097284,-0.6802,escalated
+ANO-00458,White-Fisher,LPS,LPS-VAN-013,diesel_van,2024-10-30,44.2,188.4,23.34,20.86,1,impossible_consumption,0.9251,0.05507,-0.7924,pending
+ANO-00252,Hamilton Inc,SUD,SUD-SUV-016,petrol_suv,2024-06-23,55.6,104.7,15.44,40.16,1,impossible_consumption,0.9444,0.09281,-0.5618,escalated
+ANO-00489,Sutton and Sons,LYR,LYR-4WD-036,petrol_4wd,2024-01-14,98.4,169.9,28.07,70.33,1,over_capacity,0.8928,0.185671,-0.6324,escalated
+ANO-00487,Green Group,ADW,ADW-MTR-011,petrol_bike,2024-09-20,14.5,153.4,7.24,7.26,1,impossible_consumption,0.9533,0.016669,-0.5115,pending
+ANO-00304,Matthews Rowe and Parry,VIU,VIU-BUS-005,diesel_bus,2024-04-10,14.1,84.1,17.86,-3.76,1,negative_km,0.9354,0.009926,-0.7963,pending
+ANO-00351,Woods Abbott and Cook,XUD,XUD-TRK-020,diesel_truck,2024-11-29,42.1,197.8,65.35,-23.25,1,negative_km,0.8716,0.06138,-0.6192,pending
+ANO-00270,Woods Abbott and Cook,XUD,XUD-CAR-049,petrol_saloon,2024-08-07,66.4,37.2,3.6,62.8,1,over_capacity,0.9351,0.14513,-0.6061,escalated
+ANO-00202,Green Group,ADW,ADW-VAN-027,diesel_van,2024-09-01,26.1,183.6,22.75,3.35,1,duplicate_entry,0.8903,0.008844,-0.5225,pending
+ANO-00162,Thompson and Sons,UDD,UDD-BUS-025,diesel_bus,2024-02-01,71.8,0.0,0.0,71.8,1,zero_gps_nonzero_fuel,0.9567,0.189552,-0.649,pending
+ANO-00044,Wells Turner and Woods,OQN,OQN-CAR-042,petrol_saloon,2024-09-07,63.6,149.1,14.43,49.17,1,over_capacity,0.9505,0.113632,-0.5457,escalated
+ANO-00218,Matthews Rowe and Parry,VIU,VIU-BUS-034,diesel_bus,2024-08-01,66.6,0.0,0.0,66.6,1,zero_gps_nonzero_fuel,0.861,0.175824,-0.6371,resolved
+ANO-00402,Blackburn Walters and Powell,NJO,NJO-4WD-030,petrol_4wd,2024-04-22,25.0,49.2,8.13,16.87,1,duplicate_entry,0.8673,0.044537,-0.5034,resolved
+ANO-00191,Greenwood Inc,EVA,EVA-SUV-019,petrol_suv,2024-10-07,76.8,105.7,15.59,61.21,1,over_capacity,0.8698,0.141457,-0.7564,resolved
+ANO-00310,Green Group,ADW,ADW-MTR-044,petrol_bike,2024-09-13,22.9,0.0,0.0,22.9,1,zero_gps_nonzero_fuel,0.9793,0.052578,-0.7445,pending
+ANO-00260,Sutton and Sons,LYR,LYR-SUV-031,petrol_suv,2024-02-08,90.3,133.2,19.65,70.65,1,impossible_consumption,0.9148,0.163272,-0.7526,escalated
+ANO-00106,Begum and Sons,KOG,KOG-MTR-036,petrol_bike,2024-10-16,51.5,42.4,2.0,49.5,1,duplicate_entry,0.9565,0.113652,-0.6688,pending
+ANO-00054,Begum and Sons,KOG,KOG-4WD-033,petrol_4wd,2024-02-19,56.3,93.5,15.45,40.85,1,impossible_consumption,0.8948,0.107844,-0.642,resolved
+ANO-00390,Green Group,ADW,ADW-VAN-014,diesel_van,2024-12-07,34.0,153.1,18.97,15.03,1,negative_km,0.9379,0.039679,-0.7657,pending
+ANO-00002,Powell-McLean,GBY,GBY-4WD-035,petrol_4wd,2024-08-10,121.7,86.8,14.34,107.36,1,over_capacity,0.9466,0.28343,-0.6945,resolved
+ANO-00442,Wells Turner and Woods,OQN,OQN-TRK-028,diesel_truck,2024-07-09,405.0,126.2,41.7,363.3,1,over_capacity,0.987,0.959112,-0.5093,resolved
+ANO-00483,Edwards Smith and Lowe,PNR,PNR-SUV-046,petrol_suv,2024-03-05,93.5,77.6,11.45,82.05,1,over_capacity,0.9138,0.189617,-0.7012,pending
+ANO-00050,Stephenson Tyler and Holt,FQH,FQH-VAN-032,diesel_van,2024-04-18,17.1,135.8,16.83,0.27,1,duplicate_entry,0.8663,0.000713,-0.6786,resolved
+ANO-00420,Lloyd-Williams,EPE,EPE-TRK-012,diesel_truck,2024-05-17,10.6,173.0,57.16,-46.56,1,duplicate_entry,0.9836,0.122918,-0.5271,escalated
+ANO-00081,Greenwood Inc,EVA,EVA-TRK-008,diesel_truck,2024-02-13,153.5,76.5,25.28,128.22,1,impossible_consumption,0.9205,0.338501,-0.4998,resolved
+ANO-00206,Green Group,ADW,ADW-TRK-025,diesel_truck,2024-10-31,49.3,0.0,0.0,49.3,1,zero_gps_nonzero_fuel,0.9592,0.130152,-0.6705,pending
+ANO-00035,Lloyd-Williams,EPE,EPE-SUV-031,petrol_suv,2024-03-30,59.6,155.5,22.94,36.66,1,impossible_consumption,0.8716,0.084722,-0.5292,pending
+ANO-00264,Blackburn Walters and Powell,NJO,NJO-VAN-043,diesel_van,2024-08-15,55.9,163.6,20.27,35.63,1,impossible_consumption,0.8647,0.094063,-0.7784,resolved
+ANO-00428,White-Fisher,LPS,LPS-CAR-038,petrol_saloon,2024-06-21,30.2,84.0,8.13,22.07,1,negative_km,0.8949,0.051004,-0.4078,escalated
+ANO-00367,Hamilton Inc,SUD,SUD-MTR-049,petrol_bike,2024-03-31,44.7,36.6,1.73,42.97,1,duplicate_entry,0.8609,0.098659,-0.4737,escalated
+ANO-00092,Forster Inc,UNB,UNB-MTR-028,petrol_bike,2024-05-14,78.2,0.0,0.0,78.2,1,zero_gps_nonzero_fuel,0.873,0.179547,-0.638,resolved
+ANO-00340,Blackburn Walters and Powell,NJO,NJO-TRK-039,diesel_truck,2024-12-11,137.0,77.9,25.74,111.26,1,impossible_consumption,0.9094,0.293726,-0.4835,resolved
+ANO-00474,Hamilton Inc,SUD,SUD-VAN-002,diesel_van,2024-05-08,67.1,150.3,18.62,48.48,1,impossible_consumption,0.9817,0.127987,-0.6108,resolved
+ANO-00053,Blackburn Walters and Powell,NJO,NJO-SUV-037,petrol_suv,2024-08-15,93.8,105.0,15.49,78.31,1,over_capacity,0.9496,0.180975,-0.4667,resolved
+ANO-00346,Jones Group,CGT,CGT-CAR-021,petrol_saloon,2024-06-13,21.7,138.5,13.4,8.3,1,impossible_consumption,0.9356,0.019182,-0.5517,pending
+ANO-00265,Forster Inc,UNB,UNB-TRK-049,diesel_truck,2024-11-16,55.8,192.0,63.44,-7.64,1,duplicate_entry,0.8587,0.02017,-0.6923,pending
+ANO-00242,Sutton and Sons,LYR,LYR-MTR-036,petrol_bike,2024-07-28,49.8,118.9,5.61,44.19,1,duplicate_entry,0.9751,0.10146,-0.4183,pending
+ANO-00014,Powell-McLean,GBY,GBY-VAN-031,diesel_van,2024-08-14,19.6,144.0,17.84,1.76,1,negative_km,0.9391,0.004646,-0.7745,pending
+ANO-00316,Fox-Chambers,RKI,RKI-CAR-001,petrol_saloon,2024-02-29,66.3,117.6,11.38,54.92,1,over_capacity,0.9804,0.12692,-0.5851,escalated
+ANO-00089,Powell-McLean,GBY,GBY-VAN-003,diesel_van,2024-05-08,44.0,101.9,12.63,31.37,1,impossible_consumption,0.8955,0.082817,-0.7389,resolved
+ANO-00388,Forster Inc,UNB,UNB-SUV-031,petrol_suv,2024-11-01,88.2,143.5,21.17,67.03,1,over_capacity,0.9405,0.154906,-0.4503,resolved
+ANO-00274,Sutton and Sons,LYR,LYR-SUV-040,petrol_suv,2024-02-27,28.6,139.4,20.56,8.04,1,negative_km,0.9774,0.018581,-0.4876,escalated
+ANO-00167,Begum and Sons,KOG,KOG-SUV-043,petrol_suv,2024-07-25,85.8,157.1,23.17,62.63,1,impossible_consumption,0.9082,0.144738,-0.7717,pending
+ANO-00329,Hamilton Inc,SUD,SUD-4WD-010,petrol_4wd,2024-04-06,110.0,99.0,16.35,93.65,1,over_capacity,0.9617,0.247236,-0.6753,resolved
+ANO-00493,Woods Abbott and Cook,XUD,XUD-MTR-046,petrol_bike,2024-02-23,41.2,50.0,2.36,38.84,1,negative_km,0.9644,0.089176,-0.5937,pending
+ANO-00135,Hamilton Inc,SUD,SUD-4WD-008,petrol_4wd,2024-02-02,76.6,0.0,0.0,76.6,1,zero_gps_nonzero_fuel,0.9489,0.202224,-0.6006,pending
+ANO-00307,Woods Abbott and Cook,XUD,XUD-VAN-011,diesel_van,2024-02-06,29.2,100.3,12.43,16.77,1,duplicate_entry,0.8625,0.044273,-0.7409,resolved
+ANO-00481,Thompson and Sons,UDD,UDD-VAN-020,diesel_van,2024-11-14,39.5,0.0,0.0,39.5,1,zero_gps_nonzero_fuel,0.8913,0.10428,-0.7915,pending
+ANO-00320,Powell-McLean,GBY,GBY-SUV-021,petrol_suv,2024-02-04,24.1,0.0,0.0,24.1,1,zero_gps_nonzero_fuel,0.8892,0.055695,-0.7338,escalated
+ANO-00244,Powell-McLean,GBY,GBY-VAN-034,diesel_van,2024-04-28,43.3,129.0,15.98,27.32,1,negative_km,0.8721,0.072125,-0.6856,resolved
+ANO-00055,Jones Group,CGT,CGT-VAN-047,diesel_van,2024-09-11,32.5,0.0,0.0,32.5,1,zero_gps_nonzero_fuel,0.9258,0.0858,-0.4035,pending
+ANO-00364,Begum and Sons,KOG,KOG-SUV-002,petrol_suv,2024-12-21,49.0,152.1,22.43,26.57,1,negative_km,0.9712,0.061403,-0.7369,resolved
+ANO-00051,Thompson and Sons,UDD,UDD-SUV-002,petrol_suv,2024-04-11,34.4,77.8,11.48,22.92,1,duplicate_entry,0.8637,0.052968,-0.6764,resolved
+ANO-00457,Dixon-Sharp,ZGH,ZGH-4WD-003,petrol_4wd,2024-09-11,34.8,115.9,19.15,15.65,1,negative_km,0.8873,0.041316,-0.4153,resolved
+ANO-00175,Hughes Roberts and Browne,PFJ,PFJ-TRK-013,diesel_truck,2024-07-10,78.3,0.0,0.0,78.3,1,zero_gps_nonzero_fuel,0.8606,0.206712,-0.7532,resolved
+ANO-00446,Green Group,ADW,ADW-4WD-009,petrol_4wd,2024-09-01,30.8,191.5,31.64,-0.84,1,duplicate_entry,0.942,0.002218,-0.4528,escalated
+ANO-00190,Sutton and Sons,LYR,LYR-VAN-039,diesel_van,2024-10-09,33.4,95.5,11.83,21.57,1,impossible_consumption,0.9455,0.056945,-0.7656,pending
+ANO-00497,Forster Inc,UNB,UNB-SUV-043,petrol_suv,2024-01-17,75.7,103.8,15.31,60.39,1,over_capacity,0.8767,0.139562,-0.7667,pending
+ANO-00188,Jones Group,CGT,CGT-4WD-049,petrol_4wd,2024-01-08,69.8,0.0,0.0,69.8,1,zero_gps_nonzero_fuel,0.8693,0.184272,-0.5636,escalated
+ANO-00170,Sutton and Sons,LYR,LYR-MTR-041,petrol_bike,2024-11-07,47.2,191.7,9.05,38.15,1,duplicate_entry,0.9416,0.087592,-0.602,escalated
+ANO-00059,Lloyd-Williams,EPE,EPE-TRK-004,diesel_truck,2024-09-11,406.6,169.6,56.04,350.56,1,over_capacity,0.9332,0.925478,-0.7856,resolved
+ANO-00049,Jones Group,CGT,CGT-MTR-029,petrol_bike,2024-05-26,23.4,65.3,3.08,20.32,1,impossible_consumption,0.9526,0.046654,-0.419,resolved
+ANO-00345,Matthews Rowe and Parry,VIU,VIU-4WD-042,petrol_4wd,2024-06-02,49.6,0.0,0.0,49.6,1,zero_gps_nonzero_fuel,0.9352,0.130944,-0.4293,pending
+ANO-00236,Wells Turner and Woods,OQN,OQN-SUV-046,petrol_suv,2024-12-13,47.4,56.2,8.29,39.11,1,duplicate_entry,0.9884,0.090383,-0.5477,escalated
+ANO-00253,Wells Turner and Woods,OQN,OQN-CAR-012,petrol_saloon,2024-07-25,12.2,174.1,16.85,-4.65,1,duplicate_entry,0.9189,0.010746,-0.5525,resolved
+ANO-00022,Wells Turner and Woods,OQN,OQN-BUS-014,diesel_bus,2024-04-17,177.3,164.2,34.88,142.42,1,over_capacity,0.8669,0.375989,-0.7173,pending
+ANO-00314,Green Group,ADW,ADW-CAR-034,petrol_saloon,2024-11-01,58.1,103.4,10.0,48.1,1,over_capacity,0.8822,0.111159,-0.6166,resolved
+ANO-00460,Edwards Smith and Lowe,PNR,PNR-CAR-027,petrol_saloon,2024-05-24,65.8,64.3,6.22,59.58,1,over_capacity,0.8774,0.13769,-0.4777,escalated
+ANO-00161,Hughes Roberts and Browne,PFJ,PFJ-SUV-015,petrol_suv,2024-09-21,95.0,132.9,19.6,75.4,1,over_capacity,0.9746,0.174249,-0.6462,resolved
+ANO-00277,Forster Inc,UNB,UNB-CAR-047,petrol_saloon,2024-12-23,53.2,0.0,0.0,53.2,1,zero_gps_nonzero_fuel,0.9556,0.122945,-0.5603,pending
+ANO-00444,Matthews Rowe and Parry,VIU,VIU-MTR-007,petrol_bike,2024-08-20,33.7,0.0,0.0,33.7,1,zero_gps_nonzero_fuel,0.888,0.077375,-0.4379,resolved
+ANO-00192,Forster Inc,UNB,UNB-VAN-035,diesel_van,2024-07-09,88.4,47.9,5.93,82.47,1,over_capacity,0.933,0.217721,-0.7826,escalated
+ANO-00386,Jones Group,CGT,CGT-TRK-008,diesel_truck,2024-04-06,27.6,0.0,0.0,27.6,1,zero_gps_nonzero_fuel,0.9439,0.072864,-0.5525,escalated
+ANO-00294,Stephenson Tyler and Holt,FQH,FQH-MTR-005,petrol_bike,2024-03-01,57.6,102.2,4.82,52.78,1,negative_km,0.9752,0.121183,-0.5378,resolved
+ANO-00414,Jones Group,CGT,CGT-SUV-043,petrol_suv,2024-04-06,85.5,151.8,22.39,63.11,1,over_capacity,0.8846,0.145848,-0.7078,pending
+ANO-00344,Edwards Smith and Lowe,PNR,PNR-4WD-014,petrol_4wd,2024-04-12,52.5,56.2,9.28,43.22,1,duplicate_entry,0.9731,0.114101,-0.5836,pending
+ANO-00258,Hughes Roberts and Browne,PFJ,PFJ-BUS-018,diesel_bus,2024-02-14,52.0,27.0,5.73,46.27,1,duplicate_entry,0.8762,0.122153,-0.6351,pending
+ANO-00309,Begum and Sons,KOG,KOG-VAN-027,diesel_van,2024-03-21,46.0,0.0,0.0,46.0,1,zero_gps_nonzero_fuel,0.9663,0.12144,-0.7336,pending
+ANO-00150,Greenwood Inc,EVA,EVA-CAR-023,petrol_saloon,2024-02-01,43.8,72.8,7.04,36.76,1,duplicate_entry,0.9738,0.084953,-0.4875,pending
+ANO-00131,Blackburn Walters and Powell,NJO,NJO-MTR-041,petrol_bike,2024-02-26,13.1,116.5,5.5,7.6,1,duplicate_entry,0.947,0.01745,-0.777,escalated
+ANO-00152,Begum and Sons,KOG,KOG-VAN-024,diesel_van,2024-05-19,110.2,192.0,23.79,86.41,1,over_capacity,0.8543,0.228122,-0.6462,pending
+ANO-00360,Thompson and Sons,UDD,UDD-BUS-029,diesel_bus,2024-12-02,68.0,98.3,20.88,47.12,1,impossible_consumption,0.9308,0.124397,-0.7653,resolved
+ANO-00100,Sutton and Sons,LYR,LYR-MTR-038,petrol_bike,2024-11-25,57.4,63.0,2.97,54.43,1,negative_km,0.9294,0.124971,-0.7837,resolved
+ANO-00373,Fox-Chambers,RKI,RKI-TRK-029,diesel_truck,2024-02-28,103.2,75.0,24.78,78.42,1,impossible_consumption,0.9291,0.207029,-0.432,resolved
+ANO-00088,Fox-Chambers,RKI,RKI-MTR-023,petrol_bike,2024-09-08,41.2,106.7,5.04,36.16,1,negative_km,0.9448,0.083023,-0.6202,pending
+ANO-00459,Begum and Sons,KOG,KOG-MTR-018,petrol_bike,2024-06-07,21.2,112.0,5.29,15.91,1,duplicate_entry,0.9456,0.036529,-0.643,pending
+ANO-00331,Stephenson Tyler and Holt,FQH,FQH-BUS-020,diesel_bus,2024-11-20,70.5,0.0,0.0,70.5,1,zero_gps_nonzero_fuel,0.8621,0.18612,-0.6821,resolved
+ANO-00215,Green Group,ADW,ADW-BUS-046,diesel_bus,2024-10-05,43.6,187.2,39.76,3.84,1,duplicate_entry,0.9861,0.010138,-0.5812,escalated
+ANO-00467,Wells Turner and Woods,OQN,OQN-SUV-031,petrol_suv,2024-12-26,79.1,97.1,14.32,64.78,1,over_capacity,0.8751,0.149706,-0.6285,pending
+ANO-00122,White-Fisher,LPS,LPS-CAR-031,petrol_saloon,2024-02-20,30.2,118.2,11.44,18.76,1,impossible_consumption,0.9893,0.043354,-0.4548,resolved
+ANO-00500,Lloyd-Williams,EPE,EPE-VAN-016,diesel_van,2024-02-07,36.9,177.1,21.94,14.96,1,negative_km,0.9811,0.039494,-0.7039,escalated
+ANO-00021,Forster Inc,UNB,UNB-TRK-047,diesel_truck,2024-06-20,170.2,146.0,48.24,121.96,1,impossible_consumption,0.9836,0.321974,-0.6641,escalated
+ANO-00189,Matthews Rowe and Parry,VIU,VIU-VAN-029,diesel_van,2024-03-08,75.9,123.8,15.34,60.56,1,impossible_consumption,0.8608,0.159878,-0.6083,pending
+ANO-00072,White-Fisher,LPS,LPS-CAR-022,petrol_saloon,2024-09-26,66.7,0.0,0.0,66.7,1,zero_gps_nonzero_fuel,0.941,0.154144,-0.5702,pending
+ANO-00107,Woods Abbott and Cook,XUD,XUD-SUV-043,petrol_suv,2024-05-24,42.2,0.0,0.0,42.2,1,zero_gps_nonzero_fuel,0.8576,0.097524,-0.6342,resolved
+ANO-00271,Fox-Chambers,RKI,RKI-MTR-039,petrol_bike,2024-06-25,79.8,0.0,0.0,79.8,1,zero_gps_nonzero_fuel,0.9542,0.183221,-0.454,pending
+ANO-00349,Wells Turner and Woods,OQN,OQN-4WD-032,petrol_4wd,2024-03-15,42.0,174.6,28.84,13.16,1,duplicate_entry,0.8967,0.034742,-0.6711,pending
+ANO-00436,Hamilton Inc,SUD,SUD-CAR-037,petrol_saloon,2024-09-02,27.0,0.0,0.0,27.0,1,zero_gps_nonzero_fuel,0.9197,0.062397,-0.5816,pending
+ANO-00103,Forster Inc,UNB,UNB-BUS-014,diesel_bus,2024-12-20,20.4,0.0,0.0,20.4,1,zero_gps_nonzero_fuel,0.9295,0.053856,-0.473,escalated

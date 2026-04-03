@@ -1,0 +1,206 @@
+from sqlalchemy import create_engine, Column, String, Float, Integer, Boolean, DateTime, Text
+from sqlalchemy.orm import declarative_base
+from sqlalchemy.orm import sessionmaker
+from datetime import datetime
+
+DATABASE_URL = "sqlite:///./carbontrace.db"
+engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+Base = declarative_base()
+
+class FuelRecord(Base):
+    __tablename__ = "fuel_records"
+    id = Column(Integer, primary_key=True, index=True)
+    record_id = Column(String, unique=True, index=True)
+    company_name = Column(String)
+    nse_code = Column(String, index=True)
+    sector = Column(String)
+    county = Column(String)
+    vehicle_id = Column(String)
+    vehicle_class = Column(String)
+    fuel_type = Column(String)
+    transaction_date = Column(String)
+    month = Column(Integer)
+    quarter = Column(Integer)
+    fuel_station_brand = Column(String)
+    fuel_station_area = Column(String)
+    fuel_litres = Column(Float)
+    fuel_price_ksh_per_l = Column(Float)
+    fuel_cost_ksh = Column(Float)
+    gps_km_driven = Column(Float)
+    defra_ef_kgco2e_per_l = Column(Float)
+    kenya_road_adj = Column(Float)
+    emission_kgco2e = Column(Float)
+    emission_tco2e = Column(Float)
+    scope = Column(String)
+    anomaly_flag = Column(Integer, default=0)
+    anomaly_type = Column(String, default="clean")
+    fy_year = Column(Integer)
+
+class AnomalyRecord(Base):
+    __tablename__ = "anomaly_records"
+    id = Column(Integer, primary_key=True, index=True)
+    anomaly_record_id = Column(String, unique=True, index=True)
+    company_name = Column(String)
+    nse_code = Column(String)
+    vehicle_id = Column(String)
+    vehicle_class = Column(String)
+    transaction_date = Column(String)
+    fuel_declared_l = Column(Float)
+    gps_km_logged = Column(Float)
+    expected_fuel_l = Column(Float)
+    delta_fuel_l = Column(Float)
+    anomaly_flag = Column(Integer)
+    anomaly_type = Column(String)
+    anomaly_confidence = Column(Float)
+    impact_tco2e = Column(Float)
+    isolation_score = Column(Float)
+    resolution_status = Column(String, default="pending")
+
+class TravelRecord(Base):
+    __tablename__ = "travel_records"
+    id = Column(Integer, primary_key=True, index=True)
+    travel_record_id = Column(String, unique=True, index=True)
+    company_name = Column(String)
+    nse_code = Column(String, index=True)
+    sector = Column(String)
+    travel_date = Column(String)
+    month = Column(Integer)
+    quarter = Column(Integer)
+    origin_airport = Column(String)
+    destination_airport = Column(String)
+    flight_type = Column(String)
+    cabin_class = Column(String)
+    passengers = Column(Integer)
+    distance_km = Column(Integer)
+    ef_kgco2e_per_pkm = Column(Float)
+    rfi_factor = Column(Float)
+    emission_kgco2e = Column(Float)
+    emission_tco2e = Column(Float)
+    scope = Column(String)
+    category = Column(String)
+    cost_ksh = Column(Float)
+    fy_year = Column(Integer)
+
+class CommuteRecord(Base):
+    __tablename__ = "commute_records"
+    id = Column(Integer, primary_key=True, index=True)
+    commute_record_id = Column(String, unique=True, index=True)
+    company_name = Column(String)
+    nse_code = Column(String, index=True)
+    sector = Column(String)
+    employee_id = Column(String)
+    county_residence = Column(String)
+    commute_mode = Column(String)
+    one_way_km = Column(Float)
+    working_days_pa = Column(Integer)
+    annual_commute_km = Column(Float)
+    ef_kgco2e_per_km = Column(Float)
+    emission_kgco2e = Column(Float)
+    emission_tco2e = Column(Float)
+    scope = Column(String)
+    category = Column(String)
+    fy_year = Column(Integer)
+
+class GHGSummary(Base):
+    __tablename__ = "ghg_summary"
+    id = Column(Integer, primary_key=True, index=True)
+    company_id = Column(String, unique=True, index=True)
+    company_name = Column(String)
+    nse_code = Column(String, index=True)
+    sector = Column(String)
+    county_hq = Column(String)
+    fy_year = Column(Integer)
+    revenue_ksh_millions = Column(Float)
+    fleet_size_vehicles = Column(Integer)
+    scope1_tco2e = Column(Float)
+    s3_cat6_tco2e = Column(Float)
+    s3_cat7_tco2e = Column(Float)
+    total_tco2e = Column(Float)
+    fy23_total_tco2e = Column(Float)
+    yoy_change_pct = Column(Float)
+    intensity_tco2e_per_ksh_m = Column(Float)
+    uncertainty_pct_95ci = Column(Float)
+    ci_low_tco2e = Column(Float)
+    ci_high_tco2e = Column(Float)
+    defra_ef_version = Column(String)
+    ipcc_gwp_version = Column(String)
+    ketraco_grid_ef = Column(Float)
+    kenya_road_adj = Column(Float)
+    tier_scope1 = Column(String)
+    tier_s3c6 = Column(String)
+    tier_s3c7 = Column(String)
+    nse_compliant = Column(Integer)
+    xbrl_taxonomy = Column(String)
+    gri_305_aligned = Column(Integer)
+    consent_federated = Column(Integer)
+
+class EmissionFactor(Base):
+    __tablename__ = "emission_factors"
+    id = Column(Integer, primary_key=True, index=True)
+    ef_id = Column(String, unique=True)
+    category = Column(String)
+    vehicle_class = Column(String)
+    ef_kgco2e_per_l = Column(Float, nullable=True)
+    ef_kgco2e_per_kwh = Column(Float, nullable=True)
+    ef_kgco2e_per_pkm = Column(Float, nullable=True)
+    kenya_adj_factor = Column(Float)
+    adjusted_ef = Column(Float)
+    source = Column(String)
+    ipcc_gwp = Column(String)
+    scope = Column(String)
+    tier = Column(String)
+
+class PolicySimulation(Base):
+    __tablename__ = "policy_simulations"
+    id = Column(Integer, primary_key=True, index=True)
+    sim_id = Column(String, unique=True)
+    ev_mandate_pct = Column(Float)
+    fuel_economy_std_pct = Column(Float)
+    remote_work_pct = Column(Float)
+    sector_baseline_tco2e = Column(Float)
+    projected_reduction_tco2e = Column(Float)
+    projected_total_tco2e = Column(Float)
+    reduction_pct = Column(Float)
+    ndc_2025_target = Column(Float)
+    ndc_gap_tco2e = Column(Float)
+    ndc_met = Column(Integer)
+    label_ndc_met = Column(String)
+
+class EPRASectorAnalytics(Base):
+    __tablename__ = "epra_sector_analytics"
+    id = Column(Integer, primary_key=True, index=True)
+    sector = Column(String, unique=True)
+    n_companies = Column(Integer)
+    total_tco2e = Column(Float)
+    avg_intensity = Column(Float)
+    min_intensity = Column(Float)
+    max_intensity = Column(Float)
+    median_intensity = Column(Float)
+    avg_fleet_size = Column(Float)
+    avg_yoy_change_pct = Column(Float)
+    sector_pct_of_national = Column(Float)
+    ndc_2025_target_tco2e = Column(Float)
+    ndc_gap_tco2e = Column(Float)
+
+class UploadedFile(Base):
+    __tablename__ = "uploaded_files"
+    id = Column(Integer, primary_key=True, index=True)
+    filename = Column(String)
+    file_type = Column(String)
+    file_size = Column(Integer)
+    status = Column(String, default="processing")
+    records_extracted = Column(Integer, default=0)
+    method = Column(String)
+    uploaded_at = Column(DateTime, default=datetime.utcnow)
+    nse_code = Column(String, nullable=True)
+
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
+
+def create_tables():
+    Base.metadata.create_all(bind=engine)

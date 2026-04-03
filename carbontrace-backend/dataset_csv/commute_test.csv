@@ -1,0 +1,805 @@
+commute_record_id,company_name,nse_code,sector,employee_id,county_residence,commute_mode,one_way_km,working_days_pa,annual_commute_km,ef_kgco2e_per_km,emission_kgco2e,emission_tco2e,scope,category,data_source,survey_year,anomaly_flag,fy_year
+CMT-003416,Brown PLC,KQW,Real Estate,EMP-KQW-0056,Machakos,private_car,14.1,212,5978.4,0.17,1016.328,1.016328,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003353,Kennedy Dale and Wilson,WGW,Healthcare,EMP-WGW-0053,Kisii,walk_or_cycle,2.2,183,805.2,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000653,Brown LLC,TSE,Real Estate,EMP-TSE-0053,Machakos,private_car,14.2,184,5225.6,0.17,888.352,0.888352,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000173,O'Donnell Davies and Kelly,ODE,Telecommunications,EMP-ODE-0053,Machakos,company_bus,48.2,201,19376.4,0.029,561.916,0.561916,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003198,Wilkinson Group,QLE,Banking & Finance,EMP-QLE-0018,Nyeri,private_car,14.1,195,5499.0,0.17,934.83,0.93483,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000039,Hicks Smith and Marsden,QVW,Banking & Finance,EMP-QVW-0039,Eldoret,boda_boda,13.7,238,6521.2,0.113,736.896,0.736896,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003833,Williams Cook and Thomas,KKT,Healthcare,EMP-KKT-0053,Machakos,matatu_14seater,14.8,193,5712.8,0.089,508.439,0.508439,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000714,Andrews Robinson and Dennis,JFK,Energy & Petroleum,EMP-JFK-0054,Kisumu,boda_boda,15.3,239,7313.4,0.113,826.414,0.826414,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000091,Fuller LLC,SXB,Agriculture,EMP-SXB-0031,Mombasa,private_car,15.3,224,6854.4,0.17,1165.248,1.165248,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003956,Miller Scott and Moran,RAO,Real Estate,EMP-RAO-0056,Eldoret,matatu_14seater,12.1,203,4912.6,0.089,437.221,0.437221,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001206,Hardy-Ford,ZGX,Healthcare,EMP-ZGX-0006,Thika,company_bus,46.2,239,22083.6,0.029,640.424,0.640424,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002924,Cartwright-Payne,LRT,Manufacturing,EMP-LRT-0044,Meru,matatu_14seater,16.8,202,6787.2,0.089,604.061,0.604061,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003298,Gibbons Inc,FCZ,Agriculture,EMP-FCZ-0058,Meru,walk_or_cycle,2.3,186,855.6,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003453,Hunt LLC,XQI,Agriculture,EMP-XQI-0033,Kisii,boda_boda,13.7,235,6439.0,0.113,727.607,0.727607,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003142,Evans-Ford,YBV,Agriculture,EMP-YBV-0022,Machakos,boda_boda,18.7,187,6993.8,0.113,790.299,0.790299,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001828,Burgess Turner and Thomas,CZV,Telecommunications,EMP-CZV-0028,Kisumu,matatu_14seater,25.5,217,11067.0,0.089,984.963,0.984963,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001156,Middleton Johnson and Kelly,SMP,Insurance,EMP-SMP-0016,Machakos,matatu_14seater,20.3,200,8120.0,0.089,722.68,0.72268,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001325,Fletcher-Harper,QUZ,Real Estate,EMP-QUZ-0005,Thika,private_car,29.4,239,14053.2,0.17,2389.044,2.389044,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000217,Johnson Kirk and Stewart,BUW,Energy & Petroleum,EMP-BUW-0037,Kisumu,company_bus,50.9,224,22803.2,0.029,661.293,0.661293,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000511,Jackson-Watkins,IUI,Healthcare,EMP-IUI-0031,Thika,private_car,13.7,203,5562.2,0.17,945.574,0.945574,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001681,Watson Allen and Thomson,LCW,Construction,EMP-LCW-0001,Meru,boda_boda,16.5,207,6831.0,0.113,771.903,0.771903,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000500,Jackson-Watkins,IUI,Healthcare,EMP-IUI-0020,Nyeri,matatu_14seater,18.5,195,7215.0,0.089,642.135,0.642135,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003655,Goddard-Taylor,OVJ,Retail & FMCG,EMP-OVJ-0055,Kisii,private_car,20.9,236,9864.8,0.17,1677.016,1.677016,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001857,Burgess Turner and Thomas,CZV,Telecommunications,EMP-CZV-0057,Thika,matatu_14seater,24.3,199,9671.4,0.089,860.755,0.860755,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001389,Hart Hill and Smith,QVG,Telecommunications,EMP-QVG-0009,Meru,matatu_14seater,20.8,222,9235.2,0.089,821.933,0.821933,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001520,Williams Sutton and Hewitt,KZL,Healthcare,EMP-KZL-0020,Kisumu,matatu_14seater,17.3,184,6366.4,0.089,566.61,0.56661,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002387,Cameron-Hussain,WHY,Real Estate,EMP-WHY-0047,Nakuru,company_bus,49.1,236,23175.2,0.029,672.081,0.672081,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003640,Goddard-Taylor,OVJ,Retail & FMCG,EMP-OVJ-0040,Mombasa,matatu_14seater,24.8,190,9424.0,0.089,838.736,0.838736,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003237,Wilkinson Group,QLE,Banking & Finance,EMP-QLE-0057,Machakos,walk_or_cycle,3.6,237,1706.4,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002077,Simpson-Robinson,VFA,Telecommunications,EMP-VFA-0037,Kisumu,private_car,27.9,225,12555.0,0.17,2134.35,2.13435,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001541,Williams Sutton and Hewitt,KZL,Healthcare,EMP-KZL-0041,Nairobi,walk_or_cycle,4.7,238,2237.2,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001218,Hardy-Ford,ZGX,Healthcare,EMP-ZGX-0018,Nairobi,private_car,15.3,194,5936.4,0.17,1009.188,1.009188,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002682,Griffiths Group,VTU,Retail & FMCG,EMP-VTU-0042,Kisii,walk_or_cycle,2.5,217,1085.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003837,Williams Cook and Thomas,KKT,Healthcare,EMP-KKT-0057,Meru,matatu_14seater,14.0,222,6216.0,0.089,553.224,0.553224,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002994,Welch Smith and Clarke,NNU,Banking & Finance,EMP-NNU-0054,Kisii,private_car,27.9,224,12499.2,0.17,2124.864,2.124864,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001417,Hart Hill and Smith,QVG,Telecommunications,EMP-QVG-0037,Nakuru,walk_or_cycle,4.2,191,1604.4,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002218,Thompson-Simmons,UJF,Energy & Petroleum,EMP-UJF-0058,Eldoret,company_bus,53.1,189,20071.8,0.029,582.082,0.582082,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003361,Brown PLC,KQW,Real Estate,EMP-KQW-0001,Nairobi,company_bus,37.4,206,15408.8,0.029,446.855,0.446855,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001677,Long-Lewis,IXG,Insurance,EMP-IXG-0057,Nakuru,walk_or_cycle,3.1,216,1339.2,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001198,Middleton Johnson and Kelly,SMP,Insurance,EMP-SMP-0058,Nyeri,taxi_cab,10.5,208,4368.0,0.17,742.56,0.74256,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001543,Williams Sutton and Hewitt,KZL,Healthcare,EMP-KZL-0043,Kisii,walk_or_cycle,4.3,216,1857.6,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002961,Welch Smith and Clarke,NNU,Banking & Finance,EMP-NNU-0021,Nyeri,private_car,24.6,185,9102.0,0.17,1547.34,1.54734,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002540,Simpson Fletcher and Johnson,SRF,Agriculture,EMP-SRF-0020,Meru,private_car,28.2,194,10941.6,0.17,1860.072,1.860072,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000954,Connolly-Young,YRC,Insurance,EMP-YRC-0054,Eldoret,boda_boda,19.2,209,8025.6,0.113,906.893,0.906893,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003146,Evans-Ford,YBV,Agriculture,EMP-YBV-0026,Kisumu,private_car,27.5,205,11275.0,0.17,1916.75,1.91675,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003081,Johnson Holt and Tomlinson,LBZ,Healthcare,EMP-LBZ-0021,Nyeri,matatu_14seater,16.1,186,5989.2,0.089,533.039,0.533039,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002636,Pearce Gilbert and Kennedy,YBK,Healthcare,EMP-YBK-0056,Thika,boda_boda,15.2,197,5988.8,0.113,676.734,0.676734,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000751,Fletcher Inc,ZMK,Banking & Finance,EMP-ZMK-0031,Nyeri,matatu_14seater,13.0,199,5174.0,0.089,460.486,0.460486,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002706,Howard PLC,UQK,Real Estate,EMP-UQK-0006,Nakuru,boda_boda,9.3,213,3961.8,0.113,447.683,0.447683,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000235,Johnson Kirk and Stewart,BUW,Energy & Petroleum,EMP-BUW-0055,Nyeri,matatu_14seater,22.8,209,9530.4,0.089,848.206,0.848206,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000733,Fletcher Inc,ZMK,Banking & Finance,EMP-ZMK-0013,Kisumu,walk_or_cycle,2.9,225,1305.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-004009,Smith Ltd,CXU,Insurance,EMP-CXU-0049,Eldoret,company_bus,30.1,239,14387.8,0.029,417.246,0.417246,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003625,Goddard-Taylor,OVJ,Retail & FMCG,EMP-OVJ-0025,Kisumu,matatu_14seater,12.0,191,4584.0,0.089,407.976,0.407976,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001157,Middleton Johnson and Kelly,SMP,Insurance,EMP-SMP-0017,Kisumu,matatu_14seater,11.3,183,4135.8,0.089,368.086,0.368086,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003440,Hunt LLC,XQI,Agriculture,EMP-XQI-0020,Kisumu,private_car,18.0,180,6480.0,0.17,1101.6,1.1016,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002446,Potter-Cooper,KNK,Agriculture,EMP-KNK-0046,Nairobi,private_car,22.4,181,8108.8,0.17,1378.496,1.378496,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002983,Welch Smith and Clarke,NNU,Banking & Finance,EMP-NNU-0043,Nyeri,private_car,16.5,222,7326.0,0.17,1245.42,1.24542,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001210,Hardy-Ford,ZGX,Healthcare,EMP-ZGX-0010,Eldoret,matatu_14seater,23.6,223,10525.6,0.089,936.778,0.936778,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001066,Chapman Webster and McCarthy,RTS,Manufacturing,EMP-RTS-0046,Mombasa,matatu_14seater,13.4,237,6351.6,0.089,565.292,0.565292,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002157,Miles-Jackson,PDW,Construction,EMP-PDW-0057,Meru,matatu_14seater,17.7,211,7469.4,0.089,664.777,0.664777,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001063,Chapman Webster and McCarthy,RTS,Manufacturing,EMP-RTS-0043,Kisii,matatu_14seater,22.3,225,10035.0,0.089,893.115,0.893115,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002617,Pearce Gilbert and Kennedy,YBK,Healthcare,EMP-YBK-0037,Kisii,company_bus,45.5,186,16926.0,0.029,490.854,0.490854,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001168,Middleton Johnson and Kelly,SMP,Insurance,EMP-SMP-0028,Mombasa,private_car,17.9,191,6837.8,0.17,1162.426,1.162426,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003223,Wilkinson Group,QLE,Banking & Finance,EMP-QLE-0043,Machakos,private_car,29.0,188,10904.0,0.17,1853.68,1.85368,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001493,Mann Burton and Waters,AMW,Insurance,EMP-AMW-0053,Eldoret,private_car,16.2,223,7225.2,0.17,1228.284,1.228284,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002939,Cartwright-Payne,LRT,Manufacturing,EMP-LRT-0059,Nairobi,private_car,32.8,190,12464.0,0.17,2118.88,2.11888,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002996,Welch Smith and Clarke,NNU,Banking & Finance,EMP-NNU-0056,Mombasa,taxi_cab,14.6,192,5606.4,0.17,953.088,0.953088,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003097,Johnson Holt and Tomlinson,LBZ,Healthcare,EMP-LBZ-0037,Nakuru,company_bus,48.0,225,21600.0,0.029,626.4,0.6264,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003637,Goddard-Taylor,OVJ,Retail & FMCG,EMP-OVJ-0037,Meru,boda_boda,16.5,234,7722.0,0.113,872.586,0.872586,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003561,Reynolds Webb and Webb,MPR,Healthcare,EMP-MPR-0021,Nairobi,boda_boda,10.5,205,4305.0,0.113,486.465,0.486465,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003141,Evans-Ford,YBV,Agriculture,EMP-YBV-0021,Nyeri,private_car,29.0,187,10846.0,0.17,1843.82,1.84382,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000885,Bartlett-White,MXD,Retail & FMCG,EMP-MXD-0045,Nyeri,private_car,18.7,202,7554.8,0.17,1284.316,1.284316,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000144,O'Donnell Davies and Kelly,ODE,Telecommunications,EMP-ODE-0024,Machakos,matatu_14seater,19.1,213,8136.6,0.089,724.157,0.724157,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003942,Miller Scott and Moran,RAO,Real Estate,EMP-RAO-0042,Kisii,walk_or_cycle,4.7,189,1776.6,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000851,Bartlett-White,MXD,Retail & FMCG,EMP-MXD-0011,Mombasa,company_bus,41.9,219,18352.2,0.029,532.214,0.532214,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002783,Khan Walker and John,VBZ,Manufacturing,EMP-VBZ-0023,Kisii,walk_or_cycle,2.5,191,955.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000718,Andrews Robinson and Dennis,JFK,Energy & Petroleum,EMP-JFK-0058,Nakuru,company_bus,38.6,226,17447.2,0.029,505.969,0.505969,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003806,Williams Cook and Thomas,KKT,Healthcare,EMP-KKT-0026,Kisumu,private_car,16.5,221,7293.0,0.17,1239.81,1.23981,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002503,Williams Allen and Farrell,ISH,Retail & FMCG,EMP-ISH-0043,Thika,matatu_14seater,20.2,224,9049.6,0.089,805.414,0.805414,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000265,Murphy-Barrett,QVK,Insurance,EMP-QVK-0025,Nyeri,matatu_14seater,20.1,187,7517.4,0.089,669.049,0.669049,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000076,Fuller LLC,SXB,Agriculture,EMP-SXB-0016,Thika,matatu_14seater,16.1,223,7180.6,0.089,639.073,0.639073,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002493,Williams Allen and Farrell,ISH,Retail & FMCG,EMP-ISH-0033,Kisumu,private_car,26.7,223,11908.2,0.17,2024.394,2.024394,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000396,Wood LLC,WCE,Insurance,EMP-WCE-0036,Meru,private_car,13.5,233,6291.0,0.17,1069.47,1.06947,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003400,Brown PLC,KQW,Real Estate,EMP-KQW-0040,Nairobi,matatu_14seater,15.2,231,7022.4,0.089,624.994,0.624994,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002225,Moore Chapman and Williams,JCE,Telecommunications,EMP-JCE-0005,Machakos,boda_boda,11.8,215,5074.0,0.113,573.362,0.573362,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003091,Johnson Holt and Tomlinson,LBZ,Healthcare,EMP-LBZ-0031,Mombasa,private_car,29.1,204,11872.8,0.17,2018.376,2.018376,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003745,Ali Group,CZG,Healthcare,EMP-CZG-0025,Nyeri,private_car,15.8,197,6225.2,0.17,1058.284,1.058284,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000397,Wood LLC,WCE,Insurance,EMP-WCE-0037,Kisumu,matatu_14seater,27.1,226,12249.2,0.089,1090.179,1.090179,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001366,Fletcher-Harper,QUZ,Real Estate,EMP-QUZ-0046,Meru,boda_boda,17.4,198,6890.4,0.113,778.615,0.778615,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003334,Kennedy Dale and Wilson,WGW,Healthcare,EMP-WGW-0034,Nairobi,matatu_14seater,21.8,224,9766.4,0.089,869.21,0.86921,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001904,Dyer-Young,SDJ,Construction,EMP-SDJ-0044,Thika,matatu_14seater,23.2,211,9790.4,0.089,871.346,0.871346,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000596,Crawford Shah and Brown,TDK,Energy & Petroleum,EMP-TDK-0056,Nairobi,matatu_14seater,23.7,230,10902.0,0.089,970.278,0.970278,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002110,Miles-Jackson,PDW,Construction,EMP-PDW-0010,Thika,taxi_cab,18.1,186,6733.2,0.17,1144.644,1.144644,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001297,Thompson Walsh and Mason,JDT,Real Estate,EMP-JDT-0037,Eldoret,matatu_14seater,19.2,180,6912.0,0.089,615.168,0.615168,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001822,Burgess Turner and Thomas,CZV,Telecommunications,EMP-CZV-0022,Kisii,company_bus,31.6,193,12197.6,0.029,353.73,0.35373,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000873,Bartlett-White,MXD,Retail & FMCG,EMP-MXD-0033,Machakos,private_car,20.2,223,9009.2,0.17,1531.564,1.531564,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003466,Hunt LLC,XQI,Agriculture,EMP-XQI-0046,Nairobi,boda_boda,10.5,232,4872.0,0.113,550.536,0.550536,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003897,Crawford-Rogers,WON,Retail & FMCG,EMP-WON-0057,Eldoret,boda_boda,8.0,210,3360.0,0.113,379.68,0.37968,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002327,Miller-Wilkinson,VTD,Manufacturing,EMP-VTD-0047,Mombasa,matatu_14seater,21.7,229,9938.6,0.089,884.535,0.884535,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001549,Williams Sutton and Hewitt,KZL,Healthcare,EMP-KZL-0049,Meru,boda_boda,13.8,227,6265.2,0.113,707.968,0.707968,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000037,Hicks Smith and Marsden,QVW,Banking & Finance,EMP-QVW-0037,Nairobi,private_car,16.9,200,6760.0,0.17,1149.2,1.1492,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003494,Richards PLC,CCU,Insurance,EMP-CCU-0014,Machakos,taxi_cab,11.5,195,4485.0,0.17,762.45,0.76245,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002711,Howard PLC,UQK,Real Estate,EMP-UQK-0011,Machakos,matatu_14seater,20.3,183,7429.8,0.089,661.252,0.661252,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003371,Brown PLC,KQW,Real Estate,EMP-KQW-0011,Eldoret,matatu_14seater,23.3,234,10904.4,0.089,970.492,0.970492,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002144,Miles-Jackson,PDW,Construction,EMP-PDW-0044,Nairobi,matatu_14seater,20.5,228,9348.0,0.089,831.972,0.831972,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003413,Brown PLC,KQW,Real Estate,EMP-KQW-0053,Mombasa,matatu_14seater,22.2,229,10167.6,0.089,904.916,0.904916,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000978,Walker Group,FFD,Healthcare,EMP-FFD-0018,Kisii,private_car,24.0,194,9312.0,0.17,1583.04,1.58304,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001572,Hunter LLC,LTR,Construction,EMP-LTR-0012,Nairobi,matatu_14seater,15.0,196,5880.0,0.089,523.32,0.52332,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001123,Martin Group,CFE,Healthcare,EMP-CFE-0043,Nyeri,taxi_cab,18.4,190,6992.0,0.17,1188.64,1.18864,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002787,Khan Walker and John,VBZ,Manufacturing,EMP-VBZ-0027,Nairobi,matatu_14seater,27.9,219,12220.2,0.089,1087.598,1.087598,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002240,Moore Chapman and Williams,JCE,Telecommunications,EMP-JCE-0020,Eldoret,matatu_14seater,14.1,197,5555.4,0.089,494.431,0.494431,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002968,Welch Smith and Clarke,NNU,Banking & Finance,EMP-NNU-0028,Kisii,boda_boda,15.8,181,5719.6,0.113,646.315,0.646315,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002505,Williams Allen and Farrell,ISH,Retail & FMCG,EMP-ISH-0045,Meru,matatu_14seater,14.7,198,5821.2,0.089,518.087,0.518087,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001893,Dyer-Young,SDJ,Construction,EMP-SDJ-0033,Meru,walk_or_cycle,3.9,193,1505.4,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000676,Andrews Robinson and Dennis,JFK,Energy & Petroleum,EMP-JFK-0016,Kisii,private_car,20.6,234,9640.8,0.17,1638.936,1.638936,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002809,Khan Walker and John,VBZ,Manufacturing,EMP-VBZ-0049,Mombasa,company_bus,28.3,189,10697.4,0.029,310.225,0.310225,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003069,Johnson Holt and Tomlinson,LBZ,Healthcare,EMP-LBZ-0009,Machakos,matatu_14seater,15.6,235,7332.0,0.089,652.548,0.652548,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000729,Fletcher Inc,ZMK,Banking & Finance,EMP-ZMK-0009,Mombasa,boda_boda,14.8,202,5979.2,0.113,675.65,0.67565,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000413,Wood LLC,WCE,Insurance,EMP-WCE-0053,Machakos,private_car,17.9,219,7840.2,0.17,1332.834,1.332834,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003147,Evans-Ford,YBV,Agriculture,EMP-YBV-0027,Mombasa,walk_or_cycle,4.3,189,1625.4,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001517,Williams Sutton and Hewitt,KZL,Healthcare,EMP-KZL-0017,Meru,private_car,23.3,209,9739.4,0.17,1655.698,1.655698,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001650,Long-Lewis,IXG,Insurance,EMP-IXG-0030,Meru,private_car,17.4,236,8212.8,0.17,1396.176,1.396176,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000826,Freeman Inc,DPQ,Retail & FMCG,EMP-DPQ-0046,Nyeri,taxi_cab,18.6,192,7142.4,0.17,1214.208,1.214208,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003268,Gibbons Inc,FCZ,Agriculture,EMP-FCZ-0028,Meru,walk_or_cycle,3.0,191,1146.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000617,Brown LLC,TSE,Real Estate,EMP-TSE-0017,Machakos,walk_or_cycle,4.5,199,1791.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000115,Fuller LLC,SXB,Agriculture,EMP-SXB-0055,Meru,matatu_14seater,21.9,204,8935.2,0.089,795.233,0.795233,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000418,Wood LLC,WCE,Insurance,EMP-WCE-0058,Mombasa,boda_boda,8.6,221,3801.2,0.113,429.536,0.429536,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003070,Johnson Holt and Tomlinson,LBZ,Healthcare,EMP-LBZ-0010,Thika,private_car,23.3,229,10671.4,0.17,1814.138,1.814138,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001626,Long-Lewis,IXG,Insurance,EMP-IXG-0006,Eldoret,company_bus,22.4,231,10348.8,0.029,300.115,0.300115,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003018,Webb-Turnbull,GLV,Retail & FMCG,EMP-GLV-0018,Kisumu,matatu_14seater,26.3,219,11519.4,0.089,1025.227,1.025227,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002653,Griffiths Group,VTU,Retail & FMCG,EMP-VTU-0013,Meru,taxi_cab,12.0,216,5184.0,0.17,881.28,0.88128,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003937,Miller Scott and Moran,RAO,Real Estate,EMP-RAO-0037,Eldoret,matatu_14seater,20.2,229,9251.6,0.089,823.392,0.823392,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000090,Fuller LLC,SXB,Agriculture,EMP-SXB-0030,Thika,boda_boda,12.6,181,4561.2,0.113,515.416,0.515416,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002897,Cartwright-Payne,LRT,Manufacturing,EMP-LRT-0017,Nakuru,matatu_14seater,13.6,239,6500.8,0.089,578.571,0.578571,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003499,Richards PLC,CCU,Insurance,EMP-CCU-0019,Machakos,boda_boda,9.5,218,4142.0,0.113,468.046,0.468046,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002083,Simpson-Robinson,VFA,Telecommunications,EMP-VFA-0043,Mombasa,boda_boda,18.1,238,8615.6,0.113,973.563,0.973563,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000754,Fletcher Inc,ZMK,Banking & Finance,EMP-ZMK-0034,Meru,private_car,28.0,196,10976.0,0.17,1865.92,1.86592,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002547,Simpson Fletcher and Johnson,SRF,Agriculture,EMP-SRF-0027,Meru,matatu_14seater,14.3,235,6721.0,0.089,598.169,0.598169,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003325,Kennedy Dale and Wilson,WGW,Healthcare,EMP-WGW-0025,Kisumu,taxi_cab,10.9,236,5144.8,0.17,874.616,0.874616,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001631,Long-Lewis,IXG,Insurance,EMP-IXG-0011,Kisii,boda_boda,8.3,192,3187.2,0.113,360.154,0.360154,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000012,Hicks Smith and Marsden,QVW,Banking & Finance,EMP-QVW-0012,Nakuru,private_car,23.5,186,8742.0,0.17,1486.14,1.48614,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002445,Potter-Cooper,KNK,Agriculture,EMP-KNK-0045,Thika,walk_or_cycle,2.5,205,1025.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000285,Murphy-Barrett,QVK,Insurance,EMP-QVK-0045,Kisii,walk_or_cycle,4.6,231,2125.2,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001067,Chapman Webster and McCarthy,RTS,Manufacturing,EMP-RTS-0047,Eldoret,private_car,29.8,229,13648.4,0.17,2320.228,2.320228,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001192,Middleton Johnson and Kelly,SMP,Insurance,EMP-SMP-0052,Nairobi,matatu_14seater,12.8,215,5504.0,0.089,489.856,0.489856,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001441,Mann Burton and Waters,AMW,Insurance,EMP-AMW-0001,Kisii,company_bus,28.7,203,11652.2,0.029,337.914,0.337914,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003978,Smith Ltd,CXU,Insurance,EMP-CXU-0018,Machakos,private_car,23.8,203,9662.8,0.17,1642.676,1.642676,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003770,Ali Group,CZG,Healthcare,EMP-CZG-0050,Nairobi,private_car,33.6,225,15120.0,0.17,2570.4,2.5704,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002739,Howard PLC,UQK,Real Estate,EMP-UQK-0039,Eldoret,matatu_14seater,25.5,214,10914.0,0.089,971.346,0.971346,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003624,Goddard-Taylor,OVJ,Retail & FMCG,EMP-OVJ-0024,Nairobi,matatu_14seater,27.6,184,10156.8,0.089,903.955,0.903955,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001569,Hunter LLC,LTR,Construction,EMP-LTR-0009,Meru,matatu_14seater,17.0,210,7140.0,0.089,635.46,0.63546,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002428,Potter-Cooper,KNK,Agriculture,EMP-KNK-0028,Nyeri,boda_boda,14.8,218,6452.8,0.113,729.166,0.729166,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002738,Howard PLC,UQK,Real Estate,EMP-UQK-0038,Nairobi,matatu_14seater,22.0,196,8624.0,0.089,767.536,0.767536,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003444,Hunt LLC,XQI,Agriculture,EMP-XQI-0024,Mombasa,matatu_14seater,22.3,237,10570.2,0.089,940.748,0.940748,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001688,Watson Allen and Thomson,LCW,Construction,EMP-LCW-0008,Eldoret,company_bus,37.3,209,15591.4,0.029,452.151,0.452151,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000852,Bartlett-White,MXD,Retail & FMCG,EMP-MXD-0012,Machakos,matatu_14seater,22.6,186,8407.2,0.089,748.241,0.748241,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002208,Thompson-Simmons,UJF,Energy & Petroleum,EMP-UJF-0048,Eldoret,matatu_14seater,17.2,235,8084.0,0.089,719.476,0.719476,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000896,Bartlett-White,MXD,Retail & FMCG,EMP-MXD-0056,Kisumu,matatu_14seater,19.2,200,7680.0,0.089,683.52,0.68352,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000497,Jackson-Watkins,IUI,Healthcare,EMP-IUI-0017,Nakuru,matatu_14seater,26.3,201,10572.6,0.089,940.961,0.940961,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002306,Miller-Wilkinson,VTD,Manufacturing,EMP-VTD-0026,Eldoret,private_car,25.0,201,10050.0,0.17,1708.5,1.7085,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001783,Harding Davis and Booth,BJQ,Agriculture,EMP-BJQ-0043,Machakos,private_car,18.2,189,6879.6,0.17,1169.532,1.169532,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000336,Warren PLC,ZTV,Construction,EMP-ZTV-0036,Mombasa,walk_or_cycle,3.3,186,1227.6,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002840,Chamberlain Payne and Webster,XDT,Telecommunications,EMP-XDT-0020,Nakuru,matatu_14seater,26.2,197,10322.8,0.089,918.729,0.918729,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003088,Johnson Holt and Tomlinson,LBZ,Healthcare,EMP-LBZ-0028,Machakos,matatu_14seater,22.7,206,9352.4,0.089,832.364,0.832364,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000516,Jackson-Watkins,IUI,Healthcare,EMP-IUI-0036,Nairobi,company_bus,39.0,216,16848.0,0.029,488.592,0.488592,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001349,Fletcher-Harper,QUZ,Real Estate,EMP-QUZ-0029,Machakos,walk_or_cycle,1.8,180,648.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001016,Walker Group,FFD,Healthcare,EMP-FFD-0056,Nairobi,matatu_14seater,19.0,203,7714.0,0.089,686.546,0.686546,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002817,Khan Walker and John,VBZ,Manufacturing,EMP-VBZ-0057,Kisumu,boda_boda,13.6,199,5412.8,0.113,611.646,0.611646,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003762,Ali Group,CZG,Healthcare,EMP-CZG-0042,Kisii,company_bus,44.6,211,18821.2,0.029,545.815,0.545815,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003756,Ali Group,CZG,Healthcare,EMP-CZG-0036,Nyeri,private_car,19.3,212,8183.2,0.17,1391.144,1.391144,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002810,Khan Walker and John,VBZ,Manufacturing,EMP-VBZ-0050,Machakos,private_car,16.1,182,5860.4,0.17,996.268,0.996268,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003295,Gibbons Inc,FCZ,Agriculture,EMP-FCZ-0055,Thika,matatu_14seater,22.9,199,9114.2,0.089,811.164,0.811164,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003252,Gibbons Inc,FCZ,Agriculture,EMP-FCZ-0012,Meru,boda_boda,15.0,232,6960.0,0.113,786.48,0.78648,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003438,Hunt LLC,XQI,Agriculture,EMP-XQI-0018,Kisumu,matatu_14seater,18.2,236,8590.4,0.089,764.546,0.764546,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-004004,Smith Ltd,CXU,Insurance,EMP-CXU-0044,Mombasa,company_bus,31.7,185,11729.0,0.029,340.141,0.340141,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001782,Harding Davis and Booth,BJQ,Agriculture,EMP-BJQ-0042,Kisii,private_car,30.5,218,13298.0,0.17,2260.66,2.26066,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002570,Simpson Fletcher and Johnson,SRF,Agriculture,EMP-SRF-0050,Nairobi,boda_boda,18.2,188,6843.2,0.113,773.282,0.773282,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001786,Harding Davis and Booth,BJQ,Agriculture,EMP-BJQ-0046,Nyeri,private_car,22.6,192,8678.4,0.17,1475.328,1.475328,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002071,Simpson-Robinson,VFA,Telecommunications,EMP-VFA-0031,Kisii,matatu_14seater,18.2,237,8626.8,0.089,767.785,0.767785,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000357,Warren PLC,ZTV,Construction,EMP-ZTV-0057,Nyeri,matatu_14seater,11.5,223,5129.0,0.089,456.481,0.456481,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003820,Williams Cook and Thomas,KKT,Healthcare,EMP-KKT-0040,Kisii,boda_boda,14.4,225,6480.0,0.113,732.24,0.73224,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003326,Kennedy Dale and Wilson,WGW,Healthcare,EMP-WGW-0026,Meru,matatu_14seater,25.5,210,10710.0,0.089,953.19,0.95319,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001313,Thompson Walsh and Mason,JDT,Real Estate,EMP-JDT-0053,Machakos,company_bus,34.0,181,12308.0,0.029,356.932,0.356932,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001636,Long-Lewis,IXG,Insurance,EMP-IXG-0016,Nyeri,boda_boda,11.4,204,4651.2,0.113,525.586,0.525586,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000551,Crawford Shah and Brown,TDK,Energy & Petroleum,EMP-TDK-0011,Kisumu,private_car,15.9,190,6042.0,0.17,1027.14,1.02714,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002389,Cameron-Hussain,WHY,Real Estate,EMP-WHY-0049,Kisumu,private_car,18.0,239,8604.0,0.17,1462.68,1.46268,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002480,Williams Allen and Farrell,ISH,Retail & FMCG,EMP-ISH-0020,Nairobi,private_car,23.7,208,9859.2,0.17,1676.064,1.676064,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002522,Simpson Fletcher and Johnson,SRF,Agriculture,EMP-SRF-0002,Mombasa,company_bus,35.0,213,14910.0,0.029,432.39,0.43239,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002266,Moore Chapman and Williams,JCE,Telecommunications,EMP-JCE-0046,Thika,taxi_cab,19.4,239,9273.2,0.17,1576.444,1.576444,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002960,Welch Smith and Clarke,NNU,Banking & Finance,EMP-NNU-0020,Nairobi,boda_boda,11.2,190,4256.0,0.113,480.928,0.480928,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001228,Hardy-Ford,ZGX,Healthcare,EMP-ZGX-0028,Eldoret,matatu_14seater,16.3,192,6259.2,0.089,557.069,0.557069,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003585,Reynolds Webb and Webb,MPR,Healthcare,EMP-MPR-0045,Mombasa,private_car,27.6,236,13027.2,0.17,2214.624,2.214624,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003060,Webb-Turnbull,GLV,Retail & FMCG,EMP-GLV-0060,Nakuru,private_car,24.9,196,9760.8,0.17,1659.336,1.659336,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000958,Connolly-Young,YRC,Insurance,EMP-YRC-0058,Nyeri,private_car,32.3,226,14599.6,0.17,2481.932,2.481932,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001774,Harding Davis and Booth,BJQ,Agriculture,EMP-BJQ-0034,Nakuru,walk_or_cycle,2.2,227,998.8,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002142,Miles-Jackson,PDW,Construction,EMP-PDW-0042,Nairobi,company_bus,32.1,237,15215.4,0.029,441.247,0.441247,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001009,Walker Group,FFD,Healthcare,EMP-FFD-0049,Eldoret,company_bus,44.0,224,19712.0,0.029,571.648,0.571648,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003119,Johnson Holt and Tomlinson,LBZ,Healthcare,EMP-LBZ-0059,Kisumu,matatu_14seater,21.1,215,9073.0,0.089,807.497,0.807497,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001093,Martin Group,CFE,Healthcare,EMP-CFE-0013,Machakos,private_car,31.2,218,13603.2,0.17,2312.544,2.312544,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003576,Reynolds Webb and Webb,MPR,Healthcare,EMP-MPR-0036,Meru,boda_boda,16.4,216,7084.8,0.113,800.582,0.800582,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003357,Kennedy Dale and Wilson,WGW,Healthcare,EMP-WGW-0057,Kisumu,matatu_14seater,28.7,204,11709.6,0.089,1042.154,1.042154,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002745,Howard PLC,UQK,Real Estate,EMP-UQK-0045,Nakuru,private_car,25.7,189,9714.6,0.17,1651.482,1.651482,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003807,Williams Cook and Thomas,KKT,Healthcare,EMP-KKT-0027,Machakos,private_car,32.3,192,12403.2,0.17,2108.544,2.108544,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000997,Walker Group,FFD,Healthcare,EMP-FFD-0037,Kisumu,matatu_14seater,22.3,212,9455.2,0.089,841.513,0.841513,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001680,Long-Lewis,IXG,Insurance,EMP-IXG-0060,Kisumu,boda_boda,9.4,191,3590.8,0.113,405.76,0.40576,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000154,O'Donnell Davies and Kelly,ODE,Telecommunications,EMP-ODE-0034,Nyeri,matatu_14seater,19.1,238,9091.6,0.089,809.152,0.809152,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003148,Evans-Ford,YBV,Agriculture,EMP-YBV-0028,Machakos,private_car,15.9,224,7123.2,0.17,1210.944,1.210944,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003726,Ali Group,CZG,Healthcare,EMP-CZG-0006,Nyeri,matatu_14seater,23.1,221,10210.2,0.089,908.708,0.908708,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002909,Cartwright-Payne,LRT,Manufacturing,EMP-LRT-0029,Nairobi,matatu_14seater,28.2,192,10828.8,0.089,963.763,0.963763,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002838,Chamberlain Payne and Webster,XDT,Telecommunications,EMP-XDT-0018,Eldoret,boda_boda,18.8,204,7670.4,0.113,866.755,0.866755,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000581,Crawford Shah and Brown,TDK,Energy & Petroleum,EMP-TDK-0041,Nakuru,matatu_14seater,26.8,181,9701.6,0.089,863.442,0.863442,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001471,Mann Burton and Waters,AMW,Insurance,EMP-AMW-0031,Nakuru,matatu_14seater,14.9,195,5811.0,0.089,517.179,0.517179,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000704,Andrews Robinson and Dennis,JFK,Energy & Petroleum,EMP-JFK-0044,Nairobi,boda_boda,17.4,185,6438.0,0.113,727.494,0.727494,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001213,Hardy-Ford,ZGX,Healthcare,EMP-ZGX-0013,Eldoret,taxi_cab,9.2,233,4287.2,0.17,728.824,0.728824,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003344,Kennedy Dale and Wilson,WGW,Healthcare,EMP-WGW-0044,Nairobi,walk_or_cycle,3.5,218,1526.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000897,Bartlett-White,MXD,Retail & FMCG,EMP-MXD-0057,Meru,matatu_14seater,28.0,188,10528.0,0.089,936.992,0.936992,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003309,Kennedy Dale and Wilson,WGW,Healthcare,EMP-WGW-0009,Machakos,private_car,26.3,233,12255.8,0.17,2083.486,2.083486,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000488,Jackson-Watkins,IUI,Healthcare,EMP-IUI-0008,Thika,private_car,21.8,183,7978.8,0.17,1356.396,1.356396,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000560,Crawford Shah and Brown,TDK,Energy & Petroleum,EMP-TDK-0020,Nyeri,private_car,19.5,223,8697.0,0.17,1478.49,1.47849,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001142,Middleton Johnson and Kelly,SMP,Insurance,EMP-SMP-0002,Eldoret,private_car,31.6,213,13461.6,0.17,2288.472,2.288472,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001120,Martin Group,CFE,Healthcare,EMP-CFE-0040,Nairobi,matatu_14seater,19.1,198,7563.6,0.089,673.16,0.67316,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002850,Chamberlain Payne and Webster,XDT,Telecommunications,EMP-XDT-0030,Meru,boda_boda,16.9,210,7098.0,0.113,802.074,0.802074,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000513,Jackson-Watkins,IUI,Healthcare,EMP-IUI-0033,Machakos,private_car,22.5,222,9990.0,0.17,1698.3,1.6983,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000634,Brown LLC,TSE,Real Estate,EMP-TSE-0034,Nyeri,walk_or_cycle,3.3,222,1465.2,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003452,Hunt LLC,XQI,Agriculture,EMP-XQI-0032,Thika,private_car,20.0,209,8360.0,0.17,1421.2,1.4212,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001665,Long-Lewis,IXG,Insurance,EMP-IXG-0045,Eldoret,boda_boda,8.5,224,3808.0,0.113,430.304,0.430304,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001013,Walker Group,FFD,Healthcare,EMP-FFD-0053,Kisii,private_car,13.8,194,5354.4,0.17,910.248,0.910248,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001932,Stokes-Thomas,OYZ,Real Estate,EMP-OYZ-0012,Eldoret,private_car,34.8,186,12945.6,0.17,2200.752,2.200752,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001151,Middleton Johnson and Kelly,SMP,Insurance,EMP-SMP-0011,Nakuru,matatu_14seater,14.6,234,6832.8,0.089,608.119,0.608119,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002839,Chamberlain Payne and Webster,XDT,Telecommunications,EMP-XDT-0019,Nairobi,matatu_14seater,15.2,192,5836.8,0.089,519.475,0.519475,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003758,Ali Group,CZG,Healthcare,EMP-CZG-0038,Nyeri,walk_or_cycle,4.1,200,1640.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000117,Fuller LLC,SXB,Agriculture,EMP-SXB-0057,Nairobi,private_car,29.2,216,12614.4,0.17,2144.448,2.144448,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000741,Fletcher Inc,ZMK,Banking & Finance,EMP-ZMK-0021,Nakuru,private_car,34.4,221,15204.8,0.17,2584.816,2.584816,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003695,Mellor-Jones,BCV,Real Estate,EMP-BCV-0035,Kisumu,matatu_14seater,12.7,224,5689.6,0.089,506.374,0.506374,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001975,Stokes-Thomas,OYZ,Real Estate,EMP-OYZ-0055,Kisumu,company_bus,45.1,183,16506.6,0.029,478.691,0.478691,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001082,Martin Group,CFE,Healthcare,EMP-CFE-0002,Kisumu,walk_or_cycle,2.3,231,1062.6,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001811,Burgess Turner and Thomas,CZV,Telecommunications,EMP-CZV-0011,Nairobi,company_bus,39.7,239,18976.6,0.029,550.321,0.550321,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000831,Freeman Inc,DPQ,Retail & FMCG,EMP-DPQ-0051,Mombasa,matatu_14seater,25.7,189,9714.6,0.089,864.599,0.864599,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000120,Fuller LLC,SXB,Agriculture,EMP-SXB-0060,Nakuru,taxi_cab,15.9,208,6614.4,0.17,1124.448,1.124448,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000657,Brown LLC,TSE,Real Estate,EMP-TSE-0057,Nyeri,matatu_14seater,18.1,220,7964.0,0.089,708.796,0.708796,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003653,Goddard-Taylor,OVJ,Retail & FMCG,EMP-OVJ-0053,Nyeri,matatu_14seater,27.6,192,10598.4,0.089,943.258,0.943258,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003601,Goddard-Taylor,OVJ,Retail & FMCG,EMP-OVJ-0001,Machakos,private_car,17.2,220,7568.0,0.17,1286.56,1.28656,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003926,Miller Scott and Moran,RAO,Real Estate,EMP-RAO-0026,Thika,private_car,21.5,221,9503.0,0.17,1615.51,1.61551,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000636,Brown LLC,TSE,Real Estate,EMP-TSE-0036,Kisumu,walk_or_cycle,2.5,190,950.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000370,Wood LLC,WCE,Insurance,EMP-WCE-0010,Mombasa,walk_or_cycle,2.1,193,810.6,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000269,Murphy-Barrett,QVK,Insurance,EMP-QVK-0029,Machakos,matatu_14seater,17.5,199,6965.0,0.089,619.885,0.619885,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002704,Howard PLC,UQK,Real Estate,EMP-UQK-0004,Thika,matatu_14seater,11.8,207,4885.2,0.089,434.783,0.434783,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002984,Welch Smith and Clarke,NNU,Banking & Finance,EMP-NNU-0044,Machakos,boda_boda,11.9,221,5259.8,0.113,594.357,0.594357,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002871,Chamberlain Payne and Webster,XDT,Telecommunications,EMP-XDT-0051,Nyeri,walk_or_cycle,3.9,233,1817.4,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002915,Cartwright-Payne,LRT,Manufacturing,EMP-LRT-0035,Mombasa,matatu_14seater,19.6,205,8036.0,0.089,715.204,0.715204,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000047,Hicks Smith and Marsden,QVW,Banking & Finance,EMP-QVW-0047,Machakos,company_bus,51.3,186,19083.6,0.029,553.424,0.553424,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003422,Hunt LLC,XQI,Agriculture,EMP-XQI-0002,Nairobi,walk_or_cycle,3.0,204,1224.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003716,Mellor-Jones,BCV,Real Estate,EMP-BCV-0056,Nairobi,matatu_14seater,23.5,211,9917.0,0.089,882.613,0.882613,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000992,Walker Group,FFD,Healthcare,EMP-FFD-0032,Machakos,matatu_14seater,21.0,201,8442.0,0.089,751.338,0.751338,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000877,Bartlett-White,MXD,Retail & FMCG,EMP-MXD-0037,Eldoret,matatu_14seater,21.7,235,10199.0,0.089,907.711,0.907711,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000774,Fletcher Inc,ZMK,Banking & Finance,EMP-ZMK-0054,Mombasa,matatu_14seater,15.3,218,6670.8,0.089,593.701,0.593701,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001220,Hardy-Ford,ZGX,Healthcare,EMP-ZGX-0020,Mombasa,matatu_14seater,28.2,187,10546.8,0.089,938.665,0.938665,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001127,Martin Group,CFE,Healthcare,EMP-CFE-0047,Machakos,private_car,33.3,221,14718.6,0.17,2502.162,2.502162,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000005,Hicks Smith and Marsden,QVW,Banking & Finance,EMP-QVW-0005,Eldoret,matatu_14seater,22.6,216,9763.2,0.089,868.925,0.868925,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003052,Webb-Turnbull,GLV,Retail & FMCG,EMP-GLV-0052,Mombasa,walk_or_cycle,2.6,224,1164.8,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001596,Hunter LLC,LTR,Construction,EMP-LTR-0036,Nairobi,company_bus,30.2,205,12382.0,0.029,359.078,0.359078,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003125,Evans-Ford,YBV,Agriculture,EMP-YBV-0005,Nakuru,walk_or_cycle,3.5,235,1645.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002312,Miller-Wilkinson,VTD,Manufacturing,EMP-VTD-0032,Nakuru,private_car,34.1,189,12889.8,0.17,2191.266,2.191266,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003041,Webb-Turnbull,GLV,Retail & FMCG,EMP-GLV-0041,Machakos,boda_boda,11.9,201,4783.8,0.113,540.569,0.540569,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003847,Crawford-Rogers,WON,Retail & FMCG,EMP-WON-0007,Nairobi,matatu_14seater,18.3,235,8601.0,0.089,765.489,0.765489,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002492,Williams Allen and Farrell,ISH,Retail & FMCG,EMP-ISH-0032,Meru,matatu_14seater,14.9,207,6168.6,0.089,549.005,0.549005,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003051,Webb-Turnbull,GLV,Retail & FMCG,EMP-GLV-0051,Nyeri,company_bus,27.9,236,13168.8,0.029,381.895,0.381895,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001078,Chapman Webster and McCarthy,RTS,Manufacturing,EMP-RTS-0058,Nakuru,boda_boda,9.9,239,4732.2,0.113,534.739,0.534739,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000838,Freeman Inc,DPQ,Retail & FMCG,EMP-DPQ-0058,Eldoret,boda_boda,18.8,223,8384.8,0.113,947.482,0.947482,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000682,Andrews Robinson and Dennis,JFK,Energy & Petroleum,EMP-JFK-0022,Machakos,walk_or_cycle,2.3,209,961.4,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001716,Watson Allen and Thomson,LCW,Construction,EMP-LCW-0036,Nyeri,matatu_14seater,21.0,196,8232.0,0.089,732.648,0.732648,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002353,Cameron-Hussain,WHY,Real Estate,EMP-WHY-0013,Meru,private_car,20.7,229,9480.6,0.17,1611.702,1.611702,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003414,Brown PLC,KQW,Real Estate,EMP-KQW-0054,Machakos,private_car,34.9,237,16542.6,0.17,2812.242,2.812242,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002618,Pearce Gilbert and Kennedy,YBK,Healthcare,EMP-YBK-0038,Kisumu,private_car,26.7,192,10252.8,0.17,1742.976,1.742976,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002362,Cameron-Hussain,WHY,Real Estate,EMP-WHY-0022,Machakos,private_car,22.7,198,8989.2,0.17,1528.164,1.528164,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002198,Thompson-Simmons,UJF,Energy & Petroleum,EMP-UJF-0038,Nyeri,boda_boda,18.0,202,7272.0,0.113,821.736,0.821736,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001149,Middleton Johnson and Kelly,SMP,Insurance,EMP-SMP-0009,Nakuru,matatu_14seater,11.0,194,4268.0,0.089,379.852,0.379852,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003262,Gibbons Inc,FCZ,Agriculture,EMP-FCZ-0022,Nairobi,matatu_14seater,16.8,239,8030.4,0.089,714.706,0.714706,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000575,Crawford Shah and Brown,TDK,Energy & Petroleum,EMP-TDK-0035,Thika,company_bus,50.2,183,18373.2,0.029,532.823,0.532823,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000051,Hicks Smith and Marsden,QVW,Banking & Finance,EMP-QVW-0051,Kisii,private_car,17.5,228,7980.0,0.17,1356.6,1.3566,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000854,Bartlett-White,MXD,Retail & FMCG,EMP-MXD-0014,Kisumu,private_car,17.8,220,7832.0,0.17,1331.44,1.33144,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001983,Poole Ltd,KYZ,Telecommunications,EMP-KYZ-0003,Meru,matatu_14seater,18.3,206,7539.6,0.089,671.024,0.671024,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002775,Khan Walker and John,VBZ,Manufacturing,EMP-VBZ-0015,Nairobi,matatu_14seater,26.0,189,9828.0,0.089,874.692,0.874692,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001824,Burgess Turner and Thomas,CZV,Telecommunications,EMP-CZV-0024,Eldoret,boda_boda,14.5,212,6148.0,0.113,694.724,0.694724,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000834,Freeman Inc,DPQ,Retail & FMCG,EMP-DPQ-0054,Machakos,company_bus,40.3,208,16764.8,0.029,486.179,0.486179,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003426,Hunt LLC,XQI,Agriculture,EMP-XQI-0006,Nyeri,matatu_14seater,16.6,224,7436.8,0.089,661.875,0.661875,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001116,Martin Group,CFE,Healthcare,EMP-CFE-0036,Meru,matatu_14seater,24.1,231,11134.2,0.089,990.944,0.990944,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001167,Middleton Johnson and Kelly,SMP,Insurance,EMP-SMP-0027,Meru,matatu_14seater,22.8,209,9530.4,0.089,848.206,0.848206,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002519,Williams Allen and Farrell,ISH,Retail & FMCG,EMP-ISH-0059,Kisii,walk_or_cycle,4.8,191,1833.6,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001907,Dyer-Young,SDJ,Construction,EMP-SDJ-0047,Nakuru,private_car,15.7,226,7096.4,0.17,1206.388,1.206388,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000972,Walker Group,FFD,Healthcare,EMP-FFD-0012,Meru,matatu_14seater,24.5,232,11368.0,0.089,1011.752,1.011752,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002702,Howard PLC,UQK,Real Estate,EMP-UQK-0002,Kisumu,private_car,23.7,186,8816.4,0.17,1498.788,1.498788,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000400,Wood LLC,WCE,Insurance,EMP-WCE-0040,Nakuru,private_car,17.2,194,6673.6,0.17,1134.512,1.134512,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002560,Simpson Fletcher and Johnson,SRF,Agriculture,EMP-SRF-0040,Nakuru,walk_or_cycle,2.4,217,1041.6,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002369,Cameron-Hussain,WHY,Real Estate,EMP-WHY-0029,Eldoret,private_car,31.7,230,14582.0,0.17,2478.94,2.47894,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000020,Hicks Smith and Marsden,QVW,Banking & Finance,EMP-QVW-0020,Kisumu,walk_or_cycle,4.8,226,2169.6,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000685,Andrews Robinson and Dennis,JFK,Energy & Petroleum,EMP-JFK-0025,Thika,private_car,15.2,209,6353.6,0.17,1080.112,1.080112,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000036,Hicks Smith and Marsden,QVW,Banking & Finance,EMP-QVW-0036,Nakuru,matatu_14seater,28.3,191,10810.6,0.089,962.143,0.962143,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002951,Welch Smith and Clarke,NNU,Banking & Finance,EMP-NNU-0011,Machakos,private_car,28.3,210,11886.0,0.17,2020.62,2.02062,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003791,Williams Cook and Thomas,KKT,Healthcare,EMP-KKT-0011,Meru,matatu_14seater,13.9,210,5838.0,0.089,519.582,0.519582,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002876,Chamberlain Payne and Webster,XDT,Telecommunications,EMP-XDT-0056,Kisii,private_car,27.3,207,11302.2,0.17,1921.374,1.921374,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000525,Jackson-Watkins,IUI,Healthcare,EMP-IUI-0045,Thika,taxi_cab,17.4,213,7412.4,0.17,1260.108,1.260108,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002456,Potter-Cooper,KNK,Agriculture,EMP-KNK-0056,Kisii,matatu_14seater,20.0,186,7440.0,0.089,662.16,0.66216,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000921,Connolly-Young,YRC,Insurance,EMP-YRC-0021,Meru,company_bus,50.6,217,21960.4,0.029,636.852,0.636852,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001842,Burgess Turner and Thomas,CZV,Telecommunications,EMP-CZV-0042,Kisumu,company_bus,23.9,222,10611.6,0.029,307.736,0.307736,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001891,Dyer-Young,SDJ,Construction,EMP-SDJ-0031,Eldoret,matatu_14seater,25.9,193,9997.4,0.089,889.769,0.889769,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000538,Jackson-Watkins,IUI,Healthcare,EMP-IUI-0058,Nakuru,matatu_14seater,13.6,234,6364.8,0.089,566.467,0.566467,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002807,Khan Walker and John,VBZ,Manufacturing,EMP-VBZ-0047,Nairobi,matatu_14seater,27.1,225,12195.0,0.089,1085.355,1.085355,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001706,Watson Allen and Thomson,LCW,Construction,EMP-LCW-0026,Machakos,matatu_14seater,15.1,181,5466.2,0.089,486.492,0.486492,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003923,Miller Scott and Moran,RAO,Real Estate,EMP-RAO-0023,Meru,private_car,28.2,188,10603.2,0.17,1802.544,1.802544,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003111,Johnson Holt and Tomlinson,LBZ,Healthcare,EMP-LBZ-0051,Nakuru,matatu_14seater,13.4,227,6083.6,0.089,541.44,0.54144,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003248,Gibbons Inc,FCZ,Agriculture,EMP-FCZ-0008,Nyeri,matatu_14seater,11.3,225,5085.0,0.089,452.565,0.452565,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000246,Murphy-Barrett,QVK,Insurance,EMP-QVK-0006,Nairobi,matatu_14seater,19.5,215,8385.0,0.089,746.265,0.746265,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003465,Hunt LLC,XQI,Agriculture,EMP-XQI-0045,Meru,matatu_14seater,17.3,219,7577.4,0.089,674.389,0.674389,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003176,Evans-Ford,YBV,Agriculture,EMP-YBV-0056,Kisumu,taxi_cab,9.3,207,3850.2,0.17,654.534,0.654534,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000785,Freeman Inc,DPQ,Retail & FMCG,EMP-DPQ-0005,Kisii,boda_boda,19.1,214,8174.8,0.113,923.752,0.923752,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001410,Hart Hill and Smith,QVG,Telecommunications,EMP-QVG-0030,Kisii,walk_or_cycle,4.1,189,1549.8,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002538,Simpson Fletcher and Johnson,SRF,Agriculture,EMP-SRF-0018,Kisii,taxi_cab,13.2,216,5702.4,0.17,969.408,0.969408,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000155,O'Donnell Davies and Kelly,ODE,Telecommunications,EMP-ODE-0035,Eldoret,boda_boda,15.8,188,5940.8,0.113,671.31,0.67131,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003010,Webb-Turnbull,GLV,Retail & FMCG,EMP-GLV-0010,Eldoret,matatu_14seater,20.9,206,8610.8,0.089,766.361,0.766361,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001687,Watson Allen and Thomson,LCW,Construction,EMP-LCW-0007,Eldoret,private_car,24.2,221,10696.4,0.17,1818.388,1.818388,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002902,Cartwright-Payne,LRT,Manufacturing,EMP-LRT-0022,Kisumu,private_car,16.8,225,7560.0,0.17,1285.2,1.2852,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003360,Kennedy Dale and Wilson,WGW,Healthcare,EMP-WGW-0060,Kisii,taxi_cab,16.9,201,6793.8,0.17,1154.946,1.154946,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000626,Brown LLC,TSE,Real Estate,EMP-TSE-0026,Kisii,private_car,29.2,237,13840.8,0.17,2352.936,2.352936,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002734,Howard PLC,UQK,Real Estate,EMP-UQK-0034,Nakuru,matatu_14seater,14.1,210,5922.0,0.089,527.058,0.527058,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003852,Crawford-Rogers,WON,Retail & FMCG,EMP-WON-0012,Machakos,private_car,16.1,238,7663.6,0.17,1302.812,1.302812,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001347,Fletcher-Harper,QUZ,Real Estate,EMP-QUZ-0027,Mombasa,matatu_14seater,20.9,237,9906.6,0.089,881.687,0.881687,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000570,Crawford Shah and Brown,TDK,Energy & Petroleum,EMP-TDK-0030,Nairobi,private_car,18.4,203,7470.4,0.17,1269.968,1.269968,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003927,Miller Scott and Moran,RAO,Real Estate,EMP-RAO-0027,Nakuru,taxi_cab,9.1,217,3949.4,0.17,671.398,0.671398,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001759,Harding Davis and Booth,BJQ,Agriculture,EMP-BJQ-0019,Mombasa,private_car,14.0,222,6216.0,0.17,1056.72,1.05672,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001817,Burgess Turner and Thomas,CZV,Telecommunications,EMP-CZV-0017,Kisii,private_car,19.5,235,9165.0,0.17,1558.05,1.55805,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002066,Simpson-Robinson,VFA,Telecommunications,EMP-VFA-0026,Kisumu,boda_boda,18.9,204,7711.2,0.113,871.366,0.871366,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000128,O'Donnell Davies and Kelly,ODE,Telecommunications,EMP-ODE-0008,Nyeri,private_car,28.1,208,11689.6,0.17,1987.232,1.987232,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003395,Brown PLC,KQW,Real Estate,EMP-KQW-0035,Meru,taxi_cab,23.7,208,9859.2,0.17,1676.064,1.676064,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003328,Kennedy Dale and Wilson,WGW,Healthcare,EMP-WGW-0028,Thika,private_car,33.5,186,12462.0,0.17,2118.54,2.11854,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003989,Smith Ltd,CXU,Insurance,EMP-CXU-0029,Nakuru,company_bus,31.5,220,13860.0,0.029,401.94,0.40194,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002007,Poole Ltd,KYZ,Telecommunications,EMP-KYZ-0027,Kisumu,matatu_14seater,19.8,236,9345.6,0.089,831.758,0.831758,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002976,Welch Smith and Clarke,NNU,Banking & Finance,EMP-NNU-0036,Eldoret,matatu_14seater,22.2,236,10478.4,0.089,932.578,0.932578,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000981,Walker Group,FFD,Healthcare,EMP-FFD-0021,Meru,matatu_14seater,13.4,214,5735.2,0.089,510.433,0.510433,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003985,Smith Ltd,CXU,Insurance,EMP-CXU-0025,Nyeri,matatu_14seater,15.1,230,6946.0,0.089,618.194,0.618194,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000191,Johnson Kirk and Stewart,BUW,Energy & Petroleum,EMP-BUW-0011,Kisii,private_car,19.8,184,7286.4,0.17,1238.688,1.238688,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001140,Martin Group,CFE,Healthcare,EMP-CFE-0060,Meru,private_car,14.1,214,6034.8,0.17,1025.916,1.025916,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000993,Walker Group,FFD,Healthcare,EMP-FFD-0033,Nakuru,matatu_14seater,22.9,235,10763.0,0.089,957.907,0.957907,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000700,Andrews Robinson and Dennis,JFK,Energy & Petroleum,EMP-JFK-0040,Nyeri,walk_or_cycle,4.4,210,1848.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003654,Goddard-Taylor,OVJ,Retail & FMCG,EMP-OVJ-0054,Eldoret,taxi_cab,22.2,233,10345.2,0.17,1758.684,1.758684,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000607,Brown LLC,TSE,Real Estate,EMP-TSE-0007,Machakos,company_bus,51.8,220,22792.0,0.029,660.968,0.660968,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000181,Johnson Kirk and Stewart,BUW,Energy & Petroleum,EMP-BUW-0001,Kisii,private_car,19.9,223,8875.4,0.17,1508.818,1.508818,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000302,Warren PLC,ZTV,Construction,EMP-ZTV-0002,Nairobi,matatu_14seater,21.2,221,9370.4,0.089,833.966,0.833966,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002545,Simpson Fletcher and Johnson,SRF,Agriculture,EMP-SRF-0025,Nakuru,matatu_14seater,20.7,195,8073.0,0.089,718.497,0.718497,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003702,Mellor-Jones,BCV,Real Estate,EMP-BCV-0042,Nyeri,boda_boda,10.6,183,3879.6,0.113,438.395,0.438395,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003717,Mellor-Jones,BCV,Real Estate,EMP-BCV-0057,Nairobi,private_car,13.5,238,6426.0,0.17,1092.42,1.09242,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001061,Chapman Webster and McCarthy,RTS,Manufacturing,EMP-RTS-0041,Machakos,company_bus,33.7,193,13008.2,0.029,377.238,0.377238,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003778,Ali Group,CZG,Healthcare,EMP-CZG-0058,Machakos,private_car,27.9,181,10099.8,0.17,1716.966,1.716966,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003854,Crawford-Rogers,WON,Retail & FMCG,EMP-WON-0014,Mombasa,walk_or_cycle,2.7,204,1101.6,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002566,Simpson Fletcher and Johnson,SRF,Agriculture,EMP-SRF-0046,Machakos,matatu_14seater,11.4,224,5107.2,0.089,454.541,0.454541,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-004005,Smith Ltd,CXU,Insurance,EMP-CXU-0045,Nairobi,private_car,23.3,197,9180.2,0.17,1560.634,1.560634,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001070,Chapman Webster and McCarthy,RTS,Manufacturing,EMP-RTS-0050,Eldoret,matatu_14seater,13.0,238,6188.0,0.089,550.732,0.550732,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002525,Simpson Fletcher and Johnson,SRF,Agriculture,EMP-SRF-0005,Nairobi,private_car,30.9,221,13657.8,0.17,2321.826,2.321826,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002206,Thompson-Simmons,UJF,Energy & Petroleum,EMP-UJF-0046,Nyeri,private_car,14.7,222,6526.8,0.17,1109.556,1.109556,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001244,Hardy-Ford,ZGX,Healthcare,EMP-ZGX-0044,Kisii,matatu_14seater,23.9,227,10850.6,0.089,965.703,0.965703,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003244,Gibbons Inc,FCZ,Agriculture,EMP-FCZ-0004,Machakos,private_car,18.0,183,6588.0,0.17,1119.96,1.11996,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000017,Hicks Smith and Marsden,QVW,Banking & Finance,EMP-QVW-0017,Nakuru,boda_boda,10.9,190,4142.0,0.113,468.046,0.468046,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003121,Evans-Ford,YBV,Agriculture,EMP-YBV-0001,Machakos,private_car,30.3,210,12726.0,0.17,2163.42,2.16342,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003992,Smith Ltd,CXU,Insurance,EMP-CXU-0032,Kisumu,boda_boda,13.9,181,5031.8,0.113,568.593,0.568593,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000547,Crawford Shah and Brown,TDK,Energy & Petroleum,EMP-TDK-0007,Thika,private_car,30.2,204,12321.6,0.17,2094.672,2.094672,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000659,Brown LLC,TSE,Real Estate,EMP-TSE-0059,Meru,boda_boda,12.9,198,5108.4,0.113,577.249,0.577249,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003617,Goddard-Taylor,OVJ,Retail & FMCG,EMP-OVJ-0017,Kisii,matatu_14seater,22.0,200,8800.0,0.089,783.2,0.7832,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003068,Johnson Holt and Tomlinson,LBZ,Healthcare,EMP-LBZ-0008,Nakuru,walk_or_cycle,3.1,201,1246.2,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003660,Goddard-Taylor,OVJ,Retail & FMCG,EMP-OVJ-0060,Nairobi,walk_or_cycle,2.8,231,1293.6,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001505,Williams Sutton and Hewitt,KZL,Healthcare,EMP-KZL-0005,Thika,matatu_14seater,11.1,202,4484.4,0.089,399.112,0.399112,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000960,Connolly-Young,YRC,Insurance,EMP-YRC-0060,Nyeri,walk_or_cycle,4.6,182,1674.4,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002927,Cartwright-Payne,LRT,Manufacturing,EMP-LRT-0047,Kisii,matatu_14seater,14.4,239,6883.2,0.089,612.605,0.612605,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002332,Miller-Wilkinson,VTD,Manufacturing,EMP-VTD-0052,Mombasa,boda_boda,13.6,196,5331.2,0.113,602.426,0.602426,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000798,Freeman Inc,DPQ,Retail & FMCG,EMP-DPQ-0018,Thika,matatu_14seater,11.2,221,4950.4,0.089,440.586,0.440586,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003349,Kennedy Dale and Wilson,WGW,Healthcare,EMP-WGW-0049,Nairobi,matatu_14seater,16.7,183,6112.2,0.089,543.986,0.543986,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000226,Johnson Kirk and Stewart,BUW,Energy & Petroleum,EMP-BUW-0046,Thika,taxi_cab,17.4,233,8108.4,0.17,1378.428,1.378428,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002075,Simpson-Robinson,VFA,Telecommunications,EMP-VFA-0035,Kisii,private_car,18.0,205,7380.0,0.17,1254.6,1.2546,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003355,Kennedy Dale and Wilson,WGW,Healthcare,EMP-WGW-0055,Kisumu,company_bus,29.7,185,10989.0,0.029,318.681,0.318681,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001800,Harding Davis and Booth,BJQ,Agriculture,EMP-BJQ-0060,Kisumu,private_car,14.5,228,6612.0,0.17,1124.04,1.12404,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002486,Williams Allen and Farrell,ISH,Retail & FMCG,EMP-ISH-0026,Mombasa,company_bus,28.5,213,12141.0,0.029,352.089,0.352089,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003968,Smith Ltd,CXU,Insurance,EMP-CXU-0008,Kisii,matatu_14seater,18.9,228,8618.4,0.089,767.038,0.767038,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003437,Hunt LLC,XQI,Agriculture,EMP-XQI-0017,Machakos,boda_boda,13.8,198,5464.8,0.113,617.522,0.617522,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002278,Moore Chapman and Williams,JCE,Telecommunications,EMP-JCE-0058,Mombasa,private_car,32.2,181,11656.4,0.17,1981.588,1.981588,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002086,Simpson-Robinson,VFA,Telecommunications,EMP-VFA-0046,Nairobi,walk_or_cycle,4.0,198,1584.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001694,Watson Allen and Thomson,LCW,Construction,EMP-LCW-0014,Machakos,walk_or_cycle,2.5,226,1130.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002798,Khan Walker and John,VBZ,Manufacturing,EMP-VBZ-0038,Meru,taxi_cab,11.7,185,4329.0,0.17,735.93,0.73593,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001046,Chapman Webster and McCarthy,RTS,Manufacturing,EMP-RTS-0026,Mombasa,matatu_14seater,24.9,201,10009.8,0.089,890.872,0.890872,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003447,Hunt LLC,XQI,Agriculture,EMP-XQI-0027,Kisumu,private_car,32.7,222,14518.8,0.17,2468.196,2.468196,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000470,Goodwin Ltd,HQX,Manufacturing,EMP-HQX-0050,Kisii,boda_boda,9.0,181,3258.0,0.113,368.154,0.368154,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000955,Connolly-Young,YRC,Insurance,EMP-YRC-0055,Kisumu,private_car,29.4,216,12700.8,0.17,2159.136,2.159136,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003988,Smith Ltd,CXU,Insurance,EMP-CXU-0028,Nairobi,taxi_cab,17.0,205,6970.0,0.17,1184.9,1.1849,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002736,Howard PLC,UQK,Real Estate,EMP-UQK-0036,Nyeri,taxi_cab,15.5,224,6944.0,0.17,1180.48,1.18048,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003861,Crawford-Rogers,WON,Retail & FMCG,EMP-WON-0021,Machakos,private_car,20.4,203,8282.4,0.17,1408.008,1.408008,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000640,Brown LLC,TSE,Real Estate,EMP-TSE-0040,Kisumu,boda_boda,12.9,185,4773.0,0.113,539.349,0.539349,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003720,Mellor-Jones,BCV,Real Estate,EMP-BCV-0060,Eldoret,private_car,25.0,235,11750.0,0.17,1997.5,1.9975,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001219,Hardy-Ford,ZGX,Healthcare,EMP-ZGX-0019,Thika,taxi_cab,23.7,204,9669.6,0.17,1643.832,1.643832,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001159,Middleton Johnson and Kelly,SMP,Insurance,EMP-SMP-0019,Meru,matatu_14seater,20.2,234,9453.6,0.089,841.37,0.84137,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001416,Hart Hill and Smith,QVG,Telecommunications,EMP-QVG-0036,Meru,company_bus,34.0,237,16116.0,0.029,467.364,0.467364,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003629,Goddard-Taylor,OVJ,Retail & FMCG,EMP-OVJ-0029,Meru,matatu_14seater,26.3,216,11361.6,0.089,1011.182,1.011182,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001528,Williams Sutton and Hewitt,KZL,Healthcare,EMP-KZL-0028,Thika,matatu_14seater,17.8,195,6942.0,0.089,617.838,0.617838,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003913,Miller Scott and Moran,RAO,Real Estate,EMP-RAO-0013,Nyeri,private_car,16.4,200,6560.0,0.17,1115.2,1.1152,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001301,Thompson Walsh and Mason,JDT,Real Estate,EMP-JDT-0041,Nakuru,matatu_14seater,22.6,222,10034.4,0.089,893.062,0.893062,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003839,Williams Cook and Thomas,KKT,Healthcare,EMP-KKT-0059,Eldoret,taxi_cab,22.9,221,10121.8,0.17,1720.706,1.720706,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002849,Chamberlain Payne and Webster,XDT,Telecommunications,EMP-XDT-0029,Nakuru,company_bus,41.3,226,18667.6,0.029,541.36,0.54136,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001604,Hunter LLC,LTR,Construction,EMP-LTR-0044,Mombasa,private_car,15.8,212,6699.2,0.17,1138.864,1.138864,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000161,O'Donnell Davies and Kelly,ODE,Telecommunications,EMP-ODE-0041,Nyeri,private_car,26.5,231,12243.0,0.17,2081.31,2.08131,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001705,Watson Allen and Thomson,LCW,Construction,EMP-LCW-0025,Thika,matatu_14seater,22.9,217,9938.6,0.089,884.535,0.884535,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000957,Connolly-Young,YRC,Insurance,EMP-YRC-0057,Eldoret,walk_or_cycle,3.3,225,1485.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003235,Wilkinson Group,QLE,Banking & Finance,EMP-QLE-0055,Thika,company_bus,24.9,230,11454.0,0.029,332.166,0.332166,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002870,Chamberlain Payne and Webster,XDT,Telecommunications,EMP-XDT-0050,Thika,boda_boda,15.3,220,6732.0,0.113,760.716,0.760716,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003901,Miller Scott and Moran,RAO,Real Estate,EMP-RAO-0001,Kisii,walk_or_cycle,3.9,223,1739.4,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000878,Bartlett-White,MXD,Retail & FMCG,EMP-MXD-0038,Machakos,walk_or_cycle,2.1,232,974.4,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001920,Dyer-Young,SDJ,Construction,EMP-SDJ-0060,Nairobi,private_car,19.1,190,7258.0,0.17,1233.86,1.23386,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002962,Welch Smith and Clarke,NNU,Banking & Finance,EMP-NNU-0022,Kisii,taxi_cab,11.3,231,5220.6,0.17,887.502,0.887502,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001885,Dyer-Young,SDJ,Construction,EMP-SDJ-0025,Machakos,private_car,14.0,224,6272.0,0.17,1066.24,1.06624,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002201,Thompson-Simmons,UJF,Energy & Petroleum,EMP-UJF-0041,Mombasa,private_car,21.4,208,8902.4,0.17,1513.408,1.513408,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000099,Fuller LLC,SXB,Agriculture,EMP-SXB-0039,Machakos,matatu_14seater,10.8,201,4341.6,0.089,386.402,0.386402,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003788,Williams Cook and Thomas,KKT,Healthcare,EMP-KKT-0008,Nyeri,company_bus,23.1,234,10810.8,0.029,313.513,0.313513,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002558,Simpson Fletcher and Johnson,SRF,Agriculture,EMP-SRF-0038,Nakuru,matatu_14seater,11.4,207,4719.6,0.089,420.044,0.420044,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003184,Wilkinson Group,QLE,Banking & Finance,EMP-QLE-0004,Kisii,taxi_cab,16.9,228,7706.4,0.17,1310.088,1.310088,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003299,Gibbons Inc,FCZ,Agriculture,EMP-FCZ-0059,Nakuru,private_car,16.4,235,7708.0,0.17,1310.36,1.31036,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000254,Murphy-Barrett,QVK,Insurance,EMP-QVK-0014,Nakuru,private_car,24.8,231,11457.6,0.17,1947.792,1.947792,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000104,Fuller LLC,SXB,Agriculture,EMP-SXB-0044,Thika,matatu_14seater,13.4,220,5896.0,0.089,524.744,0.524744,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001446,Mann Burton and Waters,AMW,Insurance,EMP-AMW-0006,Eldoret,boda_boda,12.8,210,5376.0,0.113,607.488,0.607488,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001444,Mann Burton and Waters,AMW,Insurance,EMP-AMW-0004,Mombasa,private_car,34.3,235,16121.0,0.17,2740.57,2.74057,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001649,Long-Lewis,IXG,Insurance,EMP-IXG-0029,Machakos,boda_boda,10.5,189,3969.0,0.113,448.497,0.448497,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000587,Crawford Shah and Brown,TDK,Energy & Petroleum,EMP-TDK-0047,Kisumu,boda_boda,9.3,188,3496.8,0.113,395.138,0.395138,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000628,Brown LLC,TSE,Real Estate,EMP-TSE-0028,Eldoret,taxi_cab,16.8,198,6652.8,0.17,1130.976,1.130976,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001697,Watson Allen and Thomson,LCW,Construction,EMP-LCW-0017,Mombasa,private_car,33.4,223,14896.4,0.17,2532.388,2.532388,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003192,Wilkinson Group,QLE,Banking & Finance,EMP-QLE-0012,Kisumu,matatu_14seater,11.7,206,4820.4,0.089,429.016,0.429016,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002102,Miles-Jackson,PDW,Construction,EMP-PDW-0002,Meru,boda_boda,14.9,185,5513.0,0.113,622.969,0.622969,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002200,Thompson-Simmons,UJF,Energy & Petroleum,EMP-UJF-0040,Machakos,taxi_cab,17.4,229,7969.2,0.17,1354.764,1.354764,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000404,Wood LLC,WCE,Insurance,EMP-WCE-0044,Kisii,matatu_14seater,15.9,214,6805.2,0.089,605.663,0.605663,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001155,Middleton Johnson and Kelly,SMP,Insurance,EMP-SMP-0015,Machakos,boda_boda,19.1,180,6876.0,0.113,776.988,0.776988,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002256,Moore Chapman and Williams,JCE,Telecommunications,EMP-JCE-0036,Mombasa,walk_or_cycle,3.1,199,1233.8,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002864,Chamberlain Payne and Webster,XDT,Telecommunications,EMP-XDT-0044,Thika,boda_boda,8.1,193,3126.6,0.113,353.306,0.353306,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001683,Watson Allen and Thomson,LCW,Construction,EMP-LCW-0003,Mombasa,taxi_cab,14.5,180,5220.0,0.17,887.4,0.8874,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003171,Evans-Ford,YBV,Agriculture,EMP-YBV-0051,Kisii,private_car,23.8,200,9520.0,0.17,1618.4,1.6184,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003760,Ali Group,CZG,Healthcare,EMP-CZG-0040,Machakos,private_car,15.8,182,5751.2,0.17,977.704,0.977704,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002057,Simpson-Robinson,VFA,Telecommunications,EMP-VFA-0017,Eldoret,matatu_14seater,27.0,217,11718.0,0.089,1042.902,1.042902,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003063,Johnson Holt and Tomlinson,LBZ,Healthcare,EMP-LBZ-0003,Mombasa,taxi_cab,19.2,220,8448.0,0.17,1436.16,1.43616,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003810,Williams Cook and Thomas,KKT,Healthcare,EMP-KKT-0030,Nakuru,boda_boda,16.5,196,6468.0,0.113,730.884,0.730884,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003109,Johnson Holt and Tomlinson,LBZ,Healthcare,EMP-LBZ-0049,Nyeri,matatu_14seater,15.0,191,5730.0,0.089,509.97,0.50997,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000453,Goodwin Ltd,HQX,Manufacturing,EMP-HQX-0033,Thika,boda_boda,14.8,202,5979.2,0.113,675.65,0.67565,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002302,Miller-Wilkinson,VTD,Manufacturing,EMP-VTD-0022,Eldoret,boda_boda,12.7,197,5003.8,0.113,565.429,0.565429,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001328,Fletcher-Harper,QUZ,Real Estate,EMP-QUZ-0008,Machakos,boda_boda,14.1,224,6316.8,0.113,713.798,0.713798,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002945,Welch Smith and Clarke,NNU,Banking & Finance,EMP-NNU-0005,Kisii,boda_boda,11.4,205,4674.0,0.113,528.162,0.528162,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002050,Simpson-Robinson,VFA,Telecommunications,EMP-VFA-0010,Nyeri,walk_or_cycle,2.3,194,892.4,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000881,Bartlett-White,MXD,Retail & FMCG,EMP-MXD-0041,Mombasa,matatu_14seater,15.0,180,5400.0,0.089,480.6,0.4806,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003644,Goddard-Taylor,OVJ,Retail & FMCG,EMP-OVJ-0044,Nairobi,company_bus,51.5,205,21115.0,0.029,612.335,0.612335,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003907,Miller Scott and Moran,RAO,Real Estate,EMP-RAO-0007,Eldoret,private_car,18.2,198,7207.2,0.17,1225.224,1.225224,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000624,Brown LLC,TSE,Real Estate,EMP-TSE-0024,Meru,boda_boda,11.6,182,4222.4,0.113,477.131,0.477131,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002394,Cameron-Hussain,WHY,Real Estate,EMP-WHY-0054,Kisii,matatu_14seater,14.0,233,6524.0,0.089,580.636,0.580636,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003709,Mellor-Jones,BCV,Real Estate,EMP-BCV-0049,Eldoret,matatu_14seater,14.9,209,6228.2,0.089,554.31,0.55431,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001788,Harding Davis and Booth,BJQ,Agriculture,EMP-BJQ-0048,Kisumu,private_car,30.6,238,14565.6,0.17,2476.152,2.476152,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000263,Murphy-Barrett,QVK,Insurance,EMP-QVK-0023,Nairobi,private_car,16.2,216,6998.4,0.17,1189.728,1.189728,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001635,Long-Lewis,IXG,Insurance,EMP-IXG-0015,Kisii,company_bus,22.3,225,10035.0,0.029,291.015,0.291015,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003370,Brown PLC,KQW,Real Estate,EMP-KQW-0010,Nyeri,boda_boda,13.6,191,5195.2,0.113,587.058,0.587058,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001439,Hart Hill and Smith,QVG,Telecommunications,EMP-QVG-0059,Meru,private_car,33.0,220,14520.0,0.17,2468.4,2.4684,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002199,Thompson-Simmons,UJF,Energy & Petroleum,EMP-UJF-0039,Nairobi,matatu_14seater,20.0,192,7680.0,0.089,683.52,0.68352,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001970,Stokes-Thomas,OYZ,Real Estate,EMP-OYZ-0050,Eldoret,walk_or_cycle,4.8,235,2256.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002521,Simpson Fletcher and Johnson,SRF,Agriculture,EMP-SRF-0001,Kisumu,private_car,30.8,227,13983.2,0.17,2377.144,2.377144,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001803,Burgess Turner and Thomas,CZV,Telecommunications,EMP-CZV-0003,Kisii,matatu_14seater,25.5,184,9384.0,0.089,835.176,0.835176,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000641,Brown LLC,TSE,Real Estate,EMP-TSE-0041,Kisii,company_bus,24.9,234,11653.2,0.029,337.943,0.337943,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-004003,Smith Ltd,CXU,Insurance,EMP-CXU-0043,Meru,private_car,30.7,232,14244.8,0.17,2421.616,2.421616,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002386,Cameron-Hussain,WHY,Real Estate,EMP-WHY-0046,Meru,private_car,13.7,197,5397.8,0.17,917.626,0.917626,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002599,Pearce Gilbert and Kennedy,YBK,Healthcare,EMP-YBK-0019,Meru,private_car,23.8,218,10376.8,0.17,1764.056,1.764056,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003792,Williams Cook and Thomas,KKT,Healthcare,EMP-KKT-0012,Kisii,boda_boda,13.0,235,6110.0,0.113,690.43,0.69043,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001960,Stokes-Thomas,OYZ,Real Estate,EMP-OYZ-0040,Machakos,private_car,14.2,239,6787.6,0.17,1153.892,1.153892,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002977,Welch Smith and Clarke,NNU,Banking & Finance,EMP-NNU-0037,Nairobi,taxi_cab,19.6,229,8976.8,0.17,1526.056,1.526056,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000489,Jackson-Watkins,IUI,Healthcare,EMP-IUI-0009,Meru,private_car,26.3,222,11677.2,0.17,1985.124,1.985124,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001844,Burgess Turner and Thomas,CZV,Telecommunications,EMP-CZV-0044,Nairobi,matatu_14seater,19.8,217,8593.2,0.089,764.795,0.764795,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001735,Watson Allen and Thomson,LCW,Construction,EMP-LCW-0055,Machakos,matatu_14seater,24.0,220,10560.0,0.089,939.84,0.93984,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002912,Cartwright-Payne,LRT,Manufacturing,EMP-LRT-0032,Thika,private_car,34.5,192,13248.0,0.17,2252.16,2.25216,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003220,Wilkinson Group,QLE,Banking & Finance,EMP-QLE-0040,Mombasa,private_car,25.7,232,11924.8,0.17,2027.216,2.027216,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000147,O'Donnell Davies and Kelly,ODE,Telecommunications,EMP-ODE-0027,Kisii,company_bus,46.9,222,20823.6,0.029,603.884,0.603884,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001535,Williams Sutton and Hewitt,KZL,Healthcare,EMP-KZL-0035,Kisii,private_car,27.6,228,12585.6,0.17,2139.552,2.139552,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001987,Poole Ltd,KYZ,Telecommunications,EMP-KYZ-0007,Kisumu,boda_boda,11.4,226,5152.8,0.113,582.266,0.582266,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001370,Fletcher-Harper,QUZ,Real Estate,EMP-QUZ-0050,Kisumu,matatu_14seater,20.4,197,8037.6,0.089,715.346,0.715346,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002451,Potter-Cooper,KNK,Agriculture,EMP-KNK-0051,Mombasa,matatu_14seater,19.5,184,7176.0,0.089,638.664,0.638664,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003933,Miller Scott and Moran,RAO,Real Estate,EMP-RAO-0033,Thika,walk_or_cycle,2.0,209,836.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003003,Webb-Turnbull,GLV,Retail & FMCG,EMP-GLV-0003,Thika,private_car,30.3,194,11756.4,0.17,1998.588,1.998588,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002812,Khan Walker and John,VBZ,Manufacturing,EMP-VBZ-0052,Kisumu,walk_or_cycle,3.5,183,1281.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000660,Brown LLC,TSE,Real Estate,EMP-TSE-0060,Nyeri,company_bus,43.3,239,20697.4,0.029,600.225,0.600225,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001795,Harding Davis and Booth,BJQ,Agriculture,EMP-BJQ-0055,Machakos,matatu_14seater,28.7,183,10504.2,0.089,934.874,0.934874,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003421,Hunt LLC,XQI,Agriculture,EMP-XQI-0001,Nyeri,matatu_14seater,27.6,214,11812.8,0.089,1051.339,1.051339,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002512,Williams Allen and Farrell,ISH,Retail & FMCG,EMP-ISH-0052,Meru,matatu_14seater,20.8,187,7779.2,0.089,692.349,0.692349,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003398,Brown PLC,KQW,Real Estate,EMP-KQW-0038,Nairobi,private_car,24.3,219,10643.4,0.17,1809.378,1.809378,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000187,Johnson Kirk and Stewart,BUW,Energy & Petroleum,EMP-BUW-0007,Machakos,taxi_cab,21.3,219,9329.4,0.17,1585.998,1.585998,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001148,Middleton Johnson and Kelly,SMP,Insurance,EMP-SMP-0008,Thika,private_car,32.8,184,12070.4,0.17,2051.968,2.051968,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003273,Gibbons Inc,FCZ,Agriculture,EMP-FCZ-0033,Kisumu,company_bus,42.1,181,15240.2,0.029,441.966,0.441966,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000609,Brown LLC,TSE,Real Estate,EMP-TSE-0009,Nairobi,private_car,20.6,190,7828.0,0.17,1330.76,1.33076,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002192,Thompson-Simmons,UJF,Energy & Petroleum,EMP-UJF-0032,Nyeri,company_bus,31.2,213,13291.2,0.029,385.445,0.385445,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002800,Khan Walker and John,VBZ,Manufacturing,EMP-VBZ-0040,Nakuru,boda_boda,15.3,238,7282.8,0.113,822.956,0.822956,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003583,Reynolds Webb and Webb,MPR,Healthcare,EMP-MPR-0043,Kisumu,private_car,20.8,224,9318.4,0.17,1584.128,1.584128,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001931,Stokes-Thomas,OYZ,Real Estate,EMP-OYZ-0011,Nyeri,private_car,26.2,204,10689.6,0.17,1817.232,1.817232,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003030,Webb-Turnbull,GLV,Retail & FMCG,EMP-GLV-0030,Meru,matatu_14seater,20.1,226,9085.2,0.089,808.583,0.808583,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000198,Johnson Kirk and Stewart,BUW,Energy & Petroleum,EMP-BUW-0018,Nyeri,company_bus,40.6,228,18513.6,0.029,536.894,0.536894,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003682,Mellor-Jones,BCV,Real Estate,EMP-BCV-0022,Eldoret,walk_or_cycle,2.2,232,1020.8,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002932,Cartwright-Payne,LRT,Manufacturing,EMP-LRT-0052,Thika,private_car,32.7,228,14911.2,0.17,2534.904,2.534904,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002328,Miller-Wilkinson,VTD,Manufacturing,EMP-VTD-0048,Nakuru,private_car,27.9,199,11104.2,0.17,1887.714,1.887714,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000294,Murphy-Barrett,QVK,Insurance,EMP-QVK-0054,Machakos,boda_boda,17.9,193,6909.4,0.113,780.762,0.780762,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000767,Fletcher Inc,ZMK,Banking & Finance,EMP-ZMK-0047,Thika,matatu_14seater,27.7,186,10304.4,0.089,917.092,0.917092,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000401,Wood LLC,WCE,Insurance,EMP-WCE-0041,Mombasa,boda_boda,8.8,236,4153.6,0.113,469.357,0.469357,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000123,O'Donnell Davies and Kelly,ODE,Telecommunications,EMP-ODE-0003,Mombasa,taxi_cab,19.1,230,8786.0,0.17,1493.62,1.49362,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003256,Gibbons Inc,FCZ,Agriculture,EMP-FCZ-0016,Nyeri,private_car,16.4,218,7150.4,0.17,1215.568,1.215568,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000203,Johnson Kirk and Stewart,BUW,Energy & Petroleum,EMP-BUW-0023,Mombasa,matatu_14seater,20.2,210,8484.0,0.089,755.076,0.755076,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003511,Richards PLC,CCU,Insurance,EMP-CCU-0031,Kisii,private_car,23.9,194,9273.2,0.17,1576.444,1.576444,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000836,Freeman Inc,DPQ,Retail & FMCG,EMP-DPQ-0056,Mombasa,matatu_14seater,22.8,199,9074.4,0.089,807.622,0.807622,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002295,Miller-Wilkinson,VTD,Manufacturing,EMP-VTD-0015,Meru,private_car,30.1,202,12160.4,0.17,2067.268,2.067268,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001440,Hart Hill and Smith,QVG,Telecommunications,EMP-QVG-0060,Nairobi,boda_boda,7.9,188,2970.4,0.113,335.655,0.335655,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001734,Watson Allen and Thomson,LCW,Construction,EMP-LCW-0054,Kisumu,private_car,29.4,239,14053.2,0.17,2389.044,2.389044,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001696,Watson Allen and Thomson,LCW,Construction,EMP-LCW-0016,Machakos,matatu_14seater,14.7,218,6409.2,0.089,570.419,0.570419,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003920,Miller Scott and Moran,RAO,Real Estate,EMP-RAO-0020,Eldoret,boda_boda,12.0,228,5472.0,0.113,618.336,0.618336,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001708,Watson Allen and Thomson,LCW,Construction,EMP-LCW-0028,Kisii,matatu_14seater,25.7,211,10845.4,0.089,965.241,0.965241,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003899,Crawford-Rogers,WON,Retail & FMCG,EMP-WON-0059,Nakuru,boda_boda,18.1,238,8615.6,0.113,973.563,0.973563,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001154,Middleton Johnson and Kelly,SMP,Insurance,EMP-SMP-0014,Eldoret,matatu_14seater,11.0,217,4774.0,0.089,424.886,0.424886,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001662,Long-Lewis,IXG,Insurance,EMP-IXG-0042,Nakuru,walk_or_cycle,3.3,213,1405.8,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003475,Hunt LLC,XQI,Agriculture,EMP-XQI-0055,Mombasa,boda_boda,8.6,216,3715.2,0.113,419.818,0.419818,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002433,Potter-Cooper,KNK,Agriculture,EMP-KNK-0033,Mombasa,matatu_14seater,28.4,205,11644.0,0.089,1036.316,1.036316,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003769,Ali Group,CZG,Healthcare,EMP-CZG-0049,Kisii,matatu_14seater,16.5,182,6006.0,0.089,534.534,0.534534,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001760,Harding Davis and Booth,BJQ,Agriculture,EMP-BJQ-0020,Nyeri,walk_or_cycle,3.3,197,1300.2,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000855,Bartlett-White,MXD,Retail & FMCG,EMP-MXD-0015,Eldoret,walk_or_cycle,2.2,187,822.8,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001590,Hunter LLC,LTR,Construction,EMP-LTR-0030,Nairobi,private_car,26.9,235,12643.0,0.17,2149.31,2.14931,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002268,Moore Chapman and Williams,JCE,Telecommunications,EMP-JCE-0048,Nyeri,private_car,20.9,182,7607.6,0.17,1293.292,1.293292,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000642,Brown LLC,TSE,Real Estate,EMP-TSE-0042,Nakuru,matatu_14seater,15.8,234,7394.4,0.089,658.102,0.658102,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000002,Hicks Smith and Marsden,QVW,Banking & Finance,EMP-QVW-0002,Thika,private_car,19.6,227,8898.4,0.17,1512.728,1.512728,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002161,Thompson-Simmons,UJF,Energy & Petroleum,EMP-UJF-0001,Machakos,matatu_14seater,17.9,230,8234.0,0.089,732.826,0.732826,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000699,Andrews Robinson and Dennis,JFK,Energy & Petroleum,EMP-JFK-0039,Nairobi,private_car,30.5,184,11224.0,0.17,1908.08,1.90808,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003934,Miller Scott and Moran,RAO,Real Estate,EMP-RAO-0034,Machakos,matatu_14seater,15.0,191,5730.0,0.089,509.97,0.50997,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003000,Welch Smith and Clarke,NNU,Banking & Finance,EMP-NNU-0060,Nairobi,matatu_14seater,20.0,187,7480.0,0.089,665.72,0.66572,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003697,Mellor-Jones,BCV,Real Estate,EMP-BCV-0037,Nakuru,matatu_14seater,25.0,182,9100.0,0.089,809.9,0.8099,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001637,Long-Lewis,IXG,Insurance,EMP-IXG-0017,Meru,matatu_14seater,25.7,219,11256.6,0.089,1001.837,1.001837,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003185,Wilkinson Group,QLE,Banking & Finance,EMP-QLE-0005,Eldoret,walk_or_cycle,3.0,232,1392.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003459,Hunt LLC,XQI,Agriculture,EMP-XQI-0039,Machakos,matatu_14seater,16.8,237,7963.2,0.089,708.725,0.708725,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003458,Hunt LLC,XQI,Agriculture,EMP-XQI-0038,Kisumu,boda_boda,11.3,210,4746.0,0.113,536.298,0.536298,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003582,Reynolds Webb and Webb,MPR,Healthcare,EMP-MPR-0042,Machakos,private_car,13.6,228,6201.6,0.17,1054.272,1.054272,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001292,Thompson Walsh and Mason,JDT,Real Estate,EMP-JDT-0032,Nyeri,matatu_14seater,21.3,194,8264.4,0.089,735.532,0.735532,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003824,Williams Cook and Thomas,KKT,Healthcare,EMP-KKT-0044,Kisumu,private_car,33.1,218,14431.6,0.17,2453.372,2.453372,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002490,Williams Allen and Farrell,ISH,Retail & FMCG,EMP-ISH-0030,Kisii,matatu_14seater,18.1,181,6552.2,0.089,583.146,0.583146,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001521,Williams Sutton and Hewitt,KZL,Healthcare,EMP-KZL-0021,Nairobi,private_car,17.7,211,7469.4,0.17,1269.798,1.269798,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001854,Burgess Turner and Thomas,CZV,Telecommunications,EMP-CZV-0054,Nairobi,private_car,25.5,233,11883.0,0.17,2020.11,2.02011,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001137,Martin Group,CFE,Healthcare,EMP-CFE-0057,Nairobi,matatu_14seater,23.9,197,9416.6,0.089,838.077,0.838077,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003305,Kennedy Dale and Wilson,WGW,Healthcare,EMP-WGW-0005,Eldoret,matatu_14seater,14.4,191,5500.8,0.089,489.571,0.489571,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003882,Crawford-Rogers,WON,Retail & FMCG,EMP-WON-0042,Mombasa,matatu_14seater,27.7,188,10415.2,0.089,926.953,0.926953,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001632,Long-Lewis,IXG,Insurance,EMP-IXG-0012,Machakos,private_car,15.1,209,6311.8,0.17,1073.006,1.073006,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003744,Ali Group,CZG,Healthcare,EMP-CZG-0024,Kisumu,matatu_14seater,23.8,193,9186.8,0.089,817.625,0.817625,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003446,Hunt LLC,XQI,Agriculture,EMP-XQI-0026,Thika,matatu_14seater,10.9,186,4054.8,0.089,360.877,0.360877,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001999,Poole Ltd,KYZ,Telecommunications,EMP-KYZ-0019,Meru,private_car,24.3,231,11226.6,0.17,1908.522,1.908522,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000664,Andrews Robinson and Dennis,JFK,Energy & Petroleum,EMP-JFK-0004,Nakuru,matatu_14seater,23.1,211,9748.2,0.089,867.59,0.86759,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000684,Andrews Robinson and Dennis,JFK,Energy & Petroleum,EMP-JFK-0024,Kisii,private_car,21.9,236,10336.8,0.17,1757.256,1.757256,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001258,Hardy-Ford,ZGX,Healthcare,EMP-ZGX-0058,Machakos,private_car,32.5,232,15080.0,0.17,2563.6,2.5636,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003785,Williams Cook and Thomas,KKT,Healthcare,EMP-KKT-0005,Kisii,boda_boda,13.2,221,5834.4,0.113,659.287,0.659287,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003749,Ali Group,CZG,Healthcare,EMP-CZG-0029,Mombasa,matatu_14seater,19.0,189,7182.0,0.089,639.198,0.639198,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000318,Warren PLC,ZTV,Construction,EMP-ZTV-0018,Nyeri,private_car,21.5,182,7826.0,0.17,1330.42,1.33042,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000649,Brown LLC,TSE,Real Estate,EMP-TSE-0049,Kisumu,boda_boda,9.7,187,3627.8,0.113,409.941,0.409941,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001435,Hart Hill and Smith,QVG,Telecommunications,EMP-QVG-0055,Kisumu,matatu_14seater,12.6,221,5569.2,0.089,495.659,0.495659,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001480,Mann Burton and Waters,AMW,Insurance,EMP-AMW-0040,Meru,matatu_14seater,27.8,223,12398.8,0.089,1103.493,1.103493,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000710,Andrews Robinson and Dennis,JFK,Energy & Petroleum,EMP-JFK-0050,Mombasa,matatu_14seater,15.0,219,6570.0,0.089,584.73,0.58473,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003431,Hunt LLC,XQI,Agriculture,EMP-XQI-0011,Thika,matatu_14seater,15.2,225,6840.0,0.089,608.76,0.60876,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001283,Thompson Walsh and Mason,JDT,Real Estate,EMP-JDT-0023,Thika,walk_or_cycle,3.3,236,1557.6,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001769,Harding Davis and Booth,BJQ,Agriculture,EMP-BJQ-0029,Machakos,matatu_14seater,22.6,222,10034.4,0.089,893.062,0.893062,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000973,Walker Group,FFD,Healthcare,EMP-FFD-0013,Mombasa,matatu_14seater,24.7,210,10374.0,0.089,923.286,0.923286,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002676,Griffiths Group,VTU,Retail & FMCG,EMP-VTU-0036,Nairobi,matatu_14seater,10.9,211,4599.8,0.089,409.382,0.409382,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002681,Griffiths Group,VTU,Retail & FMCG,EMP-VTU-0041,Mombasa,matatu_14seater,11.6,214,4964.8,0.089,441.867,0.441867,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001307,Thompson Walsh and Mason,JDT,Real Estate,EMP-JDT-0047,Machakos,boda_boda,8.8,209,3678.4,0.113,415.659,0.415659,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001401,Hart Hill and Smith,QVG,Telecommunications,EMP-QVG-0021,Eldoret,matatu_14seater,20.0,223,8920.0,0.089,793.88,0.79388,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001409,Hart Hill and Smith,QVG,Telecommunications,EMP-QVG-0029,Machakos,private_car,21.9,185,8103.0,0.17,1377.51,1.37751,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003297,Gibbons Inc,FCZ,Agriculture,EMP-FCZ-0057,Nakuru,matatu_14seater,14.5,211,6119.0,0.089,544.591,0.544591,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002238,Moore Chapman and Williams,JCE,Telecommunications,EMP-JCE-0018,Kisii,walk_or_cycle,2.2,232,1020.8,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003303,Kennedy Dale and Wilson,WGW,Healthcare,EMP-WGW-0003,Nakuru,matatu_14seater,15.4,189,5821.2,0.089,518.087,0.518087,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001497,Mann Burton and Waters,AMW,Insurance,EMP-AMW-0057,Machakos,matatu_14seater,19.7,209,8234.6,0.089,732.879,0.732879,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003420,Brown PLC,KQW,Real Estate,EMP-KQW-0060,Eldoret,matatu_14seater,17.8,199,7084.4,0.089,630.512,0.630512,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002039,Poole Ltd,KYZ,Telecommunications,EMP-KYZ-0059,Meru,matatu_14seater,21.3,223,9499.8,0.089,845.482,0.845482,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001530,Williams Sutton and Hewitt,KZL,Healthcare,EMP-KZL-0030,Nakuru,private_car,26.5,230,12190.0,0.17,2072.3,2.0723,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001664,Long-Lewis,IXG,Insurance,EMP-IXG-0044,Meru,matatu_14seater,23.4,187,8751.6,0.089,778.892,0.778892,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001355,Fletcher-Harper,QUZ,Real Estate,EMP-QUZ-0035,Kisii,company_bus,53.4,228,24350.4,0.029,706.162,0.706162,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003916,Miller Scott and Moran,RAO,Real Estate,EMP-RAO-0016,Nairobi,walk_or_cycle,3.7,225,1665.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003944,Miller Scott and Moran,RAO,Real Estate,EMP-RAO-0044,Kisumu,private_car,31.3,215,13459.0,0.17,2288.03,2.28803,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003628,Goddard-Taylor,OVJ,Retail & FMCG,EMP-OVJ-0028,Nairobi,private_car,26.3,230,12098.0,0.17,2056.66,2.05666,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001644,Long-Lewis,IXG,Insurance,EMP-IXG-0024,Kisii,walk_or_cycle,2.1,193,810.6,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001052,Chapman Webster and McCarthy,RTS,Manufacturing,EMP-RTS-0032,Nairobi,private_car,28.5,218,12426.0,0.17,2112.42,2.11242,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000796,Freeman Inc,DPQ,Retail & FMCG,EMP-DPQ-0016,Kisii,walk_or_cycle,3.4,234,1591.2,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002694,Griffiths Group,VTU,Retail & FMCG,EMP-VTU-0054,Meru,taxi_cab,22.8,182,8299.2,0.17,1410.864,1.410864,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003061,Johnson Holt and Tomlinson,LBZ,Healthcare,EMP-LBZ-0001,Nairobi,matatu_14seater,15.6,208,6489.6,0.089,577.574,0.577574,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001598,Hunter LLC,LTR,Construction,EMP-LTR-0038,Nakuru,matatu_14seater,15.0,236,7080.0,0.089,630.12,0.63012,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002605,Pearce Gilbert and Kennedy,YBK,Healthcare,EMP-YBK-0025,Machakos,company_bus,42.5,219,18615.0,0.029,539.835,0.539835,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002730,Howard PLC,UQK,Real Estate,EMP-UQK-0030,Thika,walk_or_cycle,2.3,198,910.8,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002626,Pearce Gilbert and Kennedy,YBK,Healthcare,EMP-YBK-0046,Mombasa,private_car,24.2,202,9776.8,0.17,1662.056,1.662056,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001820,Burgess Turner and Thomas,CZV,Telecommunications,EMP-CZV-0020,Eldoret,boda_boda,17.7,231,8177.4,0.113,924.046,0.924046,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003158,Evans-Ford,YBV,Agriculture,EMP-YBV-0038,Nairobi,company_bus,50.6,228,23073.6,0.029,669.134,0.669134,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003315,Kennedy Dale and Wilson,WGW,Healthcare,EMP-WGW-0015,Kisii,private_car,14.8,202,5979.2,0.17,1016.464,1.016464,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001723,Watson Allen and Thomson,LCW,Construction,EMP-LCW-0043,Nyeri,boda_boda,16.6,219,7270.8,0.113,821.6,0.8216,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001184,Middleton Johnson and Kelly,SMP,Insurance,EMP-SMP-0044,Machakos,boda_boda,12.7,223,5664.2,0.113,640.055,0.640055,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002573,Simpson Fletcher and Johnson,SRF,Agriculture,EMP-SRF-0053,Eldoret,private_car,24.6,223,10971.6,0.17,1865.172,1.865172,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001060,Chapman Webster and McCarthy,RTS,Manufacturing,EMP-RTS-0040,Nakuru,matatu_14seater,15.9,227,7218.6,0.089,642.455,0.642455,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000541,Crawford Shah and Brown,TDK,Energy & Petroleum,EMP-TDK-0001,Machakos,private_car,26.2,219,11475.6,0.17,1950.852,1.950852,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003243,Gibbons Inc,FCZ,Agriculture,EMP-FCZ-0003,Eldoret,company_bus,45.7,183,16726.2,0.029,485.06,0.48506,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001679,Long-Lewis,IXG,Insurance,EMP-IXG-0059,Mombasa,company_bus,33.1,185,12247.0,0.029,355.163,0.355163,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002797,Khan Walker and John,VBZ,Manufacturing,EMP-VBZ-0037,Nakuru,boda_boda,8.9,186,3310.8,0.113,374.12,0.37412,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003870,Crawford-Rogers,WON,Retail & FMCG,EMP-WON-0030,Kisii,matatu_14seater,23.7,209,9906.6,0.089,881.687,0.881687,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003479,Hunt LLC,XQI,Agriculture,EMP-XQI-0059,Machakos,private_car,17.1,188,6429.6,0.17,1093.032,1.093032,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002533,Simpson Fletcher and Johnson,SRF,Agriculture,EMP-SRF-0013,Mombasa,private_car,23.0,220,10120.0,0.17,1720.4,1.7204,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001758,Harding Davis and Booth,BJQ,Agriculture,EMP-BJQ-0018,Machakos,company_bus,34.5,206,14214.0,0.029,412.206,0.412206,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001924,Stokes-Thomas,OYZ,Real Estate,EMP-OYZ-0004,Meru,matatu_14seater,11.9,190,4522.0,0.089,402.458,0.402458,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000096,Fuller LLC,SXB,Agriculture,EMP-SXB-0036,Nairobi,company_bus,36.3,194,14084.4,0.029,408.448,0.408448,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001021,Chapman Webster and McCarthy,RTS,Manufacturing,EMP-RTS-0001,Eldoret,matatu_14seater,13.1,237,6209.4,0.089,552.637,0.552637,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000564,Crawford Shah and Brown,TDK,Energy & Petroleum,EMP-TDK-0024,Mombasa,private_car,16.6,239,7934.8,0.17,1348.916,1.348916,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003313,Kennedy Dale and Wilson,WGW,Healthcare,EMP-WGW-0013,Kisumu,boda_boda,8.5,225,3825.0,0.113,432.225,0.432225,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002791,Khan Walker and John,VBZ,Manufacturing,EMP-VBZ-0031,Nairobi,taxi_cab,13.2,225,5940.0,0.17,1009.8,1.0098,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000864,Bartlett-White,MXD,Retail & FMCG,EMP-MXD-0024,Machakos,company_bus,26.9,202,10867.6,0.029,315.16,0.31516,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003647,Goddard-Taylor,OVJ,Retail & FMCG,EMP-OVJ-0047,Machakos,boda_boda,11.9,191,4545.8,0.113,513.675,0.513675,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003763,Ali Group,CZG,Healthcare,EMP-CZG-0043,Eldoret,walk_or_cycle,3.5,206,1442.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001485,Mann Burton and Waters,AMW,Insurance,EMP-AMW-0045,Nyeri,private_car,17.6,204,7180.8,0.17,1220.736,1.220736,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002940,Cartwright-Payne,LRT,Manufacturing,EMP-LRT-0060,Eldoret,matatu_14seater,26.7,180,9612.0,0.089,855.468,0.855468,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003626,Goddard-Taylor,OVJ,Retail & FMCG,EMP-OVJ-0026,Nairobi,taxi_cab,22.8,209,9530.4,0.17,1620.168,1.620168,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001882,Dyer-Young,SDJ,Construction,EMP-SDJ-0022,Machakos,matatu_14seater,13.5,183,4941.0,0.089,439.749,0.439749,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001039,Chapman Webster and McCarthy,RTS,Manufacturing,EMP-RTS-0019,Machakos,walk_or_cycle,2.5,217,1085.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000207,Johnson Kirk and Stewart,BUW,Energy & Petroleum,EMP-BUW-0027,Machakos,taxi_cab,11.8,237,5593.2,0.17,950.844,0.950844,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000393,Wood LLC,WCE,Insurance,EMP-WCE-0033,Kisumu,private_car,34.6,183,12663.6,0.17,2152.812,2.152812,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002843,Chamberlain Payne and Webster,XDT,Telecommunications,EMP-XDT-0023,Thika,private_car,26.2,207,10846.8,0.17,1843.956,1.843956,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000871,Bartlett-White,MXD,Retail & FMCG,EMP-MXD-0031,Thika,private_car,25.0,215,10750.0,0.17,1827.5,1.8275,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000398,Wood LLC,WCE,Insurance,EMP-WCE-0038,Eldoret,taxi_cab,20.3,183,7429.8,0.17,1263.066,1.263066,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002815,Khan Walker and John,VBZ,Manufacturing,EMP-VBZ-0055,Kisumu,private_car,13.5,192,5184.0,0.17,881.28,0.88128,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003859,Crawford-Rogers,WON,Retail & FMCG,EMP-WON-0019,Nairobi,company_bus,36.2,189,13683.6,0.029,396.824,0.396824,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003290,Gibbons Inc,FCZ,Agriculture,EMP-FCZ-0050,Mombasa,walk_or_cycle,4.5,211,1899.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001029,Chapman Webster and McCarthy,RTS,Manufacturing,EMP-RTS-0009,Eldoret,private_car,34.8,231,16077.6,0.17,2733.192,2.733192,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003841,Crawford-Rogers,WON,Retail & FMCG,EMP-WON-0001,Nakuru,matatu_14seater,21.1,213,8988.6,0.089,799.985,0.799985,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002691,Griffiths Group,VTU,Retail & FMCG,EMP-VTU-0051,Nyeri,matatu_14seater,15.8,189,5972.4,0.089,531.544,0.531544,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001486,Mann Burton and Waters,AMW,Insurance,EMP-AMW-0046,Nakuru,private_car,21.3,235,10011.0,0.17,1701.87,1.70187,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002661,Griffiths Group,VTU,Retail & FMCG,EMP-VTU-0021,Meru,matatu_14seater,25.8,213,10990.8,0.089,978.181,0.978181,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003811,Williams Cook and Thomas,KKT,Healthcare,EMP-KKT-0031,Thika,private_car,29.5,186,10974.0,0.17,1865.58,1.86558,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000961,Walker Group,FFD,Healthcare,EMP-FFD-0001,Nairobi,matatu_14seater,24.1,214,10314.8,0.089,918.017,0.918017,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001571,Hunter LLC,LTR,Construction,EMP-LTR-0011,Nyeri,private_car,24.7,214,10571.6,0.17,1797.172,1.797172,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002774,Khan Walker and John,VBZ,Manufacturing,EMP-VBZ-0014,Eldoret,matatu_14seater,20.8,202,8403.2,0.089,747.885,0.747885,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001896,Dyer-Young,SDJ,Construction,EMP-SDJ-0036,Kisii,walk_or_cycle,4.5,222,1998.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002732,Howard PLC,UQK,Real Estate,EMP-UQK-0032,Eldoret,private_car,17.3,180,6228.0,0.17,1058.76,1.05876,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002147,Miles-Jackson,PDW,Construction,EMP-PDW-0047,Kisii,taxi_cab,15.5,185,5735.0,0.17,974.95,0.97495,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000805,Freeman Inc,DPQ,Retail & FMCG,EMP-DPQ-0025,Meru,boda_boda,11.9,190,4522.0,0.113,510.986,0.510986,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001752,Harding Davis and Booth,BJQ,Agriculture,EMP-BJQ-0012,Machakos,matatu_14seater,22.5,213,9585.0,0.089,853.065,0.853065,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003646,Goddard-Taylor,OVJ,Retail & FMCG,EMP-OVJ-0046,Thika,matatu_14seater,17.8,180,6408.0,0.089,570.312,0.570312,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002455,Potter-Cooper,KNK,Agriculture,EMP-KNK-0055,Machakos,matatu_14seater,17.1,219,7489.8,0.089,666.592,0.666592,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000503,Jackson-Watkins,IUI,Healthcare,EMP-IUI-0023,Kisii,private_car,32.9,204,13423.2,0.17,2281.944,2.281944,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003120,Johnson Holt and Tomlinson,LBZ,Healthcare,EMP-LBZ-0060,Thika,matatu_14seater,25.9,191,9893.8,0.089,880.548,0.880548,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003105,Johnson Holt and Tomlinson,LBZ,Healthcare,EMP-LBZ-0045,Machakos,boda_boda,7.7,239,3680.6,0.113,415.908,0.415908,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002978,Welch Smith and Clarke,NNU,Banking & Finance,EMP-NNU-0038,Nakuru,company_bus,47.5,193,18335.0,0.029,531.715,0.531715,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000780,Fletcher Inc,ZMK,Banking & Finance,EMP-ZMK-0060,Thika,matatu_14seater,16.7,223,7448.2,0.089,662.89,0.66289,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001864,Dyer-Young,SDJ,Construction,EMP-SDJ-0004,Kisumu,boda_boda,14.7,189,5556.6,0.113,627.896,0.627896,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000201,Johnson Kirk and Stewart,BUW,Energy & Petroleum,EMP-BUW-0021,Nyeri,matatu_14seater,21.5,185,7955.0,0.089,707.995,0.707995,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002183,Thompson-Simmons,UJF,Energy & Petroleum,EMP-UJF-0023,Thika,private_car,28.8,204,11750.4,0.17,1997.568,1.997568,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003100,Johnson Holt and Tomlinson,LBZ,Healthcare,EMP-LBZ-0040,Mombasa,matatu_14seater,21.6,205,8856.0,0.089,788.184,0.788184,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002089,Simpson-Robinson,VFA,Telecommunications,EMP-VFA-0049,Meru,boda_boda,10.3,220,4532.0,0.113,512.116,0.512116,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003066,Johnson Holt and Tomlinson,LBZ,Healthcare,EMP-LBZ-0006,Mombasa,company_bus,54.6,222,24242.4,0.029,703.03,0.70303,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002279,Moore Chapman and Williams,JCE,Telecommunications,EMP-JCE-0059,Mombasa,boda_boda,13.7,181,4959.4,0.113,560.412,0.560412,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003562,Reynolds Webb and Webb,MPR,Healthcare,EMP-MPR-0022,Nyeri,private_car,15.9,233,7409.4,0.17,1259.598,1.259598,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001797,Harding Davis and Booth,BJQ,Agriculture,EMP-BJQ-0057,Thika,matatu_14seater,17.9,200,7160.0,0.089,637.24,0.63724,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000379,Wood LLC,WCE,Insurance,EMP-WCE-0019,Kisii,walk_or_cycle,1.8,203,730.8,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002337,Miller-Wilkinson,VTD,Manufacturing,EMP-VTD-0057,Meru,matatu_14seater,27.3,237,12940.2,0.089,1151.678,1.151678,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000419,Wood LLC,WCE,Insurance,EMP-WCE-0059,Thika,private_car,17.0,230,7820.0,0.17,1329.4,1.3294,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001699,Watson Allen and Thomson,LCW,Construction,EMP-LCW-0019,Thika,company_bus,27.8,211,11731.6,0.029,340.216,0.340216,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000392,Wood LLC,WCE,Insurance,EMP-WCE-0032,Nyeri,boda_boda,12.6,198,4989.6,0.113,563.825,0.563825,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002641,Griffiths Group,VTU,Retail & FMCG,EMP-VTU-0001,Meru,matatu_14seater,26.8,202,10827.2,0.089,963.621,0.963621,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001523,Williams Sutton and Hewitt,KZL,Healthcare,EMP-KZL-0023,Nairobi,matatu_14seater,17.1,195,6669.0,0.089,593.541,0.593541,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001163,Middleton Johnson and Kelly,SMP,Insurance,EMP-SMP-0023,Mombasa,taxi_cab,11.9,195,4641.0,0.17,788.97,0.78897,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003135,Evans-Ford,YBV,Agriculture,EMP-YBV-0015,Thika,boda_boda,19.1,200,7640.0,0.113,863.32,0.86332,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001496,Mann Burton and Waters,AMW,Insurance,EMP-AMW-0056,Kisumu,private_car,22.2,182,8080.8,0.17,1373.736,1.373736,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002696,Griffiths Group,VTU,Retail & FMCG,EMP-VTU-0056,Eldoret,matatu_14seater,28.1,230,12926.0,0.089,1150.414,1.150414,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002028,Poole Ltd,KYZ,Telecommunications,EMP-KYZ-0048,Nyeri,company_bus,47.3,232,21947.2,0.029,636.469,0.636469,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001153,Middleton Johnson and Kelly,SMP,Insurance,EMP-SMP-0013,Eldoret,matatu_14seater,25.4,227,11531.6,0.089,1026.312,1.026312,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001368,Fletcher-Harper,QUZ,Real Estate,EMP-QUZ-0048,Kisii,boda_boda,8.6,216,3715.2,0.113,419.818,0.419818,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002569,Simpson Fletcher and Johnson,SRF,Agriculture,EMP-SRF-0049,Nakuru,matatu_14seater,25.9,229,11862.2,0.089,1055.736,1.055736,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000065,Fuller LLC,SXB,Agriculture,EMP-SXB-0005,Meru,boda_boda,14.3,214,6120.4,0.113,691.605,0.691605,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003885,Crawford-Rogers,WON,Retail & FMCG,EMP-WON-0045,Nakuru,boda_boda,12.0,211,5064.0,0.113,572.232,0.572232,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002063,Simpson-Robinson,VFA,Telecommunications,EMP-VFA-0023,Kisii,taxi_cab,16.0,198,6336.0,0.17,1077.12,1.07712,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001181,Middleton Johnson and Kelly,SMP,Insurance,EMP-SMP-0041,Machakos,matatu_14seater,28.6,201,11497.2,0.089,1023.251,1.023251,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003113,Johnson Holt and Tomlinson,LBZ,Healthcare,EMP-LBZ-0053,Kisumu,matatu_14seater,21.9,221,9679.8,0.089,861.502,0.861502,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000493,Jackson-Watkins,IUI,Healthcare,EMP-IUI-0013,Nakuru,boda_boda,15.4,222,6837.6,0.113,772.649,0.772649,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000380,Wood LLC,WCE,Insurance,EMP-WCE-0020,Kisii,matatu_14seater,18.7,225,8415.0,0.089,748.935,0.748935,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002236,Moore Chapman and Williams,JCE,Telecommunications,EMP-JCE-0016,Kisii,boda_boda,9.1,230,4186.0,0.113,473.018,0.473018,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000764,Fletcher Inc,ZMK,Banking & Finance,EMP-ZMK-0044,Machakos,private_car,32.8,223,14628.8,0.17,2486.896,2.486896,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002265,Moore Chapman and Williams,JCE,Telecommunications,EMP-JCE-0045,Nyeri,boda_boda,12.5,197,4925.0,0.113,556.525,0.556525,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000792,Freeman Inc,DPQ,Retail & FMCG,EMP-DPQ-0012,Eldoret,matatu_14seater,11.6,212,4918.4,0.089,437.738,0.437738,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001077,Chapman Webster and McCarthy,RTS,Manufacturing,EMP-RTS-0057,Eldoret,company_bus,53.9,183,19727.4,0.029,572.095,0.572095,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000879,Bartlett-White,MXD,Retail & FMCG,EMP-MXD-0039,Nyeri,private_car,23.4,201,9406.8,0.17,1599.156,1.599156,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000338,Warren PLC,ZTV,Construction,EMP-ZTV-0038,Thika,taxi_cab,12.4,218,5406.4,0.17,919.088,0.919088,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003821,Williams Cook and Thomas,KKT,Healthcare,EMP-KKT-0041,Kisumu,boda_boda,13.2,219,5781.6,0.113,653.321,0.653321,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002768,Khan Walker and John,VBZ,Manufacturing,EMP-VBZ-0008,Mombasa,walk_or_cycle,3.2,201,1286.4,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003797,Williams Cook and Thomas,KKT,Healthcare,EMP-KKT-0017,Eldoret,company_bus,38.7,182,14086.8,0.029,408.517,0.408517,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002344,Cameron-Hussain,WHY,Real Estate,EMP-WHY-0004,Machakos,private_car,18.8,205,7708.0,0.17,1310.36,1.31036,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003774,Ali Group,CZG,Healthcare,EMP-CZG-0054,Nairobi,matatu_14seater,27.8,185,10286.0,0.089,915.454,0.915454,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001017,Walker Group,FFD,Healthcare,EMP-FFD-0057,Eldoret,private_car,27.6,193,10653.6,0.17,1811.112,1.811112,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001276,Thompson Walsh and Mason,JDT,Real Estate,EMP-JDT-0016,Eldoret,taxi_cab,13.6,181,4923.2,0.17,836.944,0.836944,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003799,Williams Cook and Thomas,KKT,Healthcare,EMP-KKT-0019,Nyeri,boda_boda,14.2,224,6361.6,0.113,718.861,0.718861,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003534,Richards PLC,CCU,Insurance,EMP-CCU-0054,Machakos,matatu_14seater,18.6,209,7774.8,0.089,691.957,0.691957,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000456,Goodwin Ltd,HQX,Manufacturing,EMP-HQX-0036,Meru,private_car,28.6,195,11154.0,0.17,1896.18,1.89618,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003343,Kennedy Dale and Wilson,WGW,Healthcare,EMP-WGW-0043,Thika,company_bus,54.5,187,20383.0,0.029,591.107,0.591107,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000816,Freeman Inc,DPQ,Retail & FMCG,EMP-DPQ-0036,Mombasa,matatu_14seater,22.1,234,10342.8,0.089,920.509,0.920509,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002318,Miller-Wilkinson,VTD,Manufacturing,EMP-VTD-0038,Meru,private_car,14.1,197,5555.4,0.17,944.418,0.944418,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000996,Walker Group,FFD,Healthcare,EMP-FFD-0036,Kisii,matatu_14seater,26.3,204,10730.4,0.089,955.006,0.955006,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001982,Poole Ltd,KYZ,Telecommunications,EMP-KYZ-0002,Kisumu,matatu_14seater,21.7,226,9808.4,0.089,872.948,0.872948,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000202,Johnson Kirk and Stewart,BUW,Energy & Petroleum,EMP-BUW-0022,Nakuru,matatu_14seater,13.8,197,5437.2,0.089,483.911,0.483911,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000162,O'Donnell Davies and Kelly,ODE,Telecommunications,EMP-ODE-0042,Eldoret,taxi_cab,13.1,201,5266.2,0.17,895.254,0.895254,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001580,Hunter LLC,LTR,Construction,EMP-LTR-0020,Nairobi,matatu_14seater,28.0,232,12992.0,0.089,1156.288,1.156288,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002778,Khan Walker and John,VBZ,Manufacturing,EMP-VBZ-0018,Eldoret,boda_boda,7.6,223,3389.6,0.113,383.025,0.383025,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002450,Potter-Cooper,KNK,Agriculture,EMP-KNK-0050,Machakos,boda_boda,16.8,207,6955.2,0.113,785.938,0.785938,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000703,Andrews Robinson and Dennis,JFK,Energy & Petroleum,EMP-JFK-0043,Meru,private_car,35.0,197,13790.0,0.17,2344.3,2.3443,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001501,Williams Sutton and Hewitt,KZL,Healthcare,EMP-KZL-0001,Eldoret,matatu_14seater,27.7,191,10581.4,0.089,941.745,0.941745,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003894,Crawford-Rogers,WON,Retail & FMCG,EMP-WON-0054,Nakuru,private_car,15.5,214,6634.0,0.17,1127.78,1.12778,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003844,Crawford-Rogers,WON,Retail & FMCG,EMP-WON-0004,Meru,matatu_14seater,22.7,205,9307.0,0.089,828.323,0.828323,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001130,Martin Group,CFE,Healthcare,EMP-CFE-0050,Nakuru,company_bus,40.7,191,15547.4,0.029,450.875,0.450875,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002614,Pearce Gilbert and Kennedy,YBK,Healthcare,EMP-YBK-0034,Kisumu,private_car,32.4,181,11728.8,0.17,1993.896,1.993896,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003462,Hunt LLC,XQI,Agriculture,EMP-XQI-0042,Meru,boda_boda,14.6,226,6599.2,0.113,745.71,0.74571,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001022,Chapman Webster and McCarthy,RTS,Manufacturing,EMP-RTS-0002,Kisumu,matatu_14seater,27.9,213,11885.4,0.089,1057.801,1.057801,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003074,Johnson Holt and Tomlinson,LBZ,Healthcare,EMP-LBZ-0014,Kisumu,private_car,23.5,233,10951.0,0.17,1861.67,1.86167,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003460,Hunt LLC,XQI,Agriculture,EMP-XQI-0040,Eldoret,matatu_14seater,26.3,214,11256.4,0.089,1001.82,1.00182,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001586,Hunter LLC,LTR,Construction,EMP-LTR-0026,Machakos,matatu_14seater,27.5,220,12100.0,0.089,1076.9,1.0769,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001956,Stokes-Thomas,OYZ,Real Estate,EMP-OYZ-0036,Machakos,boda_boda,12.4,203,5034.4,0.113,568.887,0.568887,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003153,Evans-Ford,YBV,Agriculture,EMP-YBV-0033,Mombasa,matatu_14seater,18.2,220,8008.0,0.089,712.712,0.712712,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002254,Moore Chapman and Williams,JCE,Telecommunications,EMP-JCE-0034,Kisii,private_car,14.7,186,5468.4,0.17,929.628,0.929628,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000035,Hicks Smith and Marsden,QVW,Banking & Finance,EMP-QVW-0035,Mombasa,private_car,18.4,188,6918.4,0.17,1176.128,1.176128,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000776,Fletcher Inc,ZMK,Banking & Finance,EMP-ZMK-0056,Meru,private_car,25.7,208,10691.2,0.17,1817.504,1.817504,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002557,Simpson Fletcher and Johnson,SRF,Agriculture,EMP-SRF-0037,Mombasa,private_car,17.9,209,7482.2,0.17,1271.974,1.271974,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003500,Richards PLC,CCU,Insurance,EMP-CCU-0020,Kisumu,company_bus,26.7,199,10626.6,0.029,308.171,0.308171,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001479,Mann Burton and Waters,AMW,Insurance,EMP-AMW-0039,Machakos,walk_or_cycle,2.6,228,1185.6,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003004,Webb-Turnbull,GLV,Retail & FMCG,EMP-GLV-0004,Machakos,matatu_14seater,27.3,201,10974.6,0.089,976.739,0.976739,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001391,Hart Hill and Smith,QVG,Telecommunications,EMP-QVG-0011,Kisii,taxi_cab,9.3,201,3738.6,0.17,635.562,0.635562,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002140,Miles-Jackson,PDW,Construction,EMP-PDW-0040,Eldoret,matatu_14seater,18.5,217,8029.0,0.089,714.581,0.714581,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001364,Fletcher-Harper,QUZ,Real Estate,EMP-QUZ-0044,Machakos,matatu_14seater,20.3,193,7835.8,0.089,697.386,0.697386,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002946,Welch Smith and Clarke,NNU,Banking & Finance,EMP-NNU-0006,Nakuru,boda_boda,15.0,232,6960.0,0.113,786.48,0.78648,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002613,Pearce Gilbert and Kennedy,YBK,Healthcare,EMP-YBK-0033,Meru,private_car,24.5,195,9555.0,0.17,1624.35,1.62435,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003418,Brown PLC,KQW,Real Estate,EMP-KQW-0058,Nairobi,walk_or_cycle,1.9,208,790.4,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002825,Chamberlain Payne and Webster,XDT,Telecommunications,EMP-XDT-0005,Machakos,private_car,15.3,184,5630.4,0.17,957.168,0.957168,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002042,Simpson-Robinson,VFA,Telecommunications,EMP-VFA-0002,Mombasa,matatu_14seater,16.3,195,6357.0,0.089,565.773,0.565773,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000242,Murphy-Barrett,QVK,Insurance,EMP-QVK-0002,Kisumu,matatu_14seater,17.7,180,6372.0,0.089,567.108,0.567108,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002062,Simpson-Robinson,VFA,Telecommunications,EMP-VFA-0022,Kisumu,matatu_14seater,16.8,229,7694.4,0.089,684.802,0.684802,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002364,Cameron-Hussain,WHY,Real Estate,EMP-WHY-0024,Kisii,private_car,26.8,207,11095.2,0.17,1886.184,1.886184,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000601,Brown LLC,TSE,Real Estate,EMP-TSE-0001,Eldoret,boda_boda,7.5,218,3270.0,0.113,369.51,0.36951,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002436,Potter-Cooper,KNK,Agriculture,EMP-KNK-0036,Meru,private_car,26.4,220,11616.0,0.17,1974.72,1.97472,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001298,Thompson Walsh and Mason,JDT,Real Estate,EMP-JDT-0038,Nairobi,matatu_14seater,13.4,212,5681.6,0.089,505.662,0.505662,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002215,Thompson-Simmons,UJF,Energy & Petroleum,EMP-UJF-0055,Kisumu,matatu_14seater,18.5,232,8584.0,0.089,763.976,0.763976,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002889,Cartwright-Payne,LRT,Manufacturing,EMP-LRT-0009,Nyeri,matatu_14seater,27.7,198,10969.2,0.089,976.259,0.976259,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002069,Simpson-Robinson,VFA,Telecommunications,EMP-VFA-0029,Nakuru,matatu_14seater,27.5,214,11770.0,0.089,1047.53,1.04753,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000647,Brown LLC,TSE,Real Estate,EMP-TSE-0047,Nairobi,matatu_14seater,11.4,221,5038.8,0.089,448.453,0.448453,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003891,Crawford-Rogers,WON,Retail & FMCG,EMP-WON-0051,Kisumu,private_car,21.0,215,9030.0,0.17,1535.1,1.5351,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003557,Reynolds Webb and Webb,MPR,Healthcare,EMP-MPR-0017,Kisumu,matatu_14seater,25.6,222,11366.4,0.089,1011.61,1.01161,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003203,Wilkinson Group,QLE,Banking & Finance,EMP-QLE-0023,Eldoret,private_car,20.8,193,8028.8,0.17,1364.896,1.364896,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001529,Williams Sutton and Hewitt,KZL,Healthcare,EMP-KZL-0029,Mombasa,walk_or_cycle,4.5,233,2097.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002880,Chamberlain Payne and Webster,XDT,Telecommunications,EMP-XDT-0060,Mombasa,walk_or_cycle,3.4,237,1611.6,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001268,Thompson Walsh and Mason,JDT,Real Estate,EMP-JDT-0008,Nakuru,private_car,34.1,193,13162.6,0.17,2237.642,2.237642,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003639,Goddard-Taylor,OVJ,Retail & FMCG,EMP-OVJ-0039,Nyeri,private_car,22.8,235,10716.0,0.17,1821.72,1.82172,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001900,Dyer-Young,SDJ,Construction,EMP-SDJ-0040,Mombasa,company_bus,23.4,206,9640.8,0.029,279.583,0.279583,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000563,Crawford Shah and Brown,TDK,Energy & Petroleum,EMP-TDK-0023,Nairobi,matatu_14seater,26.9,204,10975.2,0.089,976.793,0.976793,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003971,Smith Ltd,CXU,Insurance,EMP-CXU-0011,Machakos,private_car,17.7,187,6619.8,0.17,1125.366,1.125366,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002735,Howard PLC,UQK,Real Estate,EMP-UQK-0035,Mombasa,matatu_14seater,23.3,213,9925.8,0.089,883.396,0.883396,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003006,Webb-Turnbull,GLV,Retail & FMCG,EMP-GLV-0006,Thika,company_bus,52.6,184,19356.8,0.029,561.347,0.561347,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000190,Johnson Kirk and Stewart,BUW,Energy & Petroleum,EMP-BUW-0010,Kisumu,matatu_14seater,25.1,203,10190.6,0.089,906.963,0.906963,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001807,Burgess Turner and Thomas,CZV,Telecommunications,EMP-CZV-0007,Meru,private_car,27.6,204,11260.8,0.17,1914.336,1.914336,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000976,Walker Group,FFD,Healthcare,EMP-FFD-0016,Meru,private_car,25.2,222,11188.8,0.17,1902.096,1.902096,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002748,Howard PLC,UQK,Real Estate,EMP-UQK-0048,Nairobi,boda_boda,12.5,217,5425.0,0.113,613.025,0.613025,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003548,Reynolds Webb and Webb,MPR,Healthcare,EMP-MPR-0008,Nyeri,matatu_14seater,18.9,238,8996.4,0.089,800.68,0.80068,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002048,Simpson-Robinson,VFA,Telecommunications,EMP-VFA-0008,Nyeri,private_car,16.3,183,5965.8,0.17,1014.186,1.014186,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003754,Ali Group,CZG,Healthcare,EMP-CZG-0034,Meru,matatu_14seater,17.4,223,7760.4,0.089,690.676,0.690676,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002559,Simpson Fletcher and Johnson,SRF,Agriculture,EMP-SRF-0039,Eldoret,walk_or_cycle,4.2,236,1982.4,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001083,Martin Group,CFE,Healthcare,EMP-CFE-0003,Nyeri,matatu_14seater,12.6,185,4662.0,0.089,414.918,0.414918,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000475,Goodwin Ltd,HQX,Manufacturing,EMP-HQX-0055,Kisumu,private_car,17.0,205,6970.0,0.17,1184.9,1.1849,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003633,Goddard-Taylor,OVJ,Retail & FMCG,EMP-OVJ-0033,Meru,matatu_14seater,24.3,195,9477.0,0.089,843.453,0.843453,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002905,Cartwright-Payne,LRT,Manufacturing,EMP-LRT-0025,Kisumu,matatu_14seater,10.8,236,5097.6,0.089,453.686,0.453686,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000748,Fletcher Inc,ZMK,Banking & Finance,EMP-ZMK-0028,Kisumu,matatu_14seater,25.3,212,10727.2,0.089,954.721,0.954721,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002301,Miller-Wilkinson,VTD,Manufacturing,EMP-VTD-0021,Machakos,walk_or_cycle,3.9,205,1599.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000022,Hicks Smith and Marsden,QVW,Banking & Finance,EMP-QVW-0022,Nakuru,matatu_14seater,13.5,216,5832.0,0.089,519.048,0.519048,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003386,Brown PLC,KQW,Real Estate,EMP-KQW-0026,Kisumu,walk_or_cycle,4.3,199,1711.4,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000460,Goodwin Ltd,HQX,Manufacturing,EMP-HQX-0040,Nyeri,matatu_14seater,26.8,181,9701.6,0.089,863.442,0.863442,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001185,Middleton Johnson and Kelly,SMP,Insurance,EMP-SMP-0045,Nakuru,matatu_14seater,27.8,202,11231.2,0.089,999.577,0.999577,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002325,Miller-Wilkinson,VTD,Manufacturing,EMP-VTD-0045,Mombasa,private_car,18.0,187,6732.0,0.17,1144.44,1.14444,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000956,Connolly-Young,YRC,Insurance,EMP-YRC-0056,Nakuru,matatu_14seater,12.6,223,5619.6,0.089,500.144,0.500144,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001216,Hardy-Ford,ZGX,Healthcare,EMP-ZGX-0016,Nyeri,private_car,27.0,224,12096.0,0.17,2056.32,2.05632,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002434,Potter-Cooper,KNK,Agriculture,EMP-KNK-0034,Meru,matatu_14seater,24.6,238,11709.6,0.089,1042.154,1.042154,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002854,Chamberlain Payne and Webster,XDT,Telecommunications,EMP-XDT-0034,Kisumu,boda_boda,19.1,189,7219.8,0.113,815.837,0.815837,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003486,Richards PLC,CCU,Insurance,EMP-CCU-0006,Nairobi,company_bus,46.7,181,16905.4,0.029,490.257,0.490257,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001516,Williams Sutton and Hewitt,KZL,Healthcare,EMP-KZL-0016,Mombasa,boda_boda,19.1,233,8900.6,0.113,1005.768,1.005768,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002392,Cameron-Hussain,WHY,Real Estate,EMP-WHY-0052,Machakos,private_car,28.3,217,12282.2,0.17,2087.974,2.087974,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000770,Fletcher Inc,ZMK,Banking & Finance,EMP-ZMK-0050,Kisumu,boda_boda,13.5,185,4995.0,0.113,564.435,0.564435,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003381,Brown PLC,KQW,Real Estate,EMP-KQW-0021,Thika,matatu_14seater,12.7,238,6045.2,0.089,538.023,0.538023,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001686,Watson Allen and Thomson,LCW,Construction,EMP-LCW-0006,Nakuru,private_car,17.6,205,7216.0,0.17,1226.72,1.22672,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000131,O'Donnell Davies and Kelly,ODE,Telecommunications,EMP-ODE-0011,Eldoret,company_bus,49.2,223,21943.2,0.029,636.353,0.636353,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003736,Ali Group,CZG,Healthcare,EMP-CZG-0016,Mombasa,walk_or_cycle,2.0,212,848.0,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002920,Cartwright-Payne,LRT,Manufacturing,EMP-LRT-0040,Nairobi,walk_or_cycle,3.8,216,1641.6,0.0,0.0,0.0,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003172,Evans-Ford,YBV,Agriculture,EMP-YBV-0052,Nyeri,taxi_cab,11.8,185,4366.0,0.17,742.22,0.74222,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003445,Hunt LLC,XQI,Agriculture,EMP-XQI-0025,Kisii,matatu_14seater,24.5,194,9506.0,0.089,846.034,0.846034,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002136,Miles-Jackson,PDW,Construction,EMP-PDW-0036,Kisii,private_car,32.3,230,14858.0,0.17,2525.86,2.52586,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001483,Mann Burton and Waters,AMW,Insurance,EMP-AMW-0043,Eldoret,matatu_14seater,24.4,237,11565.6,0.089,1029.338,1.029338,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000331,Warren PLC,ZTV,Construction,EMP-ZTV-0031,Kisii,taxi_cab,21.0,226,9492.0,0.17,1613.64,1.61364,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001239,Hardy-Ford,ZGX,Healthcare,EMP-ZGX-0039,Mombasa,matatu_14seater,27.0,232,12528.0,0.089,1114.992,1.114992,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000467,Goodwin Ltd,HQX,Manufacturing,EMP-HQX-0047,Kisumu,boda_boda,7.8,184,2870.4,0.113,324.355,0.324355,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-002170,Thompson-Simmons,UJF,Energy & Petroleum,EMP-UJF-0010,Mombasa,private_car,29.2,219,12789.6,0.17,2174.232,2.174232,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001639,Long-Lewis,IXG,Insurance,EMP-IXG-0019,Kisii,company_bus,37.2,217,16144.8,0.029,468.199,0.468199,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003093,Johnson Holt and Tomlinson,LBZ,Healthcare,EMP-LBZ-0033,Nairobi,taxi_cab,23.8,209,9948.4,0.17,1691.228,1.691228,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003773,Ali Group,CZG,Healthcare,EMP-CZG-0053,Nyeri,private_car,33.7,182,12266.8,0.17,2085.356,2.085356,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001096,Martin Group,CFE,Healthcare,EMP-CFE-0016,Nyeri,private_car,13.6,199,5412.8,0.17,920.176,0.920176,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001131,Martin Group,CFE,Healthcare,EMP-CFE-0051,Eldoret,private_car,18.7,239,8938.6,0.17,1519.562,1.519562,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-001295,Thompson Walsh and Mason,JDT,Real Estate,EMP-JDT-0035,Machakos,matatu_14seater,17.2,232,7980.8,0.089,710.291,0.710291,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-000861,Bartlett-White,MXD,Retail & FMCG,EMP-MXD-0021,Machakos,company_bus,43.3,218,18878.8,0.029,547.485,0.547485,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003508,Richards PLC,CCU,Insurance,EMP-CCU-0028,Mombasa,boda_boda,15.6,223,6957.6,0.113,786.209,0.786209,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
+CMT-003175,Evans-Ford,YBV,Agriculture,EMP-YBV-0055,Kisii,matatu_14seater,19.7,181,7131.4,0.089,634.695,0.634695,Scope 3,Cat 7 — Employee commuting,HR commute survey,2024,0,2024
