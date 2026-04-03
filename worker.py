@@ -1,9 +1,24 @@
 from redis import Redis
 from rq import Worker, Queue, Connection
 from config import settings
+import os
+
+# Prometheus metrics for worker process
+try:
+    from prometheus_client import start_http_server
+except Exception:
+    start_http_server = None
 
 
 def run_worker():
+    # start metrics HTTP server if available
+    port = int(os.getenv("WORKER_METRICS_PORT", "8001"))
+    if start_http_server:
+        try:
+            start_http_server(port)
+        except Exception:
+            pass
+
     redis_conn = Redis.from_url(settings.redis_url)
     with Connection(redis_conn):
         qs = ["default"]

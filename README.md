@@ -89,6 +89,17 @@ Stop services:
 docker-compose down
 ```
 
+Worker metrics
+
+The worker process exposes Prometheus metrics on port `8001` inside the container (configured with `WORKER_METRICS_PORT`). When running with Docker Compose the port is published to the host at `localhost:8001` so you can scrape or view worker metrics:
+
+```bash
+# web metrics
+curl http://localhost:8000/metrics
+# worker metrics
+curl http://localhost:8001/metrics
+```
+
 Running background ingestion
 
 Prerequisites:
