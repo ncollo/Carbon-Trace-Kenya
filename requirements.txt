@@ -1,23 +1,30 @@
+# --- Machine Learning & Data ---
 pymc>=5.0
 syft>=0.6
-boto3>=1.26
-redis>=4.5
-rq>=1.13
+scipy>=1.11.0
+scikit-learn>=1.2
+
+# --- Web Framework & Auth ---
 fastapi>=0.95
 uvicorn[standard]>=0.22
+PyJWT>=2.8
+
+# --- Database & ORM ---
 sqlalchemy>=1.4
 psycopg2-binary>=2.9
-pydantic>=1.10
-python-dotenv>=0.20
-scikit-learn>=1.2
-pytest>=7.0
 alembic>=1.11
-reportlab>=4.0
-rapidfuzz>=2.1
-pymc>=5.0
-syft>=0.6
-boto3>=1.26
+
+# --- Caching, Queues & Cloud ---
 redis>=4.5
 rq>=1.14
-PyJWT>=2.8
+boto3>=1.26
+
+# --- Utilities & Validation ---
+pydantic>=1.10
+python-dotenv>=0.20
+reportlab>=4.0
+rapidfuzz>=2.1
+
+# --- Testing & Metrics ---
+pytest>=7.0
 prometheus_client>=0.16
