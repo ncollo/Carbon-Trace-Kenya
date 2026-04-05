@@ -1,4 +1,6 @@
 # --- Machine Learning & Data ---
+numpy<2.0.0
+pandas>=2.0.0
 pymc>=5.0
 syft>=0.6
 scipy>=1.11.0
