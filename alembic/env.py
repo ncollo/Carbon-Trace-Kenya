@@ -27,6 +27,8 @@ def run_migrations_offline():
 
 
 def run_migrations_online():
+    config.set_main_option("sqlalchemy.url", str(settings.database_url))
+    
     from sqlalchemy import engine_from_config
 
     connectable = engine_from_config(
