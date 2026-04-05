@@ -43,5 +43,7 @@ jobs:
         run: |
           alembic upgrade head
       - name: Run tests
+        env:
+          PYTHONPATH:
         run: |
           pytest -q
