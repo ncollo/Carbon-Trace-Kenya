@@ -1,5 +1,11 @@
+# --- Machine Learning & Data ---
+numpy<2.0.0
+pandas>=2.0.0
 pymc>=5.0
+scipy>=1.11.0
 syft>=0.6
+
+# --- Web Framework & Auth ---
 boto3>=1.26
 redis>=4.5
 rq>=1.14
@@ -8,6 +14,7 @@ uvicorn[standard]>=0.22
 sqlalchemy>=1.4
 psycopg2-binary>=2.9
 pydantic>=1.10
+pydantic-settings>=2.0
 python-dotenv>=0.20
 scikit-learn>=1.2
 pytest>=7.0
