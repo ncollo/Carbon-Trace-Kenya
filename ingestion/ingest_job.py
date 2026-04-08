@@ -72,33 +72,3 @@ def process_upload(source: str, from_s3: bool = False):
             except Exception:
                 pass
         raise
-import os
-import logging
-from ingestion import storage
-from pathlib import Path
-
-logger = logging.getLogger(__name__)
-
-
-def process_upload(object_key: str, source: str = "s3"):
-    """Background job entrypoint for processing an upload.
-
-    `object_key` is either a local path or an S3 object key depending on `source`.
-    """
-    tmp_dir = Path("/tmp/carbon_ingest")
-    tmp_dir.mkdir(parents=True, exist_ok=True)
-
-    if source == "s3":
-        dest = tmp_dir / Path(object_key).name
-        dest_path = str(dest)
-        storage.download_from_s3(object_key, dest_path)
-    else:
-        # local path
-        dest_path = object_key
-
-    # Placeholder: call parsing/normalisation pipeline on `dest_path`
-    logger.info(f"Processing upload at {dest_path}")
-
-    # TODO: implement actual ingestion steps (pdf parsing, layoutlm, normaliser)
-
-    return {"status": "processed", "path": dest_path}
