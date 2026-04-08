@@ -26,10 +26,18 @@ jobs:
           - 6379:6379
     steps:
       - uses: actions/checkout@v4
+      - name: Configure Git identity
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libopenblas-dev libblas-dev gfortran
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
