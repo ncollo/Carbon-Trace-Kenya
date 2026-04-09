@@ -10,7 +10,22 @@ Base = declarative_base()
 class Company(Base):
     __tablename__ = "companies"
     id = Column(Integer, primary_key=True)
-    name = Column(String, nullable=False)
+    name = Column(String, nullable=False, unique=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    users = relationship("User", back_populates="company")
+
+
+class User(Base):
+    __tablename__ = "users"
+    id = Column(Integer, primary_key=True)
+    email = Column(String, nullable=False, unique=True, index=True)
+    password_hash = Column(String, nullable=False)
+    company_id = Column(Integer, ForeignKey("companies.id"), nullable=False)
+    role = Column(String, default="user")  # admin, user, viewer
+    is_active = Column(Boolean, default=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
+    company = relationship("Company", back_populates="users")
 
 
 class Upload(Base):

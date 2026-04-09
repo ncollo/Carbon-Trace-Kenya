@@ -27,13 +27,23 @@ def run_migrations_offline():
 
 
 def run_migrations_online():
-    from sqlalchemy import engine_from_config
+    from sqlalchemy import engine_from_config, pool
 
-    connectable = engine_from_config(
-        config.get_section(config.config_ini_section),
-        prefix='sqlalchemy.',
-        poolclass=None,
-    )
+    configuration = config.get_section(config.config_ini_section)
+    configuration['sqlalchemy.url'] = os.getenv('DATABASE_URL', settings.database_url)
+    
+    # SQLite needs special pool handling
+    if settings.database_url.startswith("sqlite"):
+        configuration['sqlalchemy.poolclass'] = pool.StaticPool
+        config_args = {k: v for k, v in configuration.items() if k.startswith('sqlalchemy.')}
+        config_args['connect_args'] = {'check_same_thread': False}
+        connectable = engine_from_config(config_args, prefix='sqlalchemy.')
+    else:
+        connectable = engine_from_config(
+            configuration,
+            prefix='sqlalchemy.',
+            poolclass=pool.NullPool,
+        )
 
     with connectable.connect() as connection:
         context.configure(connection=connection, target_metadata=target_metadata)

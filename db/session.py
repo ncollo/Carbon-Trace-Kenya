@@ -1,9 +1,18 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from config import settings
 
-DATABASE_URL = "postgresql://user:pass@localhost:5432/carbon"
+# SQLite needs check_same_thread=False for multi-threaded use
+engine_kwargs = {}
+if settings.database_url.startswith("sqlite"):
+    engine_kwargs["connect_args"] = {"check_same_thread": False}
 
-engine = create_engine(DATABASE_URL, future=True)
+engine = create_engine(
+    settings.database_url,
+    future=True,
+    echo=settings.database_echo,
+    **engine_kwargs
+)
 SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)
 
 
