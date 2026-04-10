@@ -1,25 +1,35 @@
-# --- Machine Learning & Data ---
-numpy<2.0.0
-pandas>=2.0.0
-pymc>=5.0
-scipy>=1.11.0
-syft>=0.6
-
-# --- Web Framework & Auth ---
-boto3>=1.26
-redis>=4.5
-rq>=1.14
-fastapi>=0.95
-uvicorn[standard]>=0.22
-sqlalchemy>=1.4
-psycopg2-binary>=2.9
-pydantic>=1.10
-pydantic-settings>=2.0
-python-dotenv>=0.20
-scikit-learn>=1.2
-pytest>=7.0
-alembic>=1.11
-reportlab>=4.0
-rapidfuzz>=2.1
-PyJWT>=2.8
-prometheus_client>=0.16
+import os
+ 
+from pydantic import ConfigDict
+from pydantic_settings import BaseSettings
+ 
+ 
+class Settings(BaseSettings):
+    model_config = ConfigDict(extra='ignore', env_file='.env')
+ 
+    app_name: str = "Carbon Trace Kenya"
+    database_url: str = os.getenv("DATABASE_URL", "sqlite:///./carbon_trace.db")
+    database_echo: bool = False
+ 
+    # S3 settings (if using S3 for uploads)
+    use_s3: bool = False
+    s3_bucket: str = ""
+    s3_region: str = ""
+    s3_access_key: str = ""
+    s3_secret_key: str = ""
+    s3_endpoint: str = ""  # optional custom endpoint
+ 
+    # Redis URL for RQ / background queue
+    redis_url: str = os.getenv("REDIS_URL", "redis://localhost:6379/0")
+ 
+    # JWT settings
+    jwt_secret: str = os.getenv("JWT_SECRET", "changeme-dev-only")
+    jwt_algorithm: str = os.getenv("JWT_ALGORITHM", "HS256")
+    jwt_expiration_hours: int = 24
+ 
+    # Supabase credentials (store secrets in env or .env)
+    supabase_url: str = ""
+    supabase_key: str = ""
+ 
+ 
+settings = Settings()
