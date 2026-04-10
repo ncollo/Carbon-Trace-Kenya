@@ -1,32 +1,13 @@
-# --- Machine Learning & Data ---
-numpy<2.0.0
-pandas>=2.0.0
-pymc>=5.0
-syft>=0.6
-scipy>=1.11.0
-scikit-learn>=1.2
-
-# --- Web Framework & Auth ---
-fastapi>=0.95
-uvicorn[standard]>=0.22
-PyJWT>=2.8
-
-# --- Database & ORM ---
-sqlalchemy>=1.4
-psycopg2-binary>=2.9
-alembic>=1.11
-
-# --- Caching, Queues & Cloud ---
-redis>=4.5
-rq>=1.14
-boto3>=1.26
-
-# --- Utilities & Validation ---
-pydantic>=1.10
-python-dotenv>=0.20
-reportlab>=4.0
-rapidfuzz>=2.1
-
-# --- Testing & Metrics ---
-pytest>=7.0
-prometheus_client>=0.16
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+sqlalchemy==2.0.30
+pandas==2.2.2
+scikit-learn==1.4.2
+numpy==1.26.4
+python-multipart==0.0.9
+aiofiles==23.2.1
+pdfplumber==0.11.0
+pydantic
+pydantic-settings
+alembic
+pytest
