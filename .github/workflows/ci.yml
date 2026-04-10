@@ -39,7 +39,7 @@ jobs:
           until pg_isready -h localhost -p 5432 -U user -d carbon; do sleep 1; done
       - name: Run Alembic migrations
         env:
-          DATABASE_URL: postgresql://user:pass@localhost:5432/carbon
+                    DATABASE_URL: postgresql://user:pass@localhost:5432/carbon
         run: |
           alembic upgrade head
           - name: Run tests
@@ -47,3 +47,8 @@ jobs:
     PYTHONPATH: .:carbontrace-backend
   run: |
     pytest -q
+      - name: Run tests
+        env:
+          PYTHONPATH: .:carbontrace-backend
+        run: |
+          pytest -q
