@@ -42,8 +42,8 @@ jobs:
           DATABASE_URL: postgresql://user:pass@localhost:5432/carbon
         run: |
           alembic upgrade head
-          - name: Run tests
-      - env:
-    PYTHONPATH: .:carbontrace-backend
-  run: |
-    pytest -q
+      - name: Run tests
+        env:
+          PYTHONPATH: .:carbontrace-backend
+        run: |
+          pytest -q
