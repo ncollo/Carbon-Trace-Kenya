@@ -1,6 +1,6 @@
 """
 CarbonTrace Kenya — FastAPI Backend
-All data served from SQLite database seeded from CSV datasets.
+All data served from PostgreSQL database seeded from CSV datasets.
 No hardcoded values — emission factors, company data, GHG figures all from DB.
 """
 from fastapi import FastAPI, Depends, HTTPException, UploadFile, File, Form, Query
@@ -44,7 +44,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-UPLOAD_DIR = "/home/claude/carbontrace-backend/uploads"
+UPLOAD_DIR = os.path.join(_BACKEND_DIR, "uploads")
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 
@@ -522,7 +522,7 @@ def health(db: Session = Depends(get_db)):
     fuel_count = db.query(func.count(FuelRecord.id)).scalar()
     return {
         "status": "ok",
-        "database": "SQLite · carbontrace.db",
+        "database": "PostgreSQL · carbontrace",
         "fuel_records": fuel_count,
         "model": "Isolation Forest · trained on CSV data",
     }
