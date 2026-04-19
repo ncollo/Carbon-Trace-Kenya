@@ -1,2 +1,2 @@
 total_saccos,total_vehicles,total_inspections,average_fleet_size,vehicle_types,fuel_types,inspection_ratings
-20,1645,4091,82.25,"{'25-seater': 1152, 'bus': 182, '33-seater': 177, '14-seater': 134}","{'diesel': 1009, 'hybrid': 337, 'petrol': 299}","{'Conditional': 2707, 'Pass': 1232, 'Fail': 152}"
+20,1762,4406,88.1,"{'25-seater': 1212, 'bus': 213, '33-seater': 177, '14-seater': 160}","{'diesel': 1082, 'hybrid': 346, 'petrol': 334}","{'Conditional': 3012, 'Pass': 1234, 'Fail': 160}"

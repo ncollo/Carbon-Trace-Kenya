@@ -79,13 +79,20 @@ class MatatuDatasetGenerator:
             saccos.append(sacco)
         return saccos
 
-    def generate_vehicles(self, sacco_id: int, vehicle_count: int) -> List[Dict]:
+    def generate_vehicles(self, sacco_id: int, vehicle_count: int, used_reg_numbers: set = None) -> List[Dict]:
         """Generate vehicle data for a specific SACCO"""
+        if used_reg_numbers is None:
+            used_reg_numbers = set()
+            
         vehicles = []
         for i in range(vehicle_count):
             make = random.choice(self.vehicle_makes)
             model = random.choice(self.vehicle_models[make])
             year = random.randint(2005, 2023)
+            
+            # Generate unique registration number
+            reg_number = self._generate_unique_reg_number(used_reg_numbers)
+            used_reg_numbers.add(reg_number)
             
             # Determine vehicle type based on model
             if "Hiace" in model or "Caravan" in model:
@@ -104,7 +111,7 @@ class MatatuDatasetGenerator:
             vehicle = {
                 "id": len(vehicles) + 1,  # Will be adjusted later
                 "sacco_id": sacco_id,
-                "registration_number": f"K{random.choice(['A', 'B', 'C', 'D', 'E'])}{random.randint(100, 999)}{random.choice(['A', 'B', 'C', 'D', 'E'])}",
+                "registration_number": reg_number,
                 "make": make,
                 "model": model,
                 "year_of_manufacture": year,
@@ -125,6 +132,24 @@ class MatatuDatasetGenerator:
             }
             vehicles.append(vehicle)
         return vehicles
+    
+    def _generate_unique_reg_number(self, used_reg_numbers: set) -> str:
+        """Generate unique Kenyan vehicle registration number"""
+        max_attempts = 1000
+        attempts = 0
+        
+        while attempts < max_attempts:
+            reg_number = f"K{random.choice(['A', 'B', 'C', 'D', 'E'])}{random.randint(100, 999)}{random.choice(['A', 'B', 'C', 'D', 'E'])}"
+            
+            if reg_number not in used_reg_numbers:
+                return reg_number
+            
+            attempts += 1
+        
+        # Fallback to timestamp-based registration
+        import time
+        timestamp = int(time.time()) % 10000
+        return f"KZ{timestamp}A"
 
     def generate_inspections(self, vehicle_id: int, inspection_count: int = 3) -> List[Dict]:
         """Generate NTSA inspection data for a vehicle"""
@@ -192,10 +217,11 @@ class MatatuDatasetGenerator:
         # Generate vehicles for each SACCO
         all_vehicles = []
         all_inspections = []
+        used_reg_numbers = set()  # Track used registration numbers globally
         
         for sacco in saccos:
             vehicle_count = sacco["fleet_size"]
-            vehicles = self.generate_vehicles(sacco["id"], vehicle_count)
+            vehicles = self.generate_vehicles(sacco["id"], vehicle_count, used_reg_numbers)
             
             # Adjust vehicle IDs
             for i, vehicle in enumerate(vehicles):
