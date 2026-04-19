@@ -1,9 +1,9 @@
 # Core FastAPI dependencies
-fastapi>=0.95,<0.112
-uvicorn[standard]>=0.22,<0.30
-sqlalchemy>=1.4,<2.1
-pydantic>=1.10,<3.0
-pydantic-settings>=2.0,<3.0
+fastapi>=0.95
+uvicorn[standard]>=0.22
+sqlalchemy>=1.4
+pydantic>=1.10
+pydantic-settings>=2.0
 python-dotenv>=0.20
 python-multipart>=0.0.5
 PyJWT>=2.8
@@ -13,9 +13,9 @@ psycopg2-binary>=2.9
 alembic>=1.11
 
 # Data processing
-numpy>=1.24,<2.0
-pandas>=2.0,<3.0
-scikit-learn>=1.2,<2.0
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.2
 
 # Testing
 pytest>=7.0
@@ -39,7 +39,7 @@ rapidfuzz>=2.1
 reportlab>=4.0
 prometheus_client>=0.16
 
-# Optional ML dependencies (commented out for CI stability)
+# Optional ML dependencies (completely removed for CI stability)
 # scipy>=1.11
 # syft>=0.6
 # pymc>=5.0
