@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [main, master]
+    branches: [main, master, feature/security-hardening]
   pull_request:
-    branches: [main, master]
+    branches: [main, master, feature/security-hardening]
 
 jobs:
   test:
@@ -41,6 +41,9 @@ jobs:
       - name: Install backend dependencies
         run: pip install -r carbontrace-backend/requirements.txt
 
+      - name: Install security dependencies
+        run: pip install pytest pytest-asyncio aiohttp python-magic
+
       - name: Wait for Postgres
         run: |
           until pg_isready -h localhost -p 5432 -U user -d carbon; do
@@ -55,5 +58,10 @@ jobs:
 
       - name: Run tests
         env:
-          PYTHONPATH: .:carbontrace-backend
+          PYTHONPATH: .:carbontrace-backend:security
         run: pytest -v --tb=short
+
+      - name: Run security tests
+        env:
+          PYTHONPATH: .:carbontrace-backend:security
+        run: pytest security/ -v --tb=short
