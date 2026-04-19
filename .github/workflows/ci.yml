@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [main, master]
   pull_request:
-    branches: [ main, master ]
+    branches: [main, master]
 
 jobs:
   test:
@@ -26,22 +26,34 @@ jobs:
           - 6379:6379
     steps:
       - uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          python-version: "3.11"
+
+      - name: Upgrade pip
+        run: python -m pip install --upgrade pip
+
+      - name: Install root dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install backend dependencies
+        run: pip install -r carbontrace-backend/requirements.txt
+
       - name: Wait for Postgres
         run: |
-          until pg_isready -h localhost -p 5432 -U user -d carbon; do sleep 1; done
+          until pg_isready -h localhost -p 5432 -U user -d carbon; do
+            sleep 1
+          done
+        timeout-minutes: 1
+
       - name: Run Alembic migrations
         env:
           DATABASE_URL: postgresql://user:pass@localhost:5432/carbon
-        run: |
-          alembic upgrade head
+        run: alembic upgrade head
+
       - name: Run tests
-        run: |
-          pytest -q
+        env:
+          PYTHONPATH: .:carbontrace-backend
+        run: pytest -v --tb=short
