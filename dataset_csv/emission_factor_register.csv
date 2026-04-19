@@ -1,0 +1,14 @@
+ef_id,category,vehicle_class,ef_kgco2e_per_l,kenya_adj_factor,adjusted_ef,source,ipcc_gwp,scope,tier,ef_kgco2e_per_kwh,ef_kgco2e_per_pkm
+EF-001,Mobile — Diesel HGV,diesel_truck,2.64,1.18,3.1152,DEFRA 2024,AR6,Scope 1,Tier 2,,
+EF-002,Mobile — Diesel LGV,diesel_van,2.64,1.18,3.1152,DEFRA 2024,AR6,Scope 1,Tier 2,,
+EF-003,Mobile — Petrol car,petrol_saloon,2.311,1.18,2.727,DEFRA 2024,AR6,Scope 1,Tier 2,,
+EF-004,Mobile — Petrol SUV,petrol_suv,2.311,1.18,2.727,DEFRA 2024,AR6,Scope 1,Tier 2,,
+EF-005,Mobile — Diesel 4WD,petrol_4wd,2.64,1.18,3.1152,DEFRA 2024,AR6,Scope 1,Tier 2,,
+EF-006,Mobile — Petrol motorbike,petrol_bike,2.296,1.18,2.7093,DEFRA 2024,AR6,Scope 1,Tier 2,,
+EF-007,Mobile — Diesel bus,diesel_bus,2.64,1.18,3.1152,DEFRA 2024,AR6,Scope 1,Tier 2,,
+EF-008,EV charging — Kenya grid,ev,,1.0,0.392,KETRACO/EPRA 2024,AR6,Scope 1,Tier 1,0.392,
+EF-009,Air — short-haul economy,air_short_eco,,1.9,0.3002,DEFRA 2024 + RFI 1.9,AR6,Scope 3,Tier 2,,0.158
+EF-010,Air — long-haul economy,air_long_eco,,1.9,0.3705,DEFRA 2024 + RFI 1.9,AR6,Scope 3,Tier 2,,0.195
+EF-011,Air — long-haul business,air_long_bus,,1.9,0.8151,DEFRA 2024 + RFI 1.9,AR6,Scope 3,Tier 2,,0.429
+EF-012,Commute — matatu,matatu,,1.0,0.089,Derived DEFRA/Kenya,AR6,Scope 3,Tier 1,,0.089
+EF-013,Commute — boda boda,boda,,1.0,0.113,Derived DEFRA/Kenya,AR6,Scope 3,Tier 1,,0.113

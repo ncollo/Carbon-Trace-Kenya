@@ -1,10 +1,27 @@
-from ingestion.storage import download_file_from_s3
+import sys
+import os
 from pathlib import Path
+
+# Ensure project root is in path for imports
+project_root = Path(__file__).parent.parent
+if str(project_root) not in sys.path:
+    sys.path.insert(0, str(project_root))
+
+from ingestion.storage import download_file_from_s3
 import time
-from rq import get_current_job
 from db.session import SessionLocal
 from db.models import JobRecord
 import traceback
+
+# Conditional imports for rq (not available on Windows)
+try:
+    from rq import get_current_job
+    HAS_RQ = True
+except (ImportError, ValueError):
+    # ValueError raised on Windows due to 'fork' context not available
+    HAS_RQ = False
+    def get_current_job():
+        return None
 
 
 def _update_job_record(rq_job_id: str, **fields):
