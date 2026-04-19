@@ -23,7 +23,6 @@ reportlab>=4.0
 rapidfuzz>=2.1
 PyJWT>=2.8
 prometheus_client>=0.16
-=======
 fastapi==0.111.0
 uvicorn[standard]==0.29.0
 sqlalchemy==2.0.30
@@ -39,4 +38,3 @@ alembic
 pytest
 boto3
 botocore
->>>>>>> 49170cbf1da96a60fce734709a36a38cd0232dd8
