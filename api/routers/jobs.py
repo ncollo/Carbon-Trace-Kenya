@@ -1,15 +1,25 @@
 from fastapi import APIRouter, HTTPException, Depends
-import rq
-from background.queue import get_redis_conn
+from background.queue import get_redis_conn, _rq_available
 from api.dependencies import get_db
 from sqlalchemy.orm import Session
 from db.models import JobRecord
+
+# Conditional RQ import for Windows compatibility
+if _rq_available:
+    import rq
+else:
+    rq = None
 
 router = APIRouter()
 
 
 @router.get("/jobs/{job_id}/status")
 async def job_status(job_id: str):
+    if not _rq_available:
+        raise HTTPException(
+            status_code=503,
+            detail="Job queue not available on Windows. Use Unix/Linux for background jobs."
+        )
     conn = get_redis_conn()
     try:
         job = rq.job.Job.fetch(job_id, connection=conn)

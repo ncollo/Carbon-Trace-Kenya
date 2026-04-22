@@ -1,15 +1,45 @@
-fastapi==0.111.0
-uvicorn[standard]==0.29.0
-sqlalchemy==2.0.30
-pandas==2.2.2
-scikit-learn==1.4.2
-numpy==1.26.4
-python-multipart==0.0.9
-aiofiles==23.2.1
-pdfplumber==0.11.0
-pydantic
-pydantic-settings
-alembic
-pytest
-boto3
-botocore
+# Core FastAPI dependencies
+fastapi>=0.95
+uvicorn[standard]>=0.22
+sqlalchemy>=1.4
+pydantic>=1.10
+pydantic-settings>=2.0
+python-dotenv>=0.20
+python-multipart>=0.0.5
+PyJWT>=2.8
+
+# Database
+psycopg2-binary>=2.9
+alembic>=1.11
+
+# Data processing
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.2
+
+# Testing
+pytest>=7.0
+pytest-asyncio>=0.21
+
+# Security
+passlib[bcrypt]>=1.7
+python-jose[cryptography]>=3.3
+bcrypt>=4.0
+
+# HTTP and async
+aiohttp>=3.8
+aiofiles>=23.0
+
+# Additional dependencies
+boto3>=1.26
+redis>=4.5
+rq>=1.14
+python-magic>=0.4
+rapidfuzz>=2.1
+reportlab>=4.0
+prometheus_client>=0.16
+
+# Optional ML dependencies (completely removed for CI stability)
+# scipy>=1.11
+# syft>=0.6
+# pymc>=5.0
