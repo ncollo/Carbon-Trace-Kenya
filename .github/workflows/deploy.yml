@@ -1,0 +1,39 @@
+name: Deploy to DigitalOcean
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Deploy to DigitalOcean Droplet
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.DROPLET_IP }}
+        username: root
+        key: ${{ secrets.DEPLOY_SSH_KEY }}
+        script: |
+          cd /root/carbon-trace-kenya-production
+          
+          # Pull latest changes
+          git pull origin main
+          
+          # Stop existing containers
+          docker-compose down
+          
+          # Build and start new containers
+          docker-compose build
+          docker-compose up -d
+          
+          # Wait for services to be healthy
+          sleep 30
+          
+          # Check service status
+          docker-compose ps
+          
+          # Show logs for debugging
+          docker-compose logs --tail=50

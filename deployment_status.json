@@ -1,0 +1,33 @@
+{
+  "status": "ready",
+  "checks": [
+    [
+      "Backend Health",
+      true,
+      "Backend healthy - CarbonPredictor + FleetOptimizer v2.0"
+    ],
+    [
+      "AI Models",
+      true,
+      "All AI models working correctly"
+    ],
+    [
+      "Dashboard Data",
+      true,
+      "Dashboard data available"
+    ],
+    [
+      "Deployment Files",
+      true,
+      "All deployment files present"
+    ],
+    [
+      "ML Model Files",
+      true,
+      "ML model files present"
+    ]
+  ],
+  "timestamp": "2026-04-22T23:11:09.590318",
+  "backend_url": "http://localhost:8002",
+  "frontend_url": "http://localhost:5173"
+}

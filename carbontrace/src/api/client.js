@@ -1,4 +1,4 @@
-const BASE = "http://localhost:8000/api";
+const BASE = "http://localhost:8002/api";
 
 async function get(path) {
   const r = await fetch(`${BASE}${path}`);
@@ -39,6 +39,10 @@ export const api = {
   uploadFile: (formData) =>
     fetch(`${BASE}/ingestion/upload`, { method: "POST", body: formData })
       .then(r => r.json()),
+  uploadImage: (formData) =>
+    fetch(`${BASE}/ingestion/upload-image`, { method: "POST", body: formData })
+      .then(r => r.json()),
+  chat: (message, history = []) => post("/chat", { message, history }),
 
   // Reconcile
   flags:        (status = "pending") => get(`/reconcile/flags?status=${status}&limit=50`),

@@ -1,15 +1,31 @@
-export default function KpiCard({ label, value, unit, delta, deltaUp, accent="#4ade80" }) {
+import { Icon } from "./Icons";
+
+export default function KpiCard({ label, value, unit, delta, deltaUp, accent = "var(--accent)" }) {
+  const deltaColor = delta
+    ? (deltaUp ? "var(--bad-text)" : "var(--ok-text)")
+    : "var(--text-mute)";
+
   return (
-    <div className="rounded-2xl p-5 glass glass-hover relative overflow-hidden" style={{ border:"1px solid rgba(34,197,94,0.08)" }}>
-      <div className="absolute inset-0 opacity-5" style={{ background:`radial-gradient(circle at top right, ${accent}, transparent 70%)` }} />
-      <p className="text-xs uppercase tracking-widest mb-2" style={{ color:"#2d5a3d", fontSize:9 }}>{label}</p>
-      <div className="flex items-baseline gap-1.5">
-        <span className="font-semibold text-2xl" style={{ fontFamily:"'DM Sans',sans-serif", color:"#e2e8f0" }}>{value}</span>
-        {unit && <span className="text-xs" style={{ color:"#475569" }}>{unit}</span>}
+    <div className="surface surface-hover" style={{ padding:16 }}>
+      <div className="flex items-center justify-between" style={{ marginBottom:12 }}>
+        <p style={{
+          fontSize:10, textTransform:"uppercase", letterSpacing:"0.08em",
+          fontWeight:500, color:"var(--text-mute)", margin:0,
+        }}>
+          {label}
+        </p>
+        <span className="dot" style={{ background:accent, opacity:0.7 }} />
+      </div>
+      <div className="flex items-baseline gap-1" style={{ marginBottom: delta ? 6 : 0 }}>
+        <span style={{ fontWeight:600, fontSize:22, color:"var(--text)", letterSpacing:"-0.015em" }}>
+          {value ?? "—"}
+        </span>
+        {unit && <span style={{ fontSize:11, color:"var(--text-mute)" }}>{unit}</span>}
       </div>
       {delta && (
-        <p className="text-xs mt-1.5" style={{ color: deltaUp ? "#f87171" : "#4ade80" }}>
-          {delta}
+        <p className="flex items-center gap-1" style={{ fontSize:11, color:deltaColor, margin:0 }}>
+          {deltaUp ? <Icon.ArrowUp style={{ width:12, height:12 }} /> : <Icon.ArrowDown style={{ width:12, height:12 }} />}
+          <span>{delta}</span>
         </p>
       )}
     </div>

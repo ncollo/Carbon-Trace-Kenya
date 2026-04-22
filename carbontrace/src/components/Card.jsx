@@ -1,26 +1,38 @@
-export default function Card({ title, badge, badgeColor="green", children, className="" }) {
-  const badgeStyles = {
-    green:  { bg:"rgba(34,197,94,0.1)",   color:"#4ade80",  border:"rgba(34,197,94,0.2)" },
-    amber:  { bg:"rgba(245,158,11,0.1)",  color:"#fbbf24",  border:"rgba(245,158,11,0.2)" },
-    red:    { bg:"rgba(239,68,68,0.1)",   color:"#f87171",  border:"rgba(239,68,68,0.2)" },
-    blue:   { bg:"rgba(59,130,246,0.1)",  color:"#60a5fa",  border:"rgba(59,130,246,0.2)" },
-    purple: { bg:"rgba(139,92,246,0.1)",  color:"#a78bfa",  border:"rgba(139,92,246,0.2)" },
-  };
-  const bc = badgeStyles[badgeColor] || badgeStyles.green;
+export default function Card({ title, subtitle, badge, badgeColor="default", actions, children }) {
+  const chipClass =
+    badgeColor === "green"  ? "chip chip-green"  :
+    badgeColor === "amber"  ? "chip chip-amber"  :
+    badgeColor === "red"    ? "chip chip-red"    :
+    badgeColor === "blue"   ? "chip chip-blue"   :
+    badgeColor === "purple" ? "chip chip-purple" :
+    "chip";
+
   return (
-    <div className={`rounded-2xl p-5 glass glass-hover ${className}`} style={{ border:"1px solid rgba(34,197,94,0.08)" }}>
-      {title && (
-        <div className="flex items-center justify-between mb-4">
-          <h3 className="text-sm font-semibold" style={{ color:"#e2e8f0" }}>{title}</h3>
-          {badge && (
-            <span className="text-xs px-2 py-0.5 rounded-md font-medium"
-              style={{ background:bc.bg, color:bc.color, border:`1px solid ${bc.border}` }}>
-              {badge}
-            </span>
-          )}
-        </div>
+    <section className="surface">
+      {(title || badge) && (
+        <header
+          className="flex items-center justify-between"
+          style={{ padding:"14px 20px", borderBottom:"1px solid var(--border)" }}
+        >
+          <div className="min-w-0">
+            {title && (
+              <h3 style={{ fontSize:13, fontWeight:600, color:"var(--text)", letterSpacing:"-0.005em", margin:0 }}>
+                {title}
+              </h3>
+            )}
+            {subtitle && (
+              <p style={{ fontSize:11, marginTop:2, color:"var(--text-mute)", margin:"2px 0 0" }} className="truncate">
+                {subtitle}
+              </p>
+            )}
+          </div>
+          <div className="flex items-center gap-2 shrink-0">
+            {actions}
+            {badge && <span className={chipClass}>{badge}</span>}
+          </div>
+        </header>
       )}
-      {children}
-    </div>
+      <div style={{ padding:20 }}>{children}</div>
+    </section>
   );
 }

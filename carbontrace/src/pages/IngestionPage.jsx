@@ -3,6 +3,7 @@ import { api } from "../api/client";
 import { useFetch } from "../hooks/useFetch";
 import { Loading, ApiError } from "../components/Status";
 import Card from "../components/Card";
+import { Icon } from "../components/Icons";
 
 const STEPS = [
   { n:1, label:"Upload data",         status:"done"    },
@@ -34,10 +35,14 @@ export default function IngestionPage() {
   const files      = useFetch(api.files);
   const extraction = useFetch(api.extractionStats);
 
-  const [dragging, setDragging]   = useState(false);
-  const [uploading, setUploading] = useState(false);
-  const [uploadMsg, setUploadMsg] = useState(null);
-  const fileRef = useRef();
+  const [dragging, setDragging]       = useState(false);
+  const [uploading, setUploading]     = useState(false);
+  const [uploadMsg, setUploadMsg]     = useState(null);
+  const [imgDragging, setImgDragging] = useState(false);
+  const [imgUploading, setImgUploading] = useState(false);
+  const [imgResult, setImgResult]     = useState(null);
+  const fileRef    = useRef();
+  const imgFileRef = useRef();
 
   const doUpload = async (fileObj) => {
     if (!fileObj) return;
@@ -58,9 +63,32 @@ export default function IngestionPage() {
     }
   };
 
+  const doImageUpload = async (fileObj) => {
+    if (!fileObj) return;
+    setImgUploading(true);
+    setImgResult(null);
+    const form = new FormData();
+    form.append("file", fileObj);
+    form.append("nse_code", "UPLOAD");
+    try {
+      const result = await api.uploadImage(form);
+      setImgResult(result);
+      await files.refetch();
+    } catch (e) {
+      setImgResult({ error: e.message });
+    } finally {
+      setImgUploading(false);
+    }
+  };
+
   const handleDrop = (e) => {
     e.preventDefault(); setDragging(false);
     doUpload(e.dataTransfer.files[0]);
+  };
+
+  const handleImgDrop = (e) => {
+    e.preventDefault(); setImgDragging(false);
+    doImageUpload(e.dataTransfer.files[0]);
   };
 
   return (
@@ -121,6 +149,74 @@ export default function IngestionPage() {
           </>
         )}
       </div>
+
+      {/* Image upload + OCR */}
+      <Card title="Image upload · Gemini Vision OCR" subtitle="JPG / PNG / WEBP — AI extracts fuel data from receipts & invoices">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-2">
+          <div
+            onDragOver={e => { e.preventDefault(); setImgDragging(true); }}
+            onDragLeave={() => setImgDragging(false)}
+            onDrop={handleImgDrop}
+            onClick={() => imgFileRef.current?.click()}
+            className="rounded-xl p-8 text-center cursor-pointer transition-all"
+            style={{
+              background: imgDragging ? "rgba(139,92,246,0.08)" : "rgba(10,22,40,0.5)",
+              border: `2px dashed ${imgDragging ? "#a78bfa" : "#1e3450"}`,
+            }}
+          >
+            <input ref={imgFileRef} type="file" accept=".jpg,.jpeg,.png,.webp"
+              className="hidden" onChange={e => doImageUpload(e.target.files[0])} />
+            {imgUploading ? (
+              <div>
+                <div className="w-6 h-6 rounded-full border-2 border-transparent border-t-purple-400 animate-spin mx-auto mb-2" />
+                <div className="text-sm" style={{ color:"#a78bfa" }}>Running Gemini Vision OCR…</div>
+              </div>
+            ) : (
+              <>
+                <div className="text-3xl mb-3 opacity-40">🖼</div>
+                <div className="text-sm font-semibold mb-1" style={{ color:"#94a3b8" }}>
+                  Drop a receipt or invoice image here
+                </div>
+                <div className="text-xs" style={{ color:"#1e3450" }}>
+                  JPG · PNG · WEBP — Gemini Vision extracts fuel litres, vehicle, date, cost
+                </div>
+              </>
+            )}
+          </div>
+
+          <div style={{ minHeight: 120 }}>
+            {imgResult ? (
+              imgResult.error ? (
+                <div className="rounded-xl p-4" style={{ background:"rgba(239,68,68,0.08)", border:"1px solid rgba(239,68,68,0.2)" }}>
+                  <div className="text-xs font-semibold mb-1" style={{ color:"#f87171" }}>OCR Error</div>
+                  <div className="text-xs font-mono" style={{ color:"#94a3b8" }}>{imgResult.error}</div>
+                </div>
+              ) : (
+                <div className="rounded-xl p-4 space-y-2" style={{ background:"rgba(139,92,246,0.06)", border:"1px solid rgba(139,92,246,0.2)" }}>
+                  <div className="flex items-center gap-2 mb-3">
+                    <span style={{ color:"#a78bfa", fontSize:14 }}>✓</span>
+                    <span className="text-xs font-semibold" style={{ color:"#a78bfa" }}>
+                      {imgResult.records_extracted > 0 ? `${imgResult.records_extracted} record stored` : "Extracted — no fuel data found"}
+                    </span>
+                  </div>
+                  {Object.entries(imgResult.extracted || {}).filter(([,v]) => v != null).map(([k, v]) => (
+                    <div key={k} className="flex justify-between text-xs">
+                      <span style={{ color:"#475569" }}>{k.replace(/_/g," ")}</span>
+                      <span className="font-mono font-medium" style={{ color:"#e2e8f0" }}>{String(v)}</span>
+                    </div>
+                  ))}
+                </div>
+              )
+            ) : (
+              <div className="rounded-xl p-4 h-full flex items-center justify-center" style={{ border:"1px solid #0f2340" }}>
+                <div className="text-xs text-center" style={{ color:"#1e3450" }}>
+                  OCR results will appear here after upload
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </Card>
 
       {/* Files from DB + Extraction stats */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">

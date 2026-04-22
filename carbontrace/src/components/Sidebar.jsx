@@ -1,56 +1,68 @@
 import { useApp } from "../context/AppContext";
+import { Icon, BrandMark } from "./Icons";
 
 const NAV = [
-  { id:"overview",   icon:"◈", label:"Overview",          sub:"Dashboard" },
-  { id:"ingestion",  icon:"⬆", label:"Data Ingestion",    sub:"AI extraction" },
-  { id:"reconcile",  icon:"⚡", label:"Reconciliation",    sub:"Anomaly flags",  badge:true },
-  { id:"calculator", icon:"⊕", label:"GHG Calculator",    sub:"Emission engine" },
-  { id:"report",     icon:"◻", label:"Disclosure Report", sub:"PDF + XBRL" },
-  { id:"epra",       icon:"⊞", label:"EPRA Analytics",    sub:"Sector + NDC" },
+  { id:"overview",   Ico:Icon.Overview,   label:"Overview",          sub:"Dashboard" },
+  { id:"ingestion",  Ico:Icon.Upload,     label:"Data Ingestion",    sub:"AI extraction" },
+  { id:"reconcile",  Ico:Icon.Reconcile,  label:"Reconciliation",    sub:"Anomaly flags", badge:true },
+  { id:"calculator", Ico:Icon.Calculator, label:"GHG Calculator",    sub:"Emission engine" },
+  { id:"report",     Ico:Icon.Document,   label:"Disclosure Report", sub:"PDF + XBRL" },
+  { id:"epra",       Ico:Icon.Analytics,  label:"EPRA Analytics",    sub:"Sector + NDC" },
 ];
 
 export default function Sidebar() {
   const { activePage, setActivePage, anomalyFlags } = useApp();
+
   return (
-    <aside className="flex flex-col w-60 min-w-60 border-r" style={{ background:"#07111f", borderColor:"#0f2340" }}>
+    <aside className="flex flex-col" style={{ width:256, minWidth:256, background:"var(--sidebar-bg)", borderRight:"1px solid var(--border)" }}>
       {/* Logo */}
-      <div className="px-5 pt-6 pb-5 border-b" style={{ borderColor:"#0f2340" }}>
+      <div className="px-5 pt-5 pb-4" style={{ borderBottom:"1px solid var(--border)" }}>
         <div className="flex items-center gap-2 mb-1">
-          <div className="w-7 h-7 rounded-lg flex items-center justify-center" style={{ background:"rgba(34,197,94,0.15)", border:"1px solid rgba(34,197,94,0.3)" }}>
-            <span className="text-green-400 text-sm font-bold">C</span>
+          <BrandMark size={26} />
+          <div>
+            <div style={{ fontWeight:600, fontSize:14, color:"var(--text)", letterSpacing:"-0.01em" }}>CarbonTrace</div>
+            <div style={{ fontSize:10, fontWeight:500, textTransform:"uppercase", letterSpacing:"0.08em", color:"var(--text-mute)" }}>
+              Kenya · EPRA 2026
+            </div>
           </div>
-          <span style={{ fontFamily:"'DM Sans',sans-serif", fontWeight:700, fontSize:16, color:"#4ade80", letterSpacing:"-0.5px" }}>CarbonTrace</span>
         </div>
-        <div className="text-xs" style={{ color:"#2d5a3d", letterSpacing:"2px", textTransform:"uppercase", fontSize:9 }}>Kenya · EPRA 2026 · EmitIQ</div>
       </div>
 
       {/* Nav */}
-      <nav className="flex-1 px-3 py-4 space-y-0.5 overflow-y-auto">
-        {NAV.map(item => {
-          const isActive = activePage === item.id;
-          const flagCount = item.badge ? anomalyFlags.length : 0;
+      <nav className="flex-1 px-3 py-4 overflow-y-auto" style={{ display:"flex", flexDirection:"column", gap:2 }}>
+        <div style={{ fontSize:10, fontWeight:500, textTransform:"uppercase", letterSpacing:"0.08em", color:"var(--text-faint)", padding:"0 12px 8px" }}>
+          Workspace
+        </div>
+        {NAV.map(({ id, Ico, label, sub, badge }) => {
+          const isActive = activePage === id;
+          const flagCount = badge ? anomalyFlags.length : 0;
           return (
-            <button key={item.id} onClick={() => setActivePage(item.id)}
-              className="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-left transition-all duration-200 group"
+            <button
+              key={id}
+              onClick={() => setActivePage(id)}
+              className="w-full flex items-center gap-3 text-left"
               style={{
-                background: isActive ? "rgba(34,197,94,0.1)" : "transparent",
-                border: isActive ? "1px solid rgba(34,197,94,0.2)" : "1px solid transparent",
+                padding:"8px 12px",
+                borderRadius:6,
+                border:"none",
+                cursor:"pointer",
+                background: isActive ? "var(--surface-3)" : "transparent",
+                color: isActive ? "var(--text)" : "var(--text-dim)",
+                transition:"background 0.15s",
               }}
             >
-              <span className="text-sm w-4 text-center shrink-0 transition-transform duration-200 group-hover:scale-110"
-                style={{ color: isActive ? "#4ade80" : "#2d5a3d" }}>
-                {item.icon}
+              <span style={{ color: isActive ? "var(--accent)" : "var(--text-mute)", flexShrink:0 }}>
+                <Ico />
               </span>
               <div className="flex-1 min-w-0">
-                <div className="text-xs font-semibold leading-tight" style={{ color: isActive ? "#4ade80" : "#64748b" }}>
-                  {item.label}
-                </div>
-                <div className="text-xs leading-tight mt-0.5" style={{ color: isActive ? "#22c55e60" : "#1e3450" }}>
-                  {item.sub}
-                </div>
+                <div style={{ fontSize:12, fontWeight:500, lineHeight:1.25 }}>{label}</div>
+                <div style={{ fontSize:11, lineHeight:1.25, marginTop:2, color:"var(--text-faint)" }}>{sub}</div>
               </div>
-              {item.badge && flagCount > 0 && (
-                <span className="text-xs px-1.5 py-0.5 rounded-full font-bold" style={{ background:"rgba(239,68,68,0.15)", color:"#f87171", border:"1px solid rgba(239,68,68,0.3)", fontSize:10 }}>
+              {badge && flagCount > 0 && (
+                <span className="font-mono" style={{
+                  fontSize:10, fontWeight:600, padding:"2px 6px", borderRadius:4,
+                  background:"var(--bad-bg)", color:"var(--bad-text)", border:"1px solid var(--bad-border)", flexShrink:0,
+                }}>
                   {flagCount}
                 </span>
               )}
@@ -59,24 +71,26 @@ export default function Sidebar() {
         })}
       </nav>
 
-      {/* Status + Company */}
-      <div className="px-4 py-4 border-t space-y-3" style={{ borderColor:"#0f2340" }}>
-        <div className="flex items-center gap-2 px-2 py-2 rounded-lg" style={{ background:"rgba(34,197,94,0.05)", border:"1px solid rgba(34,197,94,0.1)" }}>
-          <div className="relative flex-shrink-0">
-            <div className="w-1.5 h-1.5 rounded-full bg-green-400" />
-            <div className="absolute inset-0 rounded-full bg-green-400 animate-ping opacity-40" />
-          </div>
-          <div>
-            <div className="text-xs font-medium" style={{ color:"#4ade80" }}>Pipeline active</div>
-            <div className="text-xs" style={{ color:"#1e3450", fontSize:10 }}>Module 3 — GHG engine</div>
+      {/* Status + User */}
+      <div className="px-4 py-4" style={{ borderTop:"1px solid var(--border)", display:"flex", flexDirection:"column", gap:12 }}>
+        <div className="flex items-center gap-2" style={{
+          padding:"8px 12px", borderRadius:6,
+          background:"var(--inset)", border:"1px solid var(--border)",
+        }}>
+          <span className="dot pulse-dot" style={{ background:"var(--accent)", flexShrink:0 }} />
+          <div className="flex-1 min-w-0">
+            <div style={{ fontSize:12, fontWeight:500, color:"var(--text)" }}>Pipeline active</div>
+            <div style={{ fontSize:11, color:"var(--text-mute)" }}>Module 3 — GHG engine</div>
           </div>
         </div>
-        <div className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg flex items-center justify-center text-xs font-bold flex-shrink-0"
-            style={{ background:"rgba(34,197,94,0.1)", color:"#4ade80", border:"1px solid rgba(34,197,94,0.2)" }}>KP</div>
-          <div>
-            <div className="text-xs font-semibold" style={{ color:"#94a3b8" }}>Kenya Power Ltd</div>
-            <div className="text-xs" style={{ color:"#1e3450" }}>ESG Officer · NSE Listed</div>
+        <div className="flex items-center gap-2" style={{ padding:"0 4px" }}>
+          <div className="flex items-center justify-center shrink-0" style={{
+            width:32, height:32, borderRadius:6, fontSize:11, fontWeight:600,
+            background:"var(--surface-3)", color:"var(--text)", border:"1px solid var(--border)",
+          }}>KP</div>
+          <div className="min-w-0">
+            <div style={{ fontSize:12, fontWeight:500, color:"var(--text)" }} className="truncate">Kenya Power Ltd</div>
+            <div style={{ fontSize:11, color:"var(--text-mute)" }}>ESG officer · NSE listed</div>
           </div>
         </div>
       </div>

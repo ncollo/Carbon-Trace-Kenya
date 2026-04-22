@@ -1,20 +1,40 @@
-export default function Topbar({ title, sub }) {
+import { Icon } from "./Icons";
+
+export default function Topbar({ title, sub, theme, onToggleTheme }) {
   return (
-    <header className="flex items-center justify-between px-6 py-3 border-b sticky top-0 z-20"
-      style={{ background:"rgba(6,14,26,0.95)", borderColor:"#0f2340", backdropFilter:"blur(12px)" }}>
+    <header
+      className="flex items-center justify-between sticky top-0"
+      style={{
+        padding:"14px 20px",
+        background:"var(--topbar-bg)",
+        borderBottom:"1px solid var(--border)",
+        backdropFilter:"blur(12px)",
+        zIndex:20,
+      }}
+    >
       <div>
-        <h1 style={{ fontFamily:"'DM Sans',sans-serif", fontWeight:600, fontSize:17, color:"#e2e8f0", lineHeight:1.2 }}>{title}</h1>
-        <p className="text-xs mt-0.5" style={{ color:"#2d5a3d" }}>{sub}</p>
+        <h1 style={{ fontWeight:600, fontSize:15, color:"var(--text)", lineHeight:1.25, letterSpacing:"-0.01em", margin:0 }}>
+          {title}
+        </h1>
+        <p style={{ fontSize:11, marginTop:2, color:"var(--text-mute)", margin:"2px 0 0" }}>{sub}</p>
       </div>
-      <div className="flex items-center gap-3">
-        <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg" style={{ background:"rgba(34,197,94,0.08)", border:"1px solid rgba(34,197,94,0.15)" }}>
-          <div className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-          <span className="text-xs font-medium" style={{ color:"#4ade80" }}>NSE-Ready</span>
-        </div>
-        <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg" style={{ background:"rgba(15,31,54,0.8)", border:"1px solid #0f2340" }}>
-          <span className="text-xs" style={{ color:"#475569" }}>FY 2025</span>
-          <span className="text-xs font-mono" style={{ color:"#22c55e" }}>4,821 tCO₂e</span>
-        </div>
+      <div className="flex items-center gap-2">
+        <span className="chip">
+          <Icon.Search style={{ width:12, height:12 }} />
+          <span style={{ color:"var(--text-mute)" }}>Search</span>
+        </span>
+        <span className="chip chip-green">
+          <span className="dot" style={{ background:"var(--accent)" }} />
+          NSE-ready
+        </span>
+        <span className="chip">
+          <span style={{ color:"var(--text-mute)" }}>FY 2025</span>
+          <span className="font-mono" style={{ color:"var(--text)" }}>4,821 tCO2e</span>
+        </span>
+        <button className="theme-btn" onClick={onToggleTheme} aria-label="Toggle theme">
+          {theme === "dark" ? <Icon.Sun /> : <Icon.Moon />}
+          <span>{theme === "dark" ? "Light" : "Dark"}</span>
+        </button>
       </div>
     </header>
   );

@@ -21,7 +21,7 @@ echo.
 
 echo [1/4] Installing Python dependencies...
 python -m pip install --upgrade pip --quiet
-python -m pip install fastapi "uvicorn[standard]" sqlalchemy pandas scikit-learn numpy python-multipart aiofiles pdfplumber --quiet
+python -m pip install fastapi "uvicorn[standard]" sqlalchemy pandas scikit-learn numpy python-multipart aiofiles pdfplumber google-genai --quiet
 
 if errorlevel 1 (
     echo ERROR: pip install failed. Try running as Administrator.

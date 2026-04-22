@@ -11,8 +11,29 @@ from sqlalchemy.orm import Session
 from sqlalchemy import func, text
 from typing import Optional, List
 from pydantic import BaseModel
-import pandas as pd, numpy as np, os, shutil, io, math
+import pandas as pd, numpy as np, os, shutil, io, math, json as _json
 from datetime import datetime
+from dotenv import load_dotenv
+from google import genai as _genai
+from google.genai import types as _gtypes
+
+load_dotenv()
+GEMINI_KEY = os.getenv("GEMINI_API_KEY")
+_gemini = _genai.Client(api_key=GEMINI_KEY) if GEMINI_KEY else None
+
+_SYSTEM_PROMPT = """You are CarbonTrace Kenya AI Assistant — a helpful chatbot embedded in the CarbonTrace Kenya platform built for the EPRA Hackathon 2026 by Team EmitIQ.
+
+The platform tracks greenhouse gas emissions for NSE-listed Kenyan companies. It has these pages:
+1. Overview – KPIs: total Scope 1 fleet emissions, Scope 3 Cat 6 travel, Scope 3 Cat 7 commute, pending anomalies, emission intensity.
+2. Data Ingestion – Upload CSV/Excel/PDF/Image. AI extracts fuel card records, travel, commute data. Image OCR uses Gemini Vision.
+3. Reconciliation – Isolation Forest ML flags anomalies in fuel records (89.2% accuracy). Analysts resolve flags.
+4. GHG Calculator – DEFRA 2024 emission factors, KETRACO 0.392 kgCO2e/kWh grid EF, NTSA +18% Kenya road adjustment, IPCC AR6 GWPs.
+5. Report – NSE ESG disclosure report, GRI 305 aligned, XBRL IFRS S2 taxonomy.
+6. EPRA Analytics – Sector league table, NDC trajectory to 2030, county distribution, policy simulation.
+
+Key terms: tCO2e = tonnes CO2 equivalent. Intensity = tCO2e per KSh million revenue. NDC = Kenya's climate targets. Anomaly = suspicious fuel record (GPS vs declared fuel mismatch).
+
+When users paste errors, diagnose them using this system context. Be concise and professional."""
 
 from database import (
     get_db, create_tables,
@@ -23,6 +44,9 @@ from database import (
 from ml_models import (
     predict_anomaly, calculate_ghg, simulate_policy,
     calc_emission_tco2e, get_expected_fuel, DEFRA_EF, KETRACO_EF, KENYA_ROAD_ADJ,
+)
+from ml_models_new import (
+    predict_carbon_emissions, optimize_fleet_assignments,
 )
 
 import pathlib as _pl
@@ -38,7 +62,7 @@ app = FastAPI(title="CarbonTrace Kenya API", version="1.0.0", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=["http://localhost:5173", "http://localhost:5174", "http://127.0.0.1:5173", "http://127.0.0.1:5174"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -514,6 +538,132 @@ def run_policy_simulation(payload: dict):
     rw  = float(payload.get("rw_pct", 25))
     baseline = float(payload.get("baseline", 218000))
     return simulate_policy(ev, fe, rw, baseline)
+
+# ─── IMAGE UPLOAD + OCR ──────────────────────────────────────────────────────
+
+@app.post("/api/ingestion/upload-image")
+async def upload_image(
+    file: UploadFile = File(...),
+    nse_code: str = Form(default=""),
+    db: Session = Depends(get_db)
+):
+    contents = await file.read()
+    filename = file.filename or "image.jpg"
+    ext = filename.rsplit(".", 1)[-1].lower()
+
+    images_dir = os.path.join(UPLOAD_DIR, "images")
+    os.makedirs(images_dir, exist_ok=True)
+    save_path = os.path.join(images_dir, filename)
+    with open(save_path, "wb") as f:
+        f.write(contents)
+
+    extracted = {}
+    records_extracted = 0
+    method = "Gemini 1.5 Flash Vision OCR"
+    error_msg = None
+
+    try:
+        mime_map = {"jpg": "image/jpeg", "jpeg": "image/jpeg", "png": "image/png", "webp": "image/webp"}
+        mime_type = mime_map.get(ext, "image/jpeg")
+        prompt = (
+            "You are analysing a fuel receipt, invoice or emission document for CarbonTrace Kenya. "
+            "Extract the following fields and return ONLY valid JSON with no markdown:\n"
+            '{"company_name":null,"vehicle_id":null,"vehicle_class":"petrol_saloon",'
+            '"fuel_type":"petrol","fuel_litres":null,"fuel_cost_ksh":null,'
+            '"transaction_date":null,"fuel_station":null,"gps_km_driven":null}'
+            "\nUse null for missing fields. vehicle_class must be one of: "
+            "diesel_truck, petrol_saloon, petrol_suv, ev, petrol_bike, diesel_van, diesel_bus."
+        )
+        response = _gemini.models.generate_content(
+            model="gemini-2.0-flash",
+            contents=[
+                _gtypes.Part.from_bytes(data=contents, mime_type=mime_type),
+                prompt,
+            ],
+        )
+        raw = response.text.strip()
+        if raw.startswith("```"):
+            raw = raw.split("```")[1]
+            if raw.startswith("json"):
+                raw = raw[4:]
+        extracted = _json.loads(raw.strip())
+
+        fl = float(extracted.get("fuel_litres") or 0)
+        if fl > 0:
+            vc  = extracted.get("vehicle_class") or "petrol_saloon"
+            gps = float(extracted.get("gps_km_driven") or 0)
+            dt  = extracted.get("transaction_date") or datetime.utcnow().strftime("%Y-%m-%d")
+            company = extracted.get("company_name") or nse_code or "Unknown"
+            cost = float(extracted.get("fuel_cost_ksh") or fl * 200)
+            ef  = DEFRA_EF.get(vc, 2.311)
+            em  = calc_emission_tco2e(fl, vc)
+            rid = f"IMG-{nse_code}-{datetime.utcnow().strftime('%Y%m%d%H%M%S')}"
+            if not db.query(FuelRecord).filter_by(record_id=rid).first():
+                db.add(FuelRecord(
+                    record_id=rid, company_name=company, nse_code=nse_code or "UPLOAD",
+                    sector="Uploaded", county="Unknown",
+                    vehicle_id=extracted.get("vehicle_id") or f"{nse_code}-IMG-VEH",
+                    vehicle_class=vc,
+                    fuel_type=extracted.get("fuel_type") or "petrol",
+                    transaction_date=dt, month=1, quarter=1,
+                    fuel_station_brand=extracted.get("fuel_station") or "Unknown",
+                    fuel_station_area="Unknown",
+                    fuel_litres=fl, fuel_price_ksh_per_l=round(cost / fl, 2),
+                    fuel_cost_ksh=cost, gps_km_driven=gps,
+                    defra_ef_kgco2e_per_l=ef, kenya_road_adj=KENYA_ROAD_ADJ,
+                    emission_kgco2e=round(em * 1000, 4), emission_tco2e=em,
+                    scope="Scope 1", anomaly_flag=0, anomaly_type="clean", fy_year=2024,
+                ))
+                db.commit()
+                records_extracted = 1
+    except Exception as e:
+        error_msg = str(e)
+
+    db.add(UploadedFile(
+        filename=filename, file_type="IMG", file_size=len(contents),
+        status="done" if records_extracted > 0 else "error",
+        records_extracted=records_extracted, method=method,
+        uploaded_at=datetime.utcnow(), nse_code=nse_code or None,
+    ))
+    db.commit()
+
+    return {
+        "filename": filename, "records_extracted": records_extracted,
+        "status": "done" if records_extracted > 0 else "partial",
+        "extracted": extracted, "method": method, "error": error_msg,
+    }
+
+# ─── CHATBOT ─────────────────────────────────────────────────────────────────
+
+@app.post("/api/chat")
+async def chat_endpoint(payload: dict):
+    if not GEMINI_KEY:
+        raise HTTPException(503, "GEMINI_API_KEY not configured")
+    message = payload.get("message", "").strip()
+    history = payload.get("history", [])
+    if not message:
+        raise HTTPException(400, "message is required")
+    try:
+        contents = []
+        for h in history:
+            contents.append(_gtypes.Content(
+                role=h["role"],
+                parts=[_gtypes.Part(text=h["content"])],
+            ))
+        contents.append(_gtypes.Content(
+            role="user",
+            parts=[_gtypes.Part(text=message)],
+        ))
+        response = _gemini.models.generate_content(
+            model="gemini-2.0-flash",
+            config=_gtypes.GenerateContentConfig(system_instruction=_SYSTEM_PROMPT),
+            contents=contents,
+        )
+        return {"reply": response.text}
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(500, f"{type(e).__name__}: {e}")
 
 # ─── HEALTH ──────────────────────────────────────────────────────────────────
 

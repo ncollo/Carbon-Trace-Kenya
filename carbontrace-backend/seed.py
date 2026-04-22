@@ -294,6 +294,9 @@ def run_seed():
     create_tables()
     db = SessionLocal()
     try:
+        if db.query(FuelRecord).count() > 0:
+            print("  Database already seeded — skipping.")
+            return
         print("Seeding from CSV datasets...")
         seed_emission_factors(db)
         seed_fuel_records(db)
