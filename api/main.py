@@ -6,6 +6,7 @@ from api.routers import anomalies as anomalies_router
 from api.routers import reports as reports_router
 from api.routers import jobs as jobs_router
 from api.routers import auth as auth_router
+from api.routers import analytics as analytics_router
 
 from api.middleware import init_middleware
 from db.session import init_db
@@ -21,6 +22,7 @@ def create_app() -> FastAPI:
     app.include_router(anomalies_router.router, prefix="/api")
     app.include_router(reports_router.router, prefix="/api")
     app.include_router(jobs_router.router, prefix="/api")
+    app.include_router(analytics_router.router)
 
     # Initialize middleware (CORS, logging)
     init_middleware(app)
